@@ -43,8 +43,8 @@ This report presents a comprehensive 5-year statistical analysis of Slovenian hi
 * **Estimated Daily Loss**: €6.5 million  
 * **Transit Burden**: 2.1× the EU average, based on available comparative data
 
-![Economic Cost Breakdown](figures/economic_cost_waterfall.png)
-*Breakdown of key direct economic costs from highway congestion, totaling over €505M annually.*
+![Economic Cost Breakdown](figures/fig_34_economic_cost_waterfall.png)
+*Breakdown of key direct economic costs from highway congestion, totaling over €657M annually.*
 
 ### **3\. Optimization Potential**
 
