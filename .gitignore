@@ -183,7 +183,6 @@ models/*.pth
 # Results and outputs
 results/
 outputs/
-figures/
 *.png
 *.jpg
 *.jpeg
@@ -191,6 +190,8 @@ figures/
 *.svg
 !docs/*.png
 !docs/*.jpg
+!figures/*.png
+!figures/*.jpg
 
 # Large data files
 *.hdf5
