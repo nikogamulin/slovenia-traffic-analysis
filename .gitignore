@@ -144,7 +144,7 @@ cython_debug/
 # Claude Code
 .claude/
 
-# Data files (keep essential files, exclude intermediate/large files)
+# Data files - Large datasets excluded (available via Google Drive)
 data/*.csv
 data/*.xlsx
 data/*.json
@@ -152,13 +152,11 @@ data/*.parquet
 data/*.pkl
 !data/.gitkeep
 !data/README.md
-# Keep essential base data files for reproducibility
-!data/production_merged_vehicle_count.csv
-!data/production_merged_vehicle_speed.csv
-!data/weather_enhanced_traffic.csv
 !data/legend_english.md
-# Exclude large intermediate files (can be regenerated)
-data/enhanced_traffic_features.csv
+# Note: Large CSV files (798MB total) available at:
+# https://drive.google.com/drive/folders/1riOSWQYiQdu1_hbxo7-9Cq94ogy9kfEr?usp=sharing
+# Required files: production_merged_vehicle_count.csv, production_merged_vehicle_speed.csv,
+# weather_enhanced_traffic.csv, enhanced_traffic_features.csv
 
 # Temporary files
 *.tmp
