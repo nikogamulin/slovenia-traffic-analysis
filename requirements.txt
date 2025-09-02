@@ -1,0 +1,81 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+polars>=0.18.0  # Fast alternative to pandas for large datasets
+
+# Statistical Analysis & Time Series
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+prophet>=1.1.0  # Facebook's time series forecasting
+stldecompose>=0.0.5  # STL decomposition
+
+# Bayesian Analysis & MCMC
+pymc>=5.9.0  # Primary Bayesian framework
+arviz>=0.16.0  # Bayesian visualization
+bambi>=0.13.0  # BAyesian Model-Building Interface
+pystan>=3.6.0  # PyStan for BSTS models
+
+# Machine Learning
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+folium>=0.14.0  # Interactive maps
+geopandas>=0.13.0  # Geospatial data
+
+# Jupyter & Development
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# Data Validation & Quality
+great-expectations>=0.17.0
+pandera>=0.15.0  # DataFrame validation
+
+# Database & Data Storage
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+pyarrow>=12.0.0  # Parquet support
+h5py>=3.9.0  # HDF5 support
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0
+click>=8.1.0  # CLI tools
+pydantic>=2.0.0  # Data validation
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+hypothesis>=6.80.0  # Property-based testing
+
+# Code Quality
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.4.0
+pylint>=2.17.0
+pre-commit>=3.3.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+myst-parser>=2.0.0  # Markdown support for Sphinx
+
+# Utilities
+tqdm>=4.65.0  # Progress bars
+joblib>=1.3.0  # Parallel processing
+requests>=2.31.0
+beautifulsoup4>=4.12.0  # Web scraping
+lxml>=4.9.0
+openpyxl>=3.1.0  # Excel support
+
+# Traffic Simulation (optional - may need separate installation)
+# sumolib  # SUMO traffic simulation
+# traci  # SUMO TraCI interface

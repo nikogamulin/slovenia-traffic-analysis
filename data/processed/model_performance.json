@@ -1,0 +1,8 @@
+{
+  "auc_roc": 0.839602261200454,
+  "optimal_threshold": 0.11117090921684937,
+  "sensitivity": 0.716012084592145,
+  "specificity": 0.8496672716273442,
+  "training_samples": 14546,
+  "validation_samples": 3637
+}

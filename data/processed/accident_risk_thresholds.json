@@ -1,0 +1,38 @@
+{
+  "speed_thresholds": {
+    "very_low_danger": 84.0,
+    "low_safe": 91.7,
+    "optimal_safe": 104.0,
+    "high_safe": 117.0,
+    "very_high_danger": 126.0
+  },
+  "density_thresholds": {
+    "free_flow": 2.386194869486949,
+    "stable_flow": 2.9399649881577594,
+    "unstable_flow": 2.021978021978022,
+    "breakdown": 2.9545454545454546,
+    "gridlock": 3.9061764705882354
+  },
+  "road_type_thresholds": {
+    "Urban Ring": {
+      "danger_speed_low": 82.5,
+      "danger_speed_high": 126.0,
+      "danger_density": 2.9458725029377204
+    },
+    "Regional": {
+      "danger_speed_low": 84.0,
+      "danger_speed_high": 125.0,
+      "danger_density": 2.991304347826087
+    }
+  },
+  "model_performance": {
+    "auc_roc": 0.8394103552453381,
+    "optimal_probability_threshold": 0.11072121690703002,
+    "bootstrap_auc_mean": 0.8390811597699321,
+    "bootstrap_auc_std": 0.0015976744059285415
+  },
+  "statistical_significance": {
+    "chi2_speed_pvalue": 0.1657509223179871,
+    "chi2_density_pvalue": 1.0
+  }
+}

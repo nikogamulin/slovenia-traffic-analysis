@@ -1,0 +1,13 @@
+roadwork_id,start_date,end_date,road_code,road_name,section_description,duration_description,traffic_impact,impact_level,management_system,data_source
+RW_DARS_001,2024-01-01,2026-12-31,0038,A1,Slovenske Konjice - Dramlje,2024-2026,Extensive closures; 1+1+1 system; bidirectional traffic,Severe,1+1+1 bidirectional,Table 4 ref 23
+RW_DARS_001b,2024-01-01,2026-12-31,0638,A1,Slovenske Konjice - Dramlje,2024-2026,Extensive closures; 1+1+1 system; bidirectional traffic,Severe,1+1+1 bidirectional,Table 4 ref 23
+RW_DARS_002,2020-01-01,2025-12-31,A2,A2,Karavanke Tunnel Second Tube,Ongoing,Occasional closures; increased traffic at junctions,Major,Occasional closures,Table 4 ref 36
+RW_DARS_003,2025-01-01,2025-12-31,A1,A1,Kozina - Črni Kal,Starting 2025,Lane closures,Major,Lane closures,Table 4 ref 36
+RW_DRSI_001,2025-01-01,2025-12-31,Multiple,Multiple,Podravska Region Road Repairs,2025,Partial and complete closures,Moderate,Mixed closures,Table 4 ref 18
+RW_DRSI_002,2025-01-01,2025-12-31,Multiple,Multiple,Pomurska Region Road Repairs,2025,Partial and complete closures,Moderate,Mixed closures,Table 4 ref 18
+RW_DRSI_003,2025-06-01,2025-06-30,R3-670/1244,R3-670,Bizeljsko - Orešje,June 2025,Complete closure,Major,Complete closure,Table 4 ref 19
+RW_DRSI_004,2025-06-01,2025-07-31,R3-671/2237,R3-671,Križaj - Podbočje Reconstruction,June-July 2025,Partial closures,Moderate,Partial closures,Table 4 ref 20
+RW_DRSI_005,2025-05-01,2025-06-30,R3-747/2805,R3-747,Komarnica Landslide Repair,May-June 2025,Partial closures,Moderate,Partial closures,Table 4 ref 20
+RW_DRSI_006,2025-05-01,2025-05-31,R1-210/1113,R1-210,Sovodenj - Cerkno Embankment & Reconstruction,May 2025,Partial and complete closures,Major,Mixed closures,Table 4 ref 21
+RW_DRSI_007,2024-01-01,2026-12-31,Multiple,Multiple,2023 Storm Damage Repairs (Multiple Locations),2024-2026,Various closures,Major,Various,Table 4 ref 21
+RW_DRSI_008,2025-01-01,2025-12-31,Multiple_R_G,R and G roads,Pavement renewal; intersection improvements; sidewalks,Ongoing 2025,Partial and complete closures,Moderate,Mixed closures,Table 4 ref 19

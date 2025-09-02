@@ -1,0 +1,1957 @@
+date,country,holiday_name,type,region,day_of_week,year,month
+2020-01-01,AT,New Year's Day,public,,Wednesday,2020,1
+2020-01-01,DE,New Year's Day,public,,Wednesday,2020,1
+2020-01-01,IT,New Year's Day,public,,Wednesday,2020,1
+2020-01-01,SI,New Year's Day,public,,Wednesday,2020,1
+2020-01-02,SI,New Year Holiday,public,,Thursday,2020,1
+2020-01-06,AT,Epiphany,public,,Monday,2020,1
+2020-01-06,DE,Epiphany,public,Bavaria,Monday,2020,1
+2020-01-06,IT,Epiphany,public,,Monday,2020,1
+2020-02-08,SI,Prešeren Day,public,,Saturday,2020,2
+2020-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Saturday,2020,2
+2020-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Saturday,2020,2
+2020-04-10,DE,Good Friday,public,,Friday,2020,4
+2020-04-13,AT,Easter Monday,public,,Monday,2020,4
+2020-04-13,DE,Easter Monday,public,,Monday,2020,4
+2020-04-13,IT,Easter Monday,public,,Monday,2020,4
+2020-04-13,SI,Easter Monday,public,,Monday,2020,4
+2020-04-25,IT,Liberation Day,public,,Saturday,2020,4
+2020-04-27,SI,Day of Uprising,public,,Monday,2020,4
+2020-05-01,AT,Labour Day,public,,Friday,2020,5
+2020-05-01,DE,Labour Day,public,,Friday,2020,5
+2020-05-01,IT,Labour Day,public,,Friday,2020,5
+2020-05-01,SI,Labour Day,public,,Friday,2020,5
+2020-05-02,SI,Labour Day Holiday,public,,Saturday,2020,5
+2020-05-21,AT,Ascension Day,public,,Thursday,2020,5
+2020-06-01,AT,Whit Monday,public,,Monday,2020,6
+2020-06-02,IT,Republic Day,public,,Tuesday,2020,6
+2020-06-10,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,6
+2020-06-11,AT,Corpus Christi,public,,Thursday,2020,6
+2020-06-11,IT,Summer Holiday,school,Northern Italy,Thursday,2020,6
+2020-06-12,IT,Summer Holiday,school,Northern Italy,Friday,2020,6
+2020-06-13,IT,Summer Holiday,school,Northern Italy,Saturday,2020,6
+2020-06-14,IT,Summer Holiday,school,Northern Italy,Sunday,2020,6
+2020-06-15,IT,Summer Holiday,school,Northern Italy,Monday,2020,6
+2020-06-16,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,6
+2020-06-17,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,6
+2020-06-18,IT,Summer Holiday,school,Northern Italy,Thursday,2020,6
+2020-06-19,IT,Summer Holiday,school,Northern Italy,Friday,2020,6
+2020-06-20,IT,Summer Holiday,school,Northern Italy,Saturday,2020,6
+2020-06-21,IT,Summer Holiday,school,Northern Italy,Sunday,2020,6
+2020-06-22,IT,Summer Holiday,school,Northern Italy,Monday,2020,6
+2020-06-23,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,6
+2020-06-24,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,6
+2020-06-25,IT,Summer Holiday,school,Northern Italy,Thursday,2020,6
+2020-06-25,SI,Statehood Day,public,,Thursday,2020,6
+2020-06-26,IT,Summer Holiday,school,Northern Italy,Friday,2020,6
+2020-06-27,IT,Summer Holiday,school,Northern Italy,Saturday,2020,6
+2020-06-28,IT,Summer Holiday,school,Northern Italy,Sunday,2020,6
+2020-06-29,IT,Summer Holiday,school,Northern Italy,Monday,2020,6
+2020-06-30,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,6
+2020-07-01,AT,Summer Holiday,school,,Wednesday,2020,7
+2020-07-01,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,7
+2020-07-01,SI,Summer Holiday,school,,Wednesday,2020,7
+2020-07-02,AT,Summer Holiday,school,,Thursday,2020,7
+2020-07-02,IT,Summer Holiday,school,Northern Italy,Thursday,2020,7
+2020-07-02,SI,Summer Holiday,school,,Thursday,2020,7
+2020-07-03,AT,Summer Holiday,school,,Friday,2020,7
+2020-07-03,IT,Summer Holiday,school,Northern Italy,Friday,2020,7
+2020-07-03,SI,Summer Holiday,school,,Friday,2020,7
+2020-07-04,AT,Summer Holiday,school,,Saturday,2020,7
+2020-07-04,IT,Summer Holiday,school,Northern Italy,Saturday,2020,7
+2020-07-04,SI,Summer Holiday,school,,Saturday,2020,7
+2020-07-05,AT,Summer Holiday,school,,Sunday,2020,7
+2020-07-05,IT,Summer Holiday,school,Northern Italy,Sunday,2020,7
+2020-07-05,SI,Summer Holiday,school,,Sunday,2020,7
+2020-07-06,AT,Summer Holiday,school,,Monday,2020,7
+2020-07-06,IT,Summer Holiday,school,Northern Italy,Monday,2020,7
+2020-07-06,SI,Summer Holiday,school,,Monday,2020,7
+2020-07-07,AT,Summer Holiday,school,,Tuesday,2020,7
+2020-07-07,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,7
+2020-07-07,SI,Summer Holiday,school,,Tuesday,2020,7
+2020-07-08,AT,Summer Holiday,school,,Wednesday,2020,7
+2020-07-08,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,7
+2020-07-08,SI,Summer Holiday,school,,Wednesday,2020,7
+2020-07-09,AT,Summer Holiday,school,,Thursday,2020,7
+2020-07-09,IT,Summer Holiday,school,Northern Italy,Thursday,2020,7
+2020-07-09,SI,Summer Holiday,school,,Thursday,2020,7
+2020-07-10,AT,Summer Holiday,school,,Friday,2020,7
+2020-07-10,IT,Summer Holiday,school,Northern Italy,Friday,2020,7
+2020-07-10,SI,Summer Holiday,school,,Friday,2020,7
+2020-07-11,AT,Summer Holiday,school,,Saturday,2020,7
+2020-07-11,IT,Summer Holiday,school,Northern Italy,Saturday,2020,7
+2020-07-11,SI,Summer Holiday,school,,Saturday,2020,7
+2020-07-12,AT,Summer Holiday,school,,Sunday,2020,7
+2020-07-12,IT,Summer Holiday,school,Northern Italy,Sunday,2020,7
+2020-07-12,SI,Summer Holiday,school,,Sunday,2020,7
+2020-07-13,AT,Summer Holiday,school,,Monday,2020,7
+2020-07-13,IT,Summer Holiday,school,Northern Italy,Monday,2020,7
+2020-07-13,SI,Summer Holiday,school,,Monday,2020,7
+2020-07-14,AT,Summer Holiday,school,,Tuesday,2020,7
+2020-07-14,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,7
+2020-07-14,SI,Summer Holiday,school,,Tuesday,2020,7
+2020-07-15,AT,Summer Holiday,school,,Wednesday,2020,7
+2020-07-15,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,7
+2020-07-15,SI,Summer Holiday,school,,Wednesday,2020,7
+2020-07-16,AT,Summer Holiday,school,,Thursday,2020,7
+2020-07-16,IT,Summer Holiday,school,Northern Italy,Thursday,2020,7
+2020-07-16,SI,Summer Holiday,school,,Thursday,2020,7
+2020-07-17,AT,Summer Holiday,school,,Friday,2020,7
+2020-07-17,IT,Summer Holiday,school,Northern Italy,Friday,2020,7
+2020-07-17,SI,Summer Holiday,school,,Friday,2020,7
+2020-07-18,AT,Summer Holiday,school,,Saturday,2020,7
+2020-07-18,IT,Summer Holiday,school,Northern Italy,Saturday,2020,7
+2020-07-18,SI,Summer Holiday,school,,Saturday,2020,7
+2020-07-19,AT,Summer Holiday,school,,Sunday,2020,7
+2020-07-19,IT,Summer Holiday,school,Northern Italy,Sunday,2020,7
+2020-07-19,SI,Summer Holiday,school,,Sunday,2020,7
+2020-07-20,AT,Summer Holiday,school,,Monday,2020,7
+2020-07-20,IT,Summer Holiday,school,Northern Italy,Monday,2020,7
+2020-07-20,SI,Summer Holiday,school,,Monday,2020,7
+2020-07-21,AT,Summer Holiday,school,,Tuesday,2020,7
+2020-07-21,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,7
+2020-07-21,SI,Summer Holiday,school,,Tuesday,2020,7
+2020-07-22,AT,Summer Holiday,school,,Wednesday,2020,7
+2020-07-22,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,7
+2020-07-22,SI,Summer Holiday,school,,Wednesday,2020,7
+2020-07-23,AT,Summer Holiday,school,,Thursday,2020,7
+2020-07-23,IT,Summer Holiday,school,Northern Italy,Thursday,2020,7
+2020-07-23,SI,Summer Holiday,school,,Thursday,2020,7
+2020-07-24,AT,Summer Holiday,school,,Friday,2020,7
+2020-07-24,IT,Summer Holiday,school,Northern Italy,Friday,2020,7
+2020-07-24,SI,Summer Holiday,school,,Friday,2020,7
+2020-07-25,AT,Summer Holiday,school,,Saturday,2020,7
+2020-07-25,IT,Summer Holiday,school,Northern Italy,Saturday,2020,7
+2020-07-25,SI,Summer Holiday,school,,Saturday,2020,7
+2020-07-26,AT,Summer Holiday,school,,Sunday,2020,7
+2020-07-26,IT,Summer Holiday,school,Northern Italy,Sunday,2020,7
+2020-07-26,SI,Summer Holiday,school,,Sunday,2020,7
+2020-07-27,AT,Summer Holiday,school,,Monday,2020,7
+2020-07-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,7
+2020-07-27,IT,Summer Holiday,school,Northern Italy,Monday,2020,7
+2020-07-27,SI,Summer Holiday,school,,Monday,2020,7
+2020-07-28,AT,Summer Holiday,school,,Tuesday,2020,7
+2020-07-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,7
+2020-07-28,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,7
+2020-07-28,SI,Summer Holiday,school,,Tuesday,2020,7
+2020-07-29,AT,Summer Holiday,school,,Wednesday,2020,7
+2020-07-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,7
+2020-07-29,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,7
+2020-07-29,SI,Summer Holiday,school,,Wednesday,2020,7
+2020-07-30,AT,Summer Holiday,school,,Thursday,2020,7
+2020-07-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,7
+2020-07-30,IT,Summer Holiday,school,Northern Italy,Thursday,2020,7
+2020-07-30,SI,Summer Holiday,school,,Thursday,2020,7
+2020-07-31,AT,Summer Holiday,school,,Friday,2020,7
+2020-07-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,7
+2020-07-31,IT,Summer Holiday,school,Northern Italy,Friday,2020,7
+2020-07-31,SI,Summer Holiday,school,,Friday,2020,7
+2020-08-01,AT,Summer Holiday,school,,Saturday,2020,8
+2020-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,8
+2020-08-01,IT,Summer Holiday,school,Northern Italy,Saturday,2020,8
+2020-08-01,SI,Summer Holiday,school,,Saturday,2020,8
+2020-08-02,AT,Summer Holiday,school,,Sunday,2020,8
+2020-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,8
+2020-08-02,IT,Summer Holiday,school,Northern Italy,Sunday,2020,8
+2020-08-02,SI,Summer Holiday,school,,Sunday,2020,8
+2020-08-03,AT,Summer Holiday,school,,Monday,2020,8
+2020-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,8
+2020-08-03,IT,Summer Holiday,school,Northern Italy,Monday,2020,8
+2020-08-03,SI,Summer Holiday,school,,Monday,2020,8
+2020-08-04,AT,Summer Holiday,school,,Tuesday,2020,8
+2020-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,8
+2020-08-04,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,8
+2020-08-04,SI,Summer Holiday,school,,Tuesday,2020,8
+2020-08-05,AT,Summer Holiday,school,,Wednesday,2020,8
+2020-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,8
+2020-08-05,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,8
+2020-08-05,SI,Summer Holiday,school,,Wednesday,2020,8
+2020-08-06,AT,Summer Holiday,school,,Thursday,2020,8
+2020-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,8
+2020-08-06,IT,Summer Holiday,school,Northern Italy,Thursday,2020,8
+2020-08-06,SI,Summer Holiday,school,,Thursday,2020,8
+2020-08-07,AT,Summer Holiday,school,,Friday,2020,8
+2020-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,8
+2020-08-07,IT,Summer Holiday,school,Northern Italy,Friday,2020,8
+2020-08-07,SI,Summer Holiday,school,,Friday,2020,8
+2020-08-08,AT,Summer Holiday,school,,Saturday,2020,8
+2020-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,8
+2020-08-08,IT,Summer Holiday,school,Northern Italy,Saturday,2020,8
+2020-08-08,SI,Summer Holiday,school,,Saturday,2020,8
+2020-08-09,AT,Summer Holiday,school,,Sunday,2020,8
+2020-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,8
+2020-08-09,IT,Summer Holiday,school,Northern Italy,Sunday,2020,8
+2020-08-09,SI,Summer Holiday,school,,Sunday,2020,8
+2020-08-10,AT,Summer Holiday,school,,Monday,2020,8
+2020-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,8
+2020-08-10,IT,Summer Holiday,school,Northern Italy,Monday,2020,8
+2020-08-10,SI,Summer Holiday,school,,Monday,2020,8
+2020-08-11,AT,Summer Holiday,school,,Tuesday,2020,8
+2020-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,8
+2020-08-11,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,8
+2020-08-11,SI,Summer Holiday,school,,Tuesday,2020,8
+2020-08-12,AT,Summer Holiday,school,,Wednesday,2020,8
+2020-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,8
+2020-08-12,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,8
+2020-08-12,SI,Summer Holiday,school,,Wednesday,2020,8
+2020-08-13,AT,Summer Holiday,school,,Thursday,2020,8
+2020-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,8
+2020-08-13,IT,Summer Holiday,school,Northern Italy,Thursday,2020,8
+2020-08-13,SI,Summer Holiday,school,,Thursday,2020,8
+2020-08-14,AT,Summer Holiday,school,,Friday,2020,8
+2020-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,8
+2020-08-14,IT,Summer Holiday,school,Northern Italy,Friday,2020,8
+2020-08-14,SI,Summer Holiday,school,,Friday,2020,8
+2020-08-15,AT,Assumption of Mary,public,,Saturday,2020,8
+2020-08-15,AT,Summer Holiday,school,,Saturday,2020,8
+2020-08-15,DE,Assumption of Mary,public,Bavaria,Saturday,2020,8
+2020-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,8
+2020-08-15,IT,Ferragosto,public,,Saturday,2020,8
+2020-08-15,IT,Summer Holiday,school,Northern Italy,Saturday,2020,8
+2020-08-15,SI,Assumption of Mary,public,,Saturday,2020,8
+2020-08-15,SI,Summer Holiday,school,,Saturday,2020,8
+2020-08-16,AT,Summer Holiday,school,,Sunday,2020,8
+2020-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,8
+2020-08-16,IT,Summer Holiday,school,Northern Italy,Sunday,2020,8
+2020-08-16,SI,Summer Holiday,school,,Sunday,2020,8
+2020-08-17,AT,Summer Holiday,school,,Monday,2020,8
+2020-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,8
+2020-08-17,IT,Summer Holiday,school,Northern Italy,Monday,2020,8
+2020-08-17,SI,Summer Holiday,school,,Monday,2020,8
+2020-08-18,AT,Summer Holiday,school,,Tuesday,2020,8
+2020-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,8
+2020-08-18,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,8
+2020-08-18,SI,Summer Holiday,school,,Tuesday,2020,8
+2020-08-19,AT,Summer Holiday,school,,Wednesday,2020,8
+2020-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,8
+2020-08-19,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,8
+2020-08-19,SI,Summer Holiday,school,,Wednesday,2020,8
+2020-08-20,AT,Summer Holiday,school,,Thursday,2020,8
+2020-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,8
+2020-08-20,IT,Summer Holiday,school,Northern Italy,Thursday,2020,8
+2020-08-20,SI,Summer Holiday,school,,Thursday,2020,8
+2020-08-21,AT,Summer Holiday,school,,Friday,2020,8
+2020-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,8
+2020-08-21,IT,Summer Holiday,school,Northern Italy,Friday,2020,8
+2020-08-21,SI,Summer Holiday,school,,Friday,2020,8
+2020-08-22,AT,Summer Holiday,school,,Saturday,2020,8
+2020-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,8
+2020-08-22,IT,Summer Holiday,school,Northern Italy,Saturday,2020,8
+2020-08-22,SI,Summer Holiday,school,,Saturday,2020,8
+2020-08-23,AT,Summer Holiday,school,,Sunday,2020,8
+2020-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,8
+2020-08-23,IT,Summer Holiday,school,Northern Italy,Sunday,2020,8
+2020-08-23,SI,Summer Holiday,school,,Sunday,2020,8
+2020-08-24,AT,Summer Holiday,school,,Monday,2020,8
+2020-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,8
+2020-08-24,IT,Summer Holiday,school,Northern Italy,Monday,2020,8
+2020-08-24,SI,Summer Holiday,school,,Monday,2020,8
+2020-08-25,AT,Summer Holiday,school,,Tuesday,2020,8
+2020-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,8
+2020-08-25,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,8
+2020-08-25,SI,Summer Holiday,school,,Tuesday,2020,8
+2020-08-26,AT,Summer Holiday,school,,Wednesday,2020,8
+2020-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,8
+2020-08-26,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,8
+2020-08-26,SI,Summer Holiday,school,,Wednesday,2020,8
+2020-08-27,AT,Summer Holiday,school,,Thursday,2020,8
+2020-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,8
+2020-08-27,IT,Summer Holiday,school,Northern Italy,Thursday,2020,8
+2020-08-27,SI,Summer Holiday,school,,Thursday,2020,8
+2020-08-28,AT,Summer Holiday,school,,Friday,2020,8
+2020-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,8
+2020-08-28,IT,Summer Holiday,school,Northern Italy,Friday,2020,8
+2020-08-28,SI,Summer Holiday,school,,Friday,2020,8
+2020-08-29,AT,Summer Holiday,school,,Saturday,2020,8
+2020-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,8
+2020-08-29,IT,Summer Holiday,school,Northern Italy,Saturday,2020,8
+2020-08-29,SI,Summer Holiday,school,,Saturday,2020,8
+2020-08-30,AT,Summer Holiday,school,,Sunday,2020,8
+2020-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,8
+2020-08-30,IT,Summer Holiday,school,Northern Italy,Sunday,2020,8
+2020-08-30,SI,Summer Holiday,school,,Sunday,2020,8
+2020-08-31,AT,Summer Holiday,school,,Monday,2020,8
+2020-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2020,8
+2020-08-31,IT,Summer Holiday,school,Northern Italy,Monday,2020,8
+2020-08-31,SI,Summer Holiday,school,,Monday,2020,8
+2020-09-01,AT,Summer Holiday,school,,Tuesday,2020,9
+2020-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2020,9
+2020-09-01,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,9
+2020-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2020,9
+2020-09-02,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,9
+2020-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2020,9
+2020-09-03,IT,Summer Holiday,school,Northern Italy,Thursday,2020,9
+2020-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2020,9
+2020-09-04,IT,Summer Holiday,school,Northern Italy,Friday,2020,9
+2020-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2020,9
+2020-09-05,IT,Summer Holiday,school,Northern Italy,Saturday,2020,9
+2020-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2020,9
+2020-09-06,IT,Summer Holiday,school,Northern Italy,Sunday,2020,9
+2020-09-07,IT,Summer Holiday,school,Northern Italy,Monday,2020,9
+2020-09-08,IT,Summer Holiday,school,Northern Italy,Tuesday,2020,9
+2020-09-09,IT,Summer Holiday,school,Northern Italy,Wednesday,2020,9
+2020-09-10,IT,Summer Holiday,school,Northern Italy,Thursday,2020,9
+2020-09-11,IT,Summer Holiday,school,Northern Italy,Friday,2020,9
+2020-09-12,IT,Summer Holiday,school,Northern Italy,Saturday,2020,9
+2020-10-03,DE,German Unity Day,public,,Saturday,2020,10
+2020-10-26,AT,National Day,public,,Monday,2020,10
+2020-10-31,SI,Reformation Day,public,,Saturday,2020,10
+2020-11-01,AT,All Saints' Day,public,,Sunday,2020,11
+2020-11-01,DE,All Saints' Day,public,Bavaria,Sunday,2020,11
+2020-11-01,IT,All Saints' Day,public,,Sunday,2020,11
+2020-11-01,SI,All Saints' Day,public,,Sunday,2020,11
+2020-12-08,AT,Immaculate Conception,public,,Tuesday,2020,12
+2020-12-08,IT,Immaculate Conception,public,,Tuesday,2020,12
+2020-12-23,IT,Christmas Holiday,school,,Wednesday,2020,12
+2020-12-24,IT,Christmas Holiday,school,,Thursday,2020,12
+2020-12-25,AT,Christmas Day,public,,Friday,2020,12
+2020-12-25,DE,Christmas Day,public,,Friday,2020,12
+2020-12-25,IT,Christmas Day,public,,Friday,2020,12
+2020-12-25,IT,Christmas Holiday,school,,Friday,2020,12
+2020-12-25,SI,Christmas,public,,Friday,2020,12
+2020-12-26,AT,St. Stephen's Day,public,,Saturday,2020,12
+2020-12-26,DE,Boxing Day,public,,Saturday,2020,12
+2020-12-26,IT,St. Stephen's Day,public,,Saturday,2020,12
+2020-12-26,IT,Christmas Holiday,school,,Saturday,2020,12
+2020-12-26,SI,Independence Day,public,,Saturday,2020,12
+2020-12-27,IT,Christmas Holiday,school,,Sunday,2020,12
+2020-12-28,IT,Christmas Holiday,school,,Monday,2020,12
+2020-12-29,IT,Christmas Holiday,school,,Tuesday,2020,12
+2020-12-30,IT,Christmas Holiday,school,,Wednesday,2020,12
+2020-12-31,IT,Christmas Holiday,school,,Thursday,2020,12
+2021-01-01,AT,New Year's Day,public,,Friday,2021,1
+2021-01-01,DE,New Year's Day,public,,Friday,2021,1
+2021-01-01,IT,Christmas Holiday,school,,Friday,2021,1
+2021-01-01,IT,New Year's Day,public,,Friday,2021,1
+2021-01-01,SI,New Year's Day,public,,Friday,2021,1
+2021-01-02,IT,Christmas Holiday,school,,Saturday,2021,1
+2021-01-02,SI,New Year Holiday,public,,Saturday,2021,1
+2021-01-03,IT,Christmas Holiday,school,,Sunday,2021,1
+2021-01-04,IT,Christmas Holiday,school,,Monday,2021,1
+2021-01-05,IT,Christmas Holiday,school,,Tuesday,2021,1
+2021-01-06,AT,Epiphany,public,,Wednesday,2021,1
+2021-01-06,DE,Epiphany,public,Bavaria,Wednesday,2021,1
+2021-01-06,IT,Christmas Holiday,school,,Wednesday,2021,1
+2021-01-06,IT,Epiphany,public,,Wednesday,2021,1
+2021-02-08,SI,Prešeren Day,public,,Monday,2021,2
+2021-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Monday,2021,2
+2021-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Monday,2021,2
+2021-04-02,DE,Good Friday,public,,Friday,2021,4
+2021-04-05,AT,Easter Monday,public,,Monday,2021,4
+2021-04-05,DE,Easter Monday,public,,Monday,2021,4
+2021-04-05,IT,Easter Monday,public,,Monday,2021,4
+2021-04-05,SI,Easter Monday,public,,Monday,2021,4
+2021-04-25,IT,Liberation Day,public,,Sunday,2021,4
+2021-04-27,SI,Day of Uprising,public,,Tuesday,2021,4
+2021-05-01,AT,Labour Day,public,,Saturday,2021,5
+2021-05-01,DE,Labour Day,public,,Saturday,2021,5
+2021-05-01,IT,Labour Day,public,,Saturday,2021,5
+2021-05-01,SI,Labour Day,public,,Saturday,2021,5
+2021-05-02,SI,Labour Day Holiday,public,,Sunday,2021,5
+2021-05-13,AT,Ascension Day,public,,Thursday,2021,5
+2021-05-24,AT,Whit Monday,public,,Monday,2021,5
+2021-06-02,IT,Republic Day,public,,Wednesday,2021,6
+2021-06-03,AT,Corpus Christi,public,,Thursday,2021,6
+2021-06-10,IT,Summer Holiday,school,Northern Italy,Thursday,2021,6
+2021-06-11,IT,Summer Holiday,school,Northern Italy,Friday,2021,6
+2021-06-12,IT,Summer Holiday,school,Northern Italy,Saturday,2021,6
+2021-06-13,IT,Summer Holiday,school,Northern Italy,Sunday,2021,6
+2021-06-14,IT,Summer Holiday,school,Northern Italy,Monday,2021,6
+2021-06-15,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,6
+2021-06-16,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,6
+2021-06-17,IT,Summer Holiday,school,Northern Italy,Thursday,2021,6
+2021-06-18,IT,Summer Holiday,school,Northern Italy,Friday,2021,6
+2021-06-19,IT,Summer Holiday,school,Northern Italy,Saturday,2021,6
+2021-06-20,IT,Summer Holiday,school,Northern Italy,Sunday,2021,6
+2021-06-21,IT,Summer Holiday,school,Northern Italy,Monday,2021,6
+2021-06-22,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,6
+2021-06-23,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,6
+2021-06-24,IT,Summer Holiday,school,Northern Italy,Thursday,2021,6
+2021-06-25,IT,Summer Holiday,school,Northern Italy,Friday,2021,6
+2021-06-25,SI,Statehood Day,public,,Friday,2021,6
+2021-06-26,IT,Summer Holiday,school,Northern Italy,Saturday,2021,6
+2021-06-27,IT,Summer Holiday,school,Northern Italy,Sunday,2021,6
+2021-06-28,IT,Summer Holiday,school,Northern Italy,Monday,2021,6
+2021-06-29,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,6
+2021-06-30,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,6
+2021-07-01,AT,Summer Holiday,school,,Thursday,2021,7
+2021-07-01,IT,Summer Holiday,school,Northern Italy,Thursday,2021,7
+2021-07-01,SI,Summer Holiday,school,,Thursday,2021,7
+2021-07-02,AT,Summer Holiday,school,,Friday,2021,7
+2021-07-02,IT,Summer Holiday,school,Northern Italy,Friday,2021,7
+2021-07-02,SI,Summer Holiday,school,,Friday,2021,7
+2021-07-03,AT,Summer Holiday,school,,Saturday,2021,7
+2021-07-03,IT,Summer Holiday,school,Northern Italy,Saturday,2021,7
+2021-07-03,SI,Summer Holiday,school,,Saturday,2021,7
+2021-07-04,AT,Summer Holiday,school,,Sunday,2021,7
+2021-07-04,IT,Summer Holiday,school,Northern Italy,Sunday,2021,7
+2021-07-04,SI,Summer Holiday,school,,Sunday,2021,7
+2021-07-05,AT,Summer Holiday,school,,Monday,2021,7
+2021-07-05,IT,Summer Holiday,school,Northern Italy,Monday,2021,7
+2021-07-05,SI,Summer Holiday,school,,Monday,2021,7
+2021-07-06,AT,Summer Holiday,school,,Tuesday,2021,7
+2021-07-06,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,7
+2021-07-06,SI,Summer Holiday,school,,Tuesday,2021,7
+2021-07-07,AT,Summer Holiday,school,,Wednesday,2021,7
+2021-07-07,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,7
+2021-07-07,SI,Summer Holiday,school,,Wednesday,2021,7
+2021-07-08,AT,Summer Holiday,school,,Thursday,2021,7
+2021-07-08,IT,Summer Holiday,school,Northern Italy,Thursday,2021,7
+2021-07-08,SI,Summer Holiday,school,,Thursday,2021,7
+2021-07-09,AT,Summer Holiday,school,,Friday,2021,7
+2021-07-09,IT,Summer Holiday,school,Northern Italy,Friday,2021,7
+2021-07-09,SI,Summer Holiday,school,,Friday,2021,7
+2021-07-10,AT,Summer Holiday,school,,Saturday,2021,7
+2021-07-10,IT,Summer Holiday,school,Northern Italy,Saturday,2021,7
+2021-07-10,SI,Summer Holiday,school,,Saturday,2021,7
+2021-07-11,AT,Summer Holiday,school,,Sunday,2021,7
+2021-07-11,IT,Summer Holiday,school,Northern Italy,Sunday,2021,7
+2021-07-11,SI,Summer Holiday,school,,Sunday,2021,7
+2021-07-12,AT,Summer Holiday,school,,Monday,2021,7
+2021-07-12,IT,Summer Holiday,school,Northern Italy,Monday,2021,7
+2021-07-12,SI,Summer Holiday,school,,Monday,2021,7
+2021-07-13,AT,Summer Holiday,school,,Tuesday,2021,7
+2021-07-13,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,7
+2021-07-13,SI,Summer Holiday,school,,Tuesday,2021,7
+2021-07-14,AT,Summer Holiday,school,,Wednesday,2021,7
+2021-07-14,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,7
+2021-07-14,SI,Summer Holiday,school,,Wednesday,2021,7
+2021-07-15,AT,Summer Holiday,school,,Thursday,2021,7
+2021-07-15,IT,Summer Holiday,school,Northern Italy,Thursday,2021,7
+2021-07-15,SI,Summer Holiday,school,,Thursday,2021,7
+2021-07-16,AT,Summer Holiday,school,,Friday,2021,7
+2021-07-16,IT,Summer Holiday,school,Northern Italy,Friday,2021,7
+2021-07-16,SI,Summer Holiday,school,,Friday,2021,7
+2021-07-17,AT,Summer Holiday,school,,Saturday,2021,7
+2021-07-17,IT,Summer Holiday,school,Northern Italy,Saturday,2021,7
+2021-07-17,SI,Summer Holiday,school,,Saturday,2021,7
+2021-07-18,AT,Summer Holiday,school,,Sunday,2021,7
+2021-07-18,IT,Summer Holiday,school,Northern Italy,Sunday,2021,7
+2021-07-18,SI,Summer Holiday,school,,Sunday,2021,7
+2021-07-19,AT,Summer Holiday,school,,Monday,2021,7
+2021-07-19,IT,Summer Holiday,school,Northern Italy,Monday,2021,7
+2021-07-19,SI,Summer Holiday,school,,Monday,2021,7
+2021-07-20,AT,Summer Holiday,school,,Tuesday,2021,7
+2021-07-20,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,7
+2021-07-20,SI,Summer Holiday,school,,Tuesday,2021,7
+2021-07-21,AT,Summer Holiday,school,,Wednesday,2021,7
+2021-07-21,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,7
+2021-07-21,SI,Summer Holiday,school,,Wednesday,2021,7
+2021-07-22,AT,Summer Holiday,school,,Thursday,2021,7
+2021-07-22,IT,Summer Holiday,school,Northern Italy,Thursday,2021,7
+2021-07-22,SI,Summer Holiday,school,,Thursday,2021,7
+2021-07-23,AT,Summer Holiday,school,,Friday,2021,7
+2021-07-23,IT,Summer Holiday,school,Northern Italy,Friday,2021,7
+2021-07-23,SI,Summer Holiday,school,,Friday,2021,7
+2021-07-24,AT,Summer Holiday,school,,Saturday,2021,7
+2021-07-24,IT,Summer Holiday,school,Northern Italy,Saturday,2021,7
+2021-07-24,SI,Summer Holiday,school,,Saturday,2021,7
+2021-07-25,AT,Summer Holiday,school,,Sunday,2021,7
+2021-07-25,IT,Summer Holiday,school,Northern Italy,Sunday,2021,7
+2021-07-25,SI,Summer Holiday,school,,Sunday,2021,7
+2021-07-26,AT,Summer Holiday,school,,Monday,2021,7
+2021-07-26,IT,Summer Holiday,school,Northern Italy,Monday,2021,7
+2021-07-26,SI,Summer Holiday,school,,Monday,2021,7
+2021-07-27,AT,Summer Holiday,school,,Tuesday,2021,7
+2021-07-27,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,7
+2021-07-27,SI,Summer Holiday,school,,Tuesday,2021,7
+2021-07-28,AT,Summer Holiday,school,,Wednesday,2021,7
+2021-07-28,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,7
+2021-07-28,SI,Summer Holiday,school,,Wednesday,2021,7
+2021-07-29,AT,Summer Holiday,school,,Thursday,2021,7
+2021-07-29,IT,Summer Holiday,school,Northern Italy,Thursday,2021,7
+2021-07-29,SI,Summer Holiday,school,,Thursday,2021,7
+2021-07-30,AT,Summer Holiday,school,,Friday,2021,7
+2021-07-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,7
+2021-07-30,IT,Summer Holiday,school,Northern Italy,Friday,2021,7
+2021-07-30,SI,Summer Holiday,school,,Friday,2021,7
+2021-07-31,AT,Summer Holiday,school,,Saturday,2021,7
+2021-07-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,7
+2021-07-31,IT,Summer Holiday,school,Northern Italy,Saturday,2021,7
+2021-07-31,SI,Summer Holiday,school,,Saturday,2021,7
+2021-08-01,AT,Summer Holiday,school,,Sunday,2021,8
+2021-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,8
+2021-08-01,IT,Summer Holiday,school,Northern Italy,Sunday,2021,8
+2021-08-01,SI,Summer Holiday,school,,Sunday,2021,8
+2021-08-02,AT,Summer Holiday,school,,Monday,2021,8
+2021-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,8
+2021-08-02,IT,Summer Holiday,school,Northern Italy,Monday,2021,8
+2021-08-02,SI,Summer Holiday,school,,Monday,2021,8
+2021-08-03,AT,Summer Holiday,school,,Tuesday,2021,8
+2021-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,8
+2021-08-03,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,8
+2021-08-03,SI,Summer Holiday,school,,Tuesday,2021,8
+2021-08-04,AT,Summer Holiday,school,,Wednesday,2021,8
+2021-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,8
+2021-08-04,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,8
+2021-08-04,SI,Summer Holiday,school,,Wednesday,2021,8
+2021-08-05,AT,Summer Holiday,school,,Thursday,2021,8
+2021-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,8
+2021-08-05,IT,Summer Holiday,school,Northern Italy,Thursday,2021,8
+2021-08-05,SI,Summer Holiday,school,,Thursday,2021,8
+2021-08-06,AT,Summer Holiday,school,,Friday,2021,8
+2021-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,8
+2021-08-06,IT,Summer Holiday,school,Northern Italy,Friday,2021,8
+2021-08-06,SI,Summer Holiday,school,,Friday,2021,8
+2021-08-07,AT,Summer Holiday,school,,Saturday,2021,8
+2021-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,8
+2021-08-07,IT,Summer Holiday,school,Northern Italy,Saturday,2021,8
+2021-08-07,SI,Summer Holiday,school,,Saturday,2021,8
+2021-08-08,AT,Summer Holiday,school,,Sunday,2021,8
+2021-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,8
+2021-08-08,IT,Summer Holiday,school,Northern Italy,Sunday,2021,8
+2021-08-08,SI,Summer Holiday,school,,Sunday,2021,8
+2021-08-09,AT,Summer Holiday,school,,Monday,2021,8
+2021-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,8
+2021-08-09,IT,Summer Holiday,school,Northern Italy,Monday,2021,8
+2021-08-09,SI,Summer Holiday,school,,Monday,2021,8
+2021-08-10,AT,Summer Holiday,school,,Tuesday,2021,8
+2021-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,8
+2021-08-10,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,8
+2021-08-10,SI,Summer Holiday,school,,Tuesday,2021,8
+2021-08-11,AT,Summer Holiday,school,,Wednesday,2021,8
+2021-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,8
+2021-08-11,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,8
+2021-08-11,SI,Summer Holiday,school,,Wednesday,2021,8
+2021-08-12,AT,Summer Holiday,school,,Thursday,2021,8
+2021-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,8
+2021-08-12,IT,Summer Holiday,school,Northern Italy,Thursday,2021,8
+2021-08-12,SI,Summer Holiday,school,,Thursday,2021,8
+2021-08-13,AT,Summer Holiday,school,,Friday,2021,8
+2021-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,8
+2021-08-13,IT,Summer Holiday,school,Northern Italy,Friday,2021,8
+2021-08-13,SI,Summer Holiday,school,,Friday,2021,8
+2021-08-14,AT,Summer Holiday,school,,Saturday,2021,8
+2021-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,8
+2021-08-14,IT,Summer Holiday,school,Northern Italy,Saturday,2021,8
+2021-08-14,SI,Summer Holiday,school,,Saturday,2021,8
+2021-08-15,AT,Assumption of Mary,public,,Sunday,2021,8
+2021-08-15,AT,Summer Holiday,school,,Sunday,2021,8
+2021-08-15,DE,Assumption of Mary,public,Bavaria,Sunday,2021,8
+2021-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,8
+2021-08-15,IT,Ferragosto,public,,Sunday,2021,8
+2021-08-15,IT,Summer Holiday,school,Northern Italy,Sunday,2021,8
+2021-08-15,SI,Assumption of Mary,public,,Sunday,2021,8
+2021-08-15,SI,Summer Holiday,school,,Sunday,2021,8
+2021-08-16,AT,Summer Holiday,school,,Monday,2021,8
+2021-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,8
+2021-08-16,IT,Summer Holiday,school,Northern Italy,Monday,2021,8
+2021-08-16,SI,Summer Holiday,school,,Monday,2021,8
+2021-08-17,AT,Summer Holiday,school,,Tuesday,2021,8
+2021-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,8
+2021-08-17,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,8
+2021-08-17,SI,Summer Holiday,school,,Tuesday,2021,8
+2021-08-18,AT,Summer Holiday,school,,Wednesday,2021,8
+2021-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,8
+2021-08-18,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,8
+2021-08-18,SI,Summer Holiday,school,,Wednesday,2021,8
+2021-08-19,AT,Summer Holiday,school,,Thursday,2021,8
+2021-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,8
+2021-08-19,IT,Summer Holiday,school,Northern Italy,Thursday,2021,8
+2021-08-19,SI,Summer Holiday,school,,Thursday,2021,8
+2021-08-20,AT,Summer Holiday,school,,Friday,2021,8
+2021-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,8
+2021-08-20,IT,Summer Holiday,school,Northern Italy,Friday,2021,8
+2021-08-20,SI,Summer Holiday,school,,Friday,2021,8
+2021-08-21,AT,Summer Holiday,school,,Saturday,2021,8
+2021-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,8
+2021-08-21,IT,Summer Holiday,school,Northern Italy,Saturday,2021,8
+2021-08-21,SI,Summer Holiday,school,,Saturday,2021,8
+2021-08-22,AT,Summer Holiday,school,,Sunday,2021,8
+2021-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,8
+2021-08-22,IT,Summer Holiday,school,Northern Italy,Sunday,2021,8
+2021-08-22,SI,Summer Holiday,school,,Sunday,2021,8
+2021-08-23,AT,Summer Holiday,school,,Monday,2021,8
+2021-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,8
+2021-08-23,IT,Summer Holiday,school,Northern Italy,Monday,2021,8
+2021-08-23,SI,Summer Holiday,school,,Monday,2021,8
+2021-08-24,AT,Summer Holiday,school,,Tuesday,2021,8
+2021-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,8
+2021-08-24,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,8
+2021-08-24,SI,Summer Holiday,school,,Tuesday,2021,8
+2021-08-25,AT,Summer Holiday,school,,Wednesday,2021,8
+2021-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,8
+2021-08-25,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,8
+2021-08-25,SI,Summer Holiday,school,,Wednesday,2021,8
+2021-08-26,AT,Summer Holiday,school,,Thursday,2021,8
+2021-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,8
+2021-08-26,IT,Summer Holiday,school,Northern Italy,Thursday,2021,8
+2021-08-26,SI,Summer Holiday,school,,Thursday,2021,8
+2021-08-27,AT,Summer Holiday,school,,Friday,2021,8
+2021-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,8
+2021-08-27,IT,Summer Holiday,school,Northern Italy,Friday,2021,8
+2021-08-27,SI,Summer Holiday,school,,Friday,2021,8
+2021-08-28,AT,Summer Holiday,school,,Saturday,2021,8
+2021-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,8
+2021-08-28,IT,Summer Holiday,school,Northern Italy,Saturday,2021,8
+2021-08-28,SI,Summer Holiday,school,,Saturday,2021,8
+2021-08-29,AT,Summer Holiday,school,,Sunday,2021,8
+2021-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,8
+2021-08-29,IT,Summer Holiday,school,Northern Italy,Sunday,2021,8
+2021-08-29,SI,Summer Holiday,school,,Sunday,2021,8
+2021-08-30,AT,Summer Holiday,school,,Monday,2021,8
+2021-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,8
+2021-08-30,IT,Summer Holiday,school,Northern Italy,Monday,2021,8
+2021-08-30,SI,Summer Holiday,school,,Monday,2021,8
+2021-08-31,AT,Summer Holiday,school,,Tuesday,2021,8
+2021-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,8
+2021-08-31,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,8
+2021-08-31,SI,Summer Holiday,school,,Tuesday,2021,8
+2021-09-01,AT,Summer Holiday,school,,Wednesday,2021,9
+2021-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,9
+2021-09-01,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,9
+2021-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,9
+2021-09-02,IT,Summer Holiday,school,Northern Italy,Thursday,2021,9
+2021-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2021,9
+2021-09-03,IT,Summer Holiday,school,Northern Italy,Friday,2021,9
+2021-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2021,9
+2021-09-04,IT,Summer Holiday,school,Northern Italy,Saturday,2021,9
+2021-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2021,9
+2021-09-05,IT,Summer Holiday,school,Northern Italy,Sunday,2021,9
+2021-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2021,9
+2021-09-06,IT,Summer Holiday,school,Northern Italy,Monday,2021,9
+2021-09-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2021,9
+2021-09-07,IT,Summer Holiday,school,Northern Italy,Tuesday,2021,9
+2021-09-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2021,9
+2021-09-08,IT,Summer Holiday,school,Northern Italy,Wednesday,2021,9
+2021-09-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2021,9
+2021-09-09,IT,Summer Holiday,school,Northern Italy,Thursday,2021,9
+2021-09-10,IT,Summer Holiday,school,Northern Italy,Friday,2021,9
+2021-09-11,IT,Summer Holiday,school,Northern Italy,Saturday,2021,9
+2021-09-12,IT,Summer Holiday,school,Northern Italy,Sunday,2021,9
+2021-10-03,DE,German Unity Day,public,,Sunday,2021,10
+2021-10-26,AT,National Day,public,,Tuesday,2021,10
+2021-10-31,SI,Reformation Day,public,,Sunday,2021,10
+2021-11-01,AT,All Saints' Day,public,,Monday,2021,11
+2021-11-01,DE,All Saints' Day,public,Bavaria,Monday,2021,11
+2021-11-01,IT,All Saints' Day,public,,Monday,2021,11
+2021-11-01,SI,All Saints' Day,public,,Monday,2021,11
+2021-12-08,AT,Immaculate Conception,public,,Wednesday,2021,12
+2021-12-08,IT,Immaculate Conception,public,,Wednesday,2021,12
+2021-12-23,IT,Christmas Holiday,school,,Thursday,2021,12
+2021-12-24,IT,Christmas Holiday,school,,Friday,2021,12
+2021-12-25,AT,Christmas Day,public,,Saturday,2021,12
+2021-12-25,DE,Christmas Day,public,,Saturday,2021,12
+2021-12-25,IT,Christmas Day,public,,Saturday,2021,12
+2021-12-25,IT,Christmas Holiday,school,,Saturday,2021,12
+2021-12-25,SI,Christmas,public,,Saturday,2021,12
+2021-12-26,AT,St. Stephen's Day,public,,Sunday,2021,12
+2021-12-26,DE,Boxing Day,public,,Sunday,2021,12
+2021-12-26,IT,St. Stephen's Day,public,,Sunday,2021,12
+2021-12-26,IT,Christmas Holiday,school,,Sunday,2021,12
+2021-12-26,SI,Independence Day,public,,Sunday,2021,12
+2021-12-27,IT,Christmas Holiday,school,,Monday,2021,12
+2021-12-28,IT,Christmas Holiday,school,,Tuesday,2021,12
+2021-12-29,IT,Christmas Holiday,school,,Wednesday,2021,12
+2021-12-30,IT,Christmas Holiday,school,,Thursday,2021,12
+2021-12-31,IT,Christmas Holiday,school,,Friday,2021,12
+2022-01-01,AT,New Year's Day,public,,Saturday,2022,1
+2022-01-01,DE,New Year's Day,public,,Saturday,2022,1
+2022-01-01,IT,Christmas Holiday,school,,Saturday,2022,1
+2022-01-01,IT,New Year's Day,public,,Saturday,2022,1
+2022-01-01,SI,New Year's Day,public,,Saturday,2022,1
+2022-01-02,IT,Christmas Holiday,school,,Sunday,2022,1
+2022-01-02,SI,New Year Holiday,public,,Sunday,2022,1
+2022-01-03,IT,Christmas Holiday,school,,Monday,2022,1
+2022-01-04,IT,Christmas Holiday,school,,Tuesday,2022,1
+2022-01-05,IT,Christmas Holiday,school,,Wednesday,2022,1
+2022-01-06,AT,Epiphany,public,,Thursday,2022,1
+2022-01-06,DE,Epiphany,public,Bavaria,Thursday,2022,1
+2022-01-06,IT,Christmas Holiday,school,,Thursday,2022,1
+2022-01-06,IT,Epiphany,public,,Thursday,2022,1
+2022-02-08,SI,Prešeren Day,public,,Tuesday,2022,2
+2022-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Tuesday,2022,2
+2022-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Tuesday,2022,2
+2022-04-15,DE,Good Friday,public,,Friday,2022,4
+2022-04-18,AT,Easter Monday,public,,Monday,2022,4
+2022-04-18,DE,Easter Monday,public,,Monday,2022,4
+2022-04-18,IT,Easter Monday,public,,Monday,2022,4
+2022-04-18,SI,Easter Monday,public,,Monday,2022,4
+2022-04-25,IT,Liberation Day,public,,Monday,2022,4
+2022-04-27,SI,Day of Uprising,public,,Wednesday,2022,4
+2022-05-01,AT,Labour Day,public,,Sunday,2022,5
+2022-05-01,DE,Labour Day,public,,Sunday,2022,5
+2022-05-01,IT,Labour Day,public,,Sunday,2022,5
+2022-05-01,SI,Labour Day,public,,Sunday,2022,5
+2022-05-02,SI,Labour Day Holiday,public,,Monday,2022,5
+2022-05-26,AT,Ascension Day,public,,Thursday,2022,5
+2022-06-02,IT,Republic Day,public,,Thursday,2022,6
+2022-06-06,AT,Whit Monday,public,,Monday,2022,6
+2022-06-10,IT,Summer Holiday,school,Northern Italy,Friday,2022,6
+2022-06-11,IT,Summer Holiday,school,Northern Italy,Saturday,2022,6
+2022-06-12,IT,Summer Holiday,school,Northern Italy,Sunday,2022,6
+2022-06-13,IT,Summer Holiday,school,Northern Italy,Monday,2022,6
+2022-06-14,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,6
+2022-06-15,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,6
+2022-06-16,AT,Corpus Christi,public,,Thursday,2022,6
+2022-06-16,IT,Summer Holiday,school,Northern Italy,Thursday,2022,6
+2022-06-17,IT,Summer Holiday,school,Northern Italy,Friday,2022,6
+2022-06-18,IT,Summer Holiday,school,Northern Italy,Saturday,2022,6
+2022-06-19,IT,Summer Holiday,school,Northern Italy,Sunday,2022,6
+2022-06-20,IT,Summer Holiday,school,Northern Italy,Monday,2022,6
+2022-06-21,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,6
+2022-06-22,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,6
+2022-06-23,IT,Summer Holiday,school,Northern Italy,Thursday,2022,6
+2022-06-24,IT,Summer Holiday,school,Northern Italy,Friday,2022,6
+2022-06-25,IT,Summer Holiday,school,Northern Italy,Saturday,2022,6
+2022-06-25,SI,Statehood Day,public,,Saturday,2022,6
+2022-06-26,IT,Summer Holiday,school,Northern Italy,Sunday,2022,6
+2022-06-27,IT,Summer Holiday,school,Northern Italy,Monday,2022,6
+2022-06-28,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,6
+2022-06-29,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,6
+2022-06-30,IT,Summer Holiday,school,Northern Italy,Thursday,2022,6
+2022-07-01,AT,Summer Holiday,school,,Friday,2022,7
+2022-07-01,IT,Summer Holiday,school,Northern Italy,Friday,2022,7
+2022-07-01,SI,Summer Holiday,school,,Friday,2022,7
+2022-07-02,AT,Summer Holiday,school,,Saturday,2022,7
+2022-07-02,IT,Summer Holiday,school,Northern Italy,Saturday,2022,7
+2022-07-02,SI,Summer Holiday,school,,Saturday,2022,7
+2022-07-03,AT,Summer Holiday,school,,Sunday,2022,7
+2022-07-03,IT,Summer Holiday,school,Northern Italy,Sunday,2022,7
+2022-07-03,SI,Summer Holiday,school,,Sunday,2022,7
+2022-07-04,AT,Summer Holiday,school,,Monday,2022,7
+2022-07-04,IT,Summer Holiday,school,Northern Italy,Monday,2022,7
+2022-07-04,SI,Summer Holiday,school,,Monday,2022,7
+2022-07-05,AT,Summer Holiday,school,,Tuesday,2022,7
+2022-07-05,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,7
+2022-07-05,SI,Summer Holiday,school,,Tuesday,2022,7
+2022-07-06,AT,Summer Holiday,school,,Wednesday,2022,7
+2022-07-06,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,7
+2022-07-06,SI,Summer Holiday,school,,Wednesday,2022,7
+2022-07-07,AT,Summer Holiday,school,,Thursday,2022,7
+2022-07-07,IT,Summer Holiday,school,Northern Italy,Thursday,2022,7
+2022-07-07,SI,Summer Holiday,school,,Thursday,2022,7
+2022-07-08,AT,Summer Holiday,school,,Friday,2022,7
+2022-07-08,IT,Summer Holiday,school,Northern Italy,Friday,2022,7
+2022-07-08,SI,Summer Holiday,school,,Friday,2022,7
+2022-07-09,AT,Summer Holiday,school,,Saturday,2022,7
+2022-07-09,IT,Summer Holiday,school,Northern Italy,Saturday,2022,7
+2022-07-09,SI,Summer Holiday,school,,Saturday,2022,7
+2022-07-10,AT,Summer Holiday,school,,Sunday,2022,7
+2022-07-10,IT,Summer Holiday,school,Northern Italy,Sunday,2022,7
+2022-07-10,SI,Summer Holiday,school,,Sunday,2022,7
+2022-07-11,AT,Summer Holiday,school,,Monday,2022,7
+2022-07-11,IT,Summer Holiday,school,Northern Italy,Monday,2022,7
+2022-07-11,SI,Summer Holiday,school,,Monday,2022,7
+2022-07-12,AT,Summer Holiday,school,,Tuesday,2022,7
+2022-07-12,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,7
+2022-07-12,SI,Summer Holiday,school,,Tuesday,2022,7
+2022-07-13,AT,Summer Holiday,school,,Wednesday,2022,7
+2022-07-13,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,7
+2022-07-13,SI,Summer Holiday,school,,Wednesday,2022,7
+2022-07-14,AT,Summer Holiday,school,,Thursday,2022,7
+2022-07-14,IT,Summer Holiday,school,Northern Italy,Thursday,2022,7
+2022-07-14,SI,Summer Holiday,school,,Thursday,2022,7
+2022-07-15,AT,Summer Holiday,school,,Friday,2022,7
+2022-07-15,IT,Summer Holiday,school,Northern Italy,Friday,2022,7
+2022-07-15,SI,Summer Holiday,school,,Friday,2022,7
+2022-07-16,AT,Summer Holiday,school,,Saturday,2022,7
+2022-07-16,IT,Summer Holiday,school,Northern Italy,Saturday,2022,7
+2022-07-16,SI,Summer Holiday,school,,Saturday,2022,7
+2022-07-17,AT,Summer Holiday,school,,Sunday,2022,7
+2022-07-17,IT,Summer Holiday,school,Northern Italy,Sunday,2022,7
+2022-07-17,SI,Summer Holiday,school,,Sunday,2022,7
+2022-07-18,AT,Summer Holiday,school,,Monday,2022,7
+2022-07-18,IT,Summer Holiday,school,Northern Italy,Monday,2022,7
+2022-07-18,SI,Summer Holiday,school,,Monday,2022,7
+2022-07-19,AT,Summer Holiday,school,,Tuesday,2022,7
+2022-07-19,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,7
+2022-07-19,SI,Summer Holiday,school,,Tuesday,2022,7
+2022-07-20,AT,Summer Holiday,school,,Wednesday,2022,7
+2022-07-20,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,7
+2022-07-20,SI,Summer Holiday,school,,Wednesday,2022,7
+2022-07-21,AT,Summer Holiday,school,,Thursday,2022,7
+2022-07-21,IT,Summer Holiday,school,Northern Italy,Thursday,2022,7
+2022-07-21,SI,Summer Holiday,school,,Thursday,2022,7
+2022-07-22,AT,Summer Holiday,school,,Friday,2022,7
+2022-07-22,IT,Summer Holiday,school,Northern Italy,Friday,2022,7
+2022-07-22,SI,Summer Holiday,school,,Friday,2022,7
+2022-07-23,AT,Summer Holiday,school,,Saturday,2022,7
+2022-07-23,IT,Summer Holiday,school,Northern Italy,Saturday,2022,7
+2022-07-23,SI,Summer Holiday,school,,Saturday,2022,7
+2022-07-24,AT,Summer Holiday,school,,Sunday,2022,7
+2022-07-24,IT,Summer Holiday,school,Northern Italy,Sunday,2022,7
+2022-07-24,SI,Summer Holiday,school,,Sunday,2022,7
+2022-07-25,AT,Summer Holiday,school,,Monday,2022,7
+2022-07-25,IT,Summer Holiday,school,Northern Italy,Monday,2022,7
+2022-07-25,SI,Summer Holiday,school,,Monday,2022,7
+2022-07-26,AT,Summer Holiday,school,,Tuesday,2022,7
+2022-07-26,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,7
+2022-07-26,SI,Summer Holiday,school,,Tuesday,2022,7
+2022-07-27,AT,Summer Holiday,school,,Wednesday,2022,7
+2022-07-27,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,7
+2022-07-27,SI,Summer Holiday,school,,Wednesday,2022,7
+2022-07-28,AT,Summer Holiday,school,,Thursday,2022,7
+2022-07-28,IT,Summer Holiday,school,Northern Italy,Thursday,2022,7
+2022-07-28,SI,Summer Holiday,school,,Thursday,2022,7
+2022-07-29,AT,Summer Holiday,school,,Friday,2022,7
+2022-07-29,IT,Summer Holiday,school,Northern Italy,Friday,2022,7
+2022-07-29,SI,Summer Holiday,school,,Friday,2022,7
+2022-07-30,AT,Summer Holiday,school,,Saturday,2022,7
+2022-07-30,IT,Summer Holiday,school,Northern Italy,Saturday,2022,7
+2022-07-30,SI,Summer Holiday,school,,Saturday,2022,7
+2022-07-31,AT,Summer Holiday,school,,Sunday,2022,7
+2022-07-31,IT,Summer Holiday,school,Northern Italy,Sunday,2022,7
+2022-07-31,SI,Summer Holiday,school,,Sunday,2022,7
+2022-08-01,AT,Summer Holiday,school,,Monday,2022,8
+2022-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,8
+2022-08-01,IT,Summer Holiday,school,Northern Italy,Monday,2022,8
+2022-08-01,SI,Summer Holiday,school,,Monday,2022,8
+2022-08-02,AT,Summer Holiday,school,,Tuesday,2022,8
+2022-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,8
+2022-08-02,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,8
+2022-08-02,SI,Summer Holiday,school,,Tuesday,2022,8
+2022-08-03,AT,Summer Holiday,school,,Wednesday,2022,8
+2022-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,8
+2022-08-03,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,8
+2022-08-03,SI,Summer Holiday,school,,Wednesday,2022,8
+2022-08-04,AT,Summer Holiday,school,,Thursday,2022,8
+2022-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,8
+2022-08-04,IT,Summer Holiday,school,Northern Italy,Thursday,2022,8
+2022-08-04,SI,Summer Holiday,school,,Thursday,2022,8
+2022-08-05,AT,Summer Holiday,school,,Friday,2022,8
+2022-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,8
+2022-08-05,IT,Summer Holiday,school,Northern Italy,Friday,2022,8
+2022-08-05,SI,Summer Holiday,school,,Friday,2022,8
+2022-08-06,AT,Summer Holiday,school,,Saturday,2022,8
+2022-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,8
+2022-08-06,IT,Summer Holiday,school,Northern Italy,Saturday,2022,8
+2022-08-06,SI,Summer Holiday,school,,Saturday,2022,8
+2022-08-07,AT,Summer Holiday,school,,Sunday,2022,8
+2022-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,8
+2022-08-07,IT,Summer Holiday,school,Northern Italy,Sunday,2022,8
+2022-08-07,SI,Summer Holiday,school,,Sunday,2022,8
+2022-08-08,AT,Summer Holiday,school,,Monday,2022,8
+2022-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,8
+2022-08-08,IT,Summer Holiday,school,Northern Italy,Monday,2022,8
+2022-08-08,SI,Summer Holiday,school,,Monday,2022,8
+2022-08-09,AT,Summer Holiday,school,,Tuesday,2022,8
+2022-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,8
+2022-08-09,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,8
+2022-08-09,SI,Summer Holiday,school,,Tuesday,2022,8
+2022-08-10,AT,Summer Holiday,school,,Wednesday,2022,8
+2022-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,8
+2022-08-10,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,8
+2022-08-10,SI,Summer Holiday,school,,Wednesday,2022,8
+2022-08-11,AT,Summer Holiday,school,,Thursday,2022,8
+2022-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,8
+2022-08-11,IT,Summer Holiday,school,Northern Italy,Thursday,2022,8
+2022-08-11,SI,Summer Holiday,school,,Thursday,2022,8
+2022-08-12,AT,Summer Holiday,school,,Friday,2022,8
+2022-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,8
+2022-08-12,IT,Summer Holiday,school,Northern Italy,Friday,2022,8
+2022-08-12,SI,Summer Holiday,school,,Friday,2022,8
+2022-08-13,AT,Summer Holiday,school,,Saturday,2022,8
+2022-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,8
+2022-08-13,IT,Summer Holiday,school,Northern Italy,Saturday,2022,8
+2022-08-13,SI,Summer Holiday,school,,Saturday,2022,8
+2022-08-14,AT,Summer Holiday,school,,Sunday,2022,8
+2022-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,8
+2022-08-14,IT,Summer Holiday,school,Northern Italy,Sunday,2022,8
+2022-08-14,SI,Summer Holiday,school,,Sunday,2022,8
+2022-08-15,AT,Assumption of Mary,public,,Monday,2022,8
+2022-08-15,AT,Summer Holiday,school,,Monday,2022,8
+2022-08-15,DE,Assumption of Mary,public,Bavaria,Monday,2022,8
+2022-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,8
+2022-08-15,IT,Ferragosto,public,,Monday,2022,8
+2022-08-15,IT,Summer Holiday,school,Northern Italy,Monday,2022,8
+2022-08-15,SI,Assumption of Mary,public,,Monday,2022,8
+2022-08-15,SI,Summer Holiday,school,,Monday,2022,8
+2022-08-16,AT,Summer Holiday,school,,Tuesday,2022,8
+2022-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,8
+2022-08-16,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,8
+2022-08-16,SI,Summer Holiday,school,,Tuesday,2022,8
+2022-08-17,AT,Summer Holiday,school,,Wednesday,2022,8
+2022-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,8
+2022-08-17,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,8
+2022-08-17,SI,Summer Holiday,school,,Wednesday,2022,8
+2022-08-18,AT,Summer Holiday,school,,Thursday,2022,8
+2022-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,8
+2022-08-18,IT,Summer Holiday,school,Northern Italy,Thursday,2022,8
+2022-08-18,SI,Summer Holiday,school,,Thursday,2022,8
+2022-08-19,AT,Summer Holiday,school,,Friday,2022,8
+2022-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,8
+2022-08-19,IT,Summer Holiday,school,Northern Italy,Friday,2022,8
+2022-08-19,SI,Summer Holiday,school,,Friday,2022,8
+2022-08-20,AT,Summer Holiday,school,,Saturday,2022,8
+2022-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,8
+2022-08-20,IT,Summer Holiday,school,Northern Italy,Saturday,2022,8
+2022-08-20,SI,Summer Holiday,school,,Saturday,2022,8
+2022-08-21,AT,Summer Holiday,school,,Sunday,2022,8
+2022-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,8
+2022-08-21,IT,Summer Holiday,school,Northern Italy,Sunday,2022,8
+2022-08-21,SI,Summer Holiday,school,,Sunday,2022,8
+2022-08-22,AT,Summer Holiday,school,,Monday,2022,8
+2022-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,8
+2022-08-22,IT,Summer Holiday,school,Northern Italy,Monday,2022,8
+2022-08-22,SI,Summer Holiday,school,,Monday,2022,8
+2022-08-23,AT,Summer Holiday,school,,Tuesday,2022,8
+2022-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,8
+2022-08-23,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,8
+2022-08-23,SI,Summer Holiday,school,,Tuesday,2022,8
+2022-08-24,AT,Summer Holiday,school,,Wednesday,2022,8
+2022-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,8
+2022-08-24,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,8
+2022-08-24,SI,Summer Holiday,school,,Wednesday,2022,8
+2022-08-25,AT,Summer Holiday,school,,Thursday,2022,8
+2022-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,8
+2022-08-25,IT,Summer Holiday,school,Northern Italy,Thursday,2022,8
+2022-08-25,SI,Summer Holiday,school,,Thursday,2022,8
+2022-08-26,AT,Summer Holiday,school,,Friday,2022,8
+2022-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,8
+2022-08-26,IT,Summer Holiday,school,Northern Italy,Friday,2022,8
+2022-08-26,SI,Summer Holiday,school,,Friday,2022,8
+2022-08-27,AT,Summer Holiday,school,,Saturday,2022,8
+2022-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,8
+2022-08-27,IT,Summer Holiday,school,Northern Italy,Saturday,2022,8
+2022-08-27,SI,Summer Holiday,school,,Saturday,2022,8
+2022-08-28,AT,Summer Holiday,school,,Sunday,2022,8
+2022-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,8
+2022-08-28,IT,Summer Holiday,school,Northern Italy,Sunday,2022,8
+2022-08-28,SI,Summer Holiday,school,,Sunday,2022,8
+2022-08-29,AT,Summer Holiday,school,,Monday,2022,8
+2022-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,8
+2022-08-29,IT,Summer Holiday,school,Northern Italy,Monday,2022,8
+2022-08-29,SI,Summer Holiday,school,,Monday,2022,8
+2022-08-30,AT,Summer Holiday,school,,Tuesday,2022,8
+2022-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,8
+2022-08-30,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,8
+2022-08-30,SI,Summer Holiday,school,,Tuesday,2022,8
+2022-08-31,AT,Summer Holiday,school,,Wednesday,2022,8
+2022-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,8
+2022-08-31,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,8
+2022-08-31,SI,Summer Holiday,school,,Wednesday,2022,8
+2022-09-01,AT,Summer Holiday,school,,Thursday,2022,9
+2022-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,9
+2022-09-01,IT,Summer Holiday,school,Northern Italy,Thursday,2022,9
+2022-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,9
+2022-09-02,IT,Summer Holiday,school,Northern Italy,Friday,2022,9
+2022-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,9
+2022-09-03,IT,Summer Holiday,school,Northern Italy,Saturday,2022,9
+2022-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,9
+2022-09-04,IT,Summer Holiday,school,Northern Italy,Sunday,2022,9
+2022-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2022,9
+2022-09-05,IT,Summer Holiday,school,Northern Italy,Monday,2022,9
+2022-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2022,9
+2022-09-06,IT,Summer Holiday,school,Northern Italy,Tuesday,2022,9
+2022-09-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2022,9
+2022-09-07,IT,Summer Holiday,school,Northern Italy,Wednesday,2022,9
+2022-09-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2022,9
+2022-09-08,IT,Summer Holiday,school,Northern Italy,Thursday,2022,9
+2022-09-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2022,9
+2022-09-09,IT,Summer Holiday,school,Northern Italy,Friday,2022,9
+2022-09-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2022,9
+2022-09-10,IT,Summer Holiday,school,Northern Italy,Saturday,2022,9
+2022-09-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2022,9
+2022-09-11,IT,Summer Holiday,school,Northern Italy,Sunday,2022,9
+2022-09-12,IT,Summer Holiday,school,Northern Italy,Monday,2022,9
+2022-10-03,DE,German Unity Day,public,,Monday,2022,10
+2022-10-26,AT,National Day,public,,Wednesday,2022,10
+2022-10-31,SI,Reformation Day,public,,Monday,2022,10
+2022-11-01,AT,All Saints' Day,public,,Tuesday,2022,11
+2022-11-01,DE,All Saints' Day,public,Bavaria,Tuesday,2022,11
+2022-11-01,IT,All Saints' Day,public,,Tuesday,2022,11
+2022-11-01,SI,All Saints' Day,public,,Tuesday,2022,11
+2022-12-08,AT,Immaculate Conception,public,,Thursday,2022,12
+2022-12-08,IT,Immaculate Conception,public,,Thursday,2022,12
+2022-12-23,IT,Christmas Holiday,school,,Friday,2022,12
+2022-12-24,IT,Christmas Holiday,school,,Saturday,2022,12
+2022-12-25,AT,Christmas Day,public,,Sunday,2022,12
+2022-12-25,DE,Christmas Day,public,,Sunday,2022,12
+2022-12-25,IT,Christmas Day,public,,Sunday,2022,12
+2022-12-25,IT,Christmas Holiday,school,,Sunday,2022,12
+2022-12-25,SI,Christmas,public,,Sunday,2022,12
+2022-12-26,AT,St. Stephen's Day,public,,Monday,2022,12
+2022-12-26,DE,Boxing Day,public,,Monday,2022,12
+2022-12-26,IT,St. Stephen's Day,public,,Monday,2022,12
+2022-12-26,IT,Christmas Holiday,school,,Monday,2022,12
+2022-12-26,SI,Independence Day,public,,Monday,2022,12
+2022-12-27,IT,Christmas Holiday,school,,Tuesday,2022,12
+2022-12-28,IT,Christmas Holiday,school,,Wednesday,2022,12
+2022-12-29,IT,Christmas Holiday,school,,Thursday,2022,12
+2022-12-30,IT,Christmas Holiday,school,,Friday,2022,12
+2022-12-31,IT,Christmas Holiday,school,,Saturday,2022,12
+2023-01-01,AT,New Year's Day,public,,Sunday,2023,1
+2023-01-01,DE,New Year's Day,public,,Sunday,2023,1
+2023-01-01,IT,Christmas Holiday,school,,Sunday,2023,1
+2023-01-01,IT,New Year's Day,public,,Sunday,2023,1
+2023-01-01,SI,New Year's Day,public,,Sunday,2023,1
+2023-01-02,IT,Christmas Holiday,school,,Monday,2023,1
+2023-01-02,SI,New Year Holiday,public,,Monday,2023,1
+2023-01-03,IT,Christmas Holiday,school,,Tuesday,2023,1
+2023-01-04,IT,Christmas Holiday,school,,Wednesday,2023,1
+2023-01-05,IT,Christmas Holiday,school,,Thursday,2023,1
+2023-01-06,AT,Epiphany,public,,Friday,2023,1
+2023-01-06,DE,Epiphany,public,Bavaria,Friday,2023,1
+2023-01-06,IT,Christmas Holiday,school,,Friday,2023,1
+2023-01-06,IT,Epiphany,public,,Friday,2023,1
+2023-02-08,SI,Prešeren Day,public,,Wednesday,2023,2
+2023-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Wednesday,2023,2
+2023-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Wednesday,2023,2
+2023-04-07,DE,Good Friday,public,,Friday,2023,4
+2023-04-10,AT,Easter Monday,public,,Monday,2023,4
+2023-04-10,DE,Easter Monday,public,,Monday,2023,4
+2023-04-10,IT,Easter Monday,public,,Monday,2023,4
+2023-04-10,SI,Easter Monday,public,,Monday,2023,4
+2023-04-25,IT,Liberation Day,public,,Tuesday,2023,4
+2023-04-27,SI,Day of Uprising,public,,Thursday,2023,4
+2023-05-01,AT,Labour Day,public,,Monday,2023,5
+2023-05-01,DE,Labour Day,public,,Monday,2023,5
+2023-05-01,IT,Labour Day,public,,Monday,2023,5
+2023-05-01,SI,Labour Day,public,,Monday,2023,5
+2023-05-02,SI,Labour Day Holiday,public,,Tuesday,2023,5
+2023-05-18,AT,Ascension Day,public,,Thursday,2023,5
+2023-05-29,AT,Whit Monday,public,,Monday,2023,5
+2023-06-02,IT,Republic Day,public,,Friday,2023,6
+2023-06-08,AT,Corpus Christi,public,,Thursday,2023,6
+2023-06-10,IT,Summer Holiday,school,Northern Italy,Saturday,2023,6
+2023-06-11,IT,Summer Holiday,school,Northern Italy,Sunday,2023,6
+2023-06-12,IT,Summer Holiday,school,Northern Italy,Monday,2023,6
+2023-06-13,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,6
+2023-06-14,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,6
+2023-06-15,IT,Summer Holiday,school,Northern Italy,Thursday,2023,6
+2023-06-16,IT,Summer Holiday,school,Northern Italy,Friday,2023,6
+2023-06-17,IT,Summer Holiday,school,Northern Italy,Saturday,2023,6
+2023-06-18,IT,Summer Holiday,school,Northern Italy,Sunday,2023,6
+2023-06-19,IT,Summer Holiday,school,Northern Italy,Monday,2023,6
+2023-06-20,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,6
+2023-06-21,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,6
+2023-06-22,IT,Summer Holiday,school,Northern Italy,Thursday,2023,6
+2023-06-23,IT,Summer Holiday,school,Northern Italy,Friday,2023,6
+2023-06-24,IT,Summer Holiday,school,Northern Italy,Saturday,2023,6
+2023-06-25,IT,Summer Holiday,school,Northern Italy,Sunday,2023,6
+2023-06-25,SI,Statehood Day,public,,Sunday,2023,6
+2023-06-26,IT,Summer Holiday,school,Northern Italy,Monday,2023,6
+2023-06-27,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,6
+2023-06-28,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,6
+2023-06-29,IT,Summer Holiday,school,Northern Italy,Thursday,2023,6
+2023-06-30,IT,Summer Holiday,school,Northern Italy,Friday,2023,6
+2023-07-01,AT,Summer Holiday,school,,Saturday,2023,7
+2023-07-01,IT,Summer Holiday,school,Northern Italy,Saturday,2023,7
+2023-07-01,SI,Summer Holiday,school,,Saturday,2023,7
+2023-07-02,AT,Summer Holiday,school,,Sunday,2023,7
+2023-07-02,IT,Summer Holiday,school,Northern Italy,Sunday,2023,7
+2023-07-02,SI,Summer Holiday,school,,Sunday,2023,7
+2023-07-03,AT,Summer Holiday,school,,Monday,2023,7
+2023-07-03,IT,Summer Holiday,school,Northern Italy,Monday,2023,7
+2023-07-03,SI,Summer Holiday,school,,Monday,2023,7
+2023-07-04,AT,Summer Holiday,school,,Tuesday,2023,7
+2023-07-04,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,7
+2023-07-04,SI,Summer Holiday,school,,Tuesday,2023,7
+2023-07-05,AT,Summer Holiday,school,,Wednesday,2023,7
+2023-07-05,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,7
+2023-07-05,SI,Summer Holiday,school,,Wednesday,2023,7
+2023-07-06,AT,Summer Holiday,school,,Thursday,2023,7
+2023-07-06,IT,Summer Holiday,school,Northern Italy,Thursday,2023,7
+2023-07-06,SI,Summer Holiday,school,,Thursday,2023,7
+2023-07-07,AT,Summer Holiday,school,,Friday,2023,7
+2023-07-07,IT,Summer Holiday,school,Northern Italy,Friday,2023,7
+2023-07-07,SI,Summer Holiday,school,,Friday,2023,7
+2023-07-08,AT,Summer Holiday,school,,Saturday,2023,7
+2023-07-08,IT,Summer Holiday,school,Northern Italy,Saturday,2023,7
+2023-07-08,SI,Summer Holiday,school,,Saturday,2023,7
+2023-07-09,AT,Summer Holiday,school,,Sunday,2023,7
+2023-07-09,IT,Summer Holiday,school,Northern Italy,Sunday,2023,7
+2023-07-09,SI,Summer Holiday,school,,Sunday,2023,7
+2023-07-10,AT,Summer Holiday,school,,Monday,2023,7
+2023-07-10,IT,Summer Holiday,school,Northern Italy,Monday,2023,7
+2023-07-10,SI,Summer Holiday,school,,Monday,2023,7
+2023-07-11,AT,Summer Holiday,school,,Tuesday,2023,7
+2023-07-11,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,7
+2023-07-11,SI,Summer Holiday,school,,Tuesday,2023,7
+2023-07-12,AT,Summer Holiday,school,,Wednesday,2023,7
+2023-07-12,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,7
+2023-07-12,SI,Summer Holiday,school,,Wednesday,2023,7
+2023-07-13,AT,Summer Holiday,school,,Thursday,2023,7
+2023-07-13,IT,Summer Holiday,school,Northern Italy,Thursday,2023,7
+2023-07-13,SI,Summer Holiday,school,,Thursday,2023,7
+2023-07-14,AT,Summer Holiday,school,,Friday,2023,7
+2023-07-14,IT,Summer Holiday,school,Northern Italy,Friday,2023,7
+2023-07-14,SI,Summer Holiday,school,,Friday,2023,7
+2023-07-15,AT,Summer Holiday,school,,Saturday,2023,7
+2023-07-15,IT,Summer Holiday,school,Northern Italy,Saturday,2023,7
+2023-07-15,SI,Summer Holiday,school,,Saturday,2023,7
+2023-07-16,AT,Summer Holiday,school,,Sunday,2023,7
+2023-07-16,IT,Summer Holiday,school,Northern Italy,Sunday,2023,7
+2023-07-16,SI,Summer Holiday,school,,Sunday,2023,7
+2023-07-17,AT,Summer Holiday,school,,Monday,2023,7
+2023-07-17,IT,Summer Holiday,school,Northern Italy,Monday,2023,7
+2023-07-17,SI,Summer Holiday,school,,Monday,2023,7
+2023-07-18,AT,Summer Holiday,school,,Tuesday,2023,7
+2023-07-18,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,7
+2023-07-18,SI,Summer Holiday,school,,Tuesday,2023,7
+2023-07-19,AT,Summer Holiday,school,,Wednesday,2023,7
+2023-07-19,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,7
+2023-07-19,SI,Summer Holiday,school,,Wednesday,2023,7
+2023-07-20,AT,Summer Holiday,school,,Thursday,2023,7
+2023-07-20,IT,Summer Holiday,school,Northern Italy,Thursday,2023,7
+2023-07-20,SI,Summer Holiday,school,,Thursday,2023,7
+2023-07-21,AT,Summer Holiday,school,,Friday,2023,7
+2023-07-21,IT,Summer Holiday,school,Northern Italy,Friday,2023,7
+2023-07-21,SI,Summer Holiday,school,,Friday,2023,7
+2023-07-22,AT,Summer Holiday,school,,Saturday,2023,7
+2023-07-22,IT,Summer Holiday,school,Northern Italy,Saturday,2023,7
+2023-07-22,SI,Summer Holiday,school,,Saturday,2023,7
+2023-07-23,AT,Summer Holiday,school,,Sunday,2023,7
+2023-07-23,IT,Summer Holiday,school,Northern Italy,Sunday,2023,7
+2023-07-23,SI,Summer Holiday,school,,Sunday,2023,7
+2023-07-24,AT,Summer Holiday,school,,Monday,2023,7
+2023-07-24,IT,Summer Holiday,school,Northern Italy,Monday,2023,7
+2023-07-24,SI,Summer Holiday,school,,Monday,2023,7
+2023-07-25,AT,Summer Holiday,school,,Tuesday,2023,7
+2023-07-25,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,7
+2023-07-25,SI,Summer Holiday,school,,Tuesday,2023,7
+2023-07-26,AT,Summer Holiday,school,,Wednesday,2023,7
+2023-07-26,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,7
+2023-07-26,SI,Summer Holiday,school,,Wednesday,2023,7
+2023-07-27,AT,Summer Holiday,school,,Thursday,2023,7
+2023-07-27,IT,Summer Holiday,school,Northern Italy,Thursday,2023,7
+2023-07-27,SI,Summer Holiday,school,,Thursday,2023,7
+2023-07-28,AT,Summer Holiday,school,,Friday,2023,7
+2023-07-28,IT,Summer Holiday,school,Northern Italy,Friday,2023,7
+2023-07-28,SI,Summer Holiday,school,,Friday,2023,7
+2023-07-29,AT,Summer Holiday,school,,Saturday,2023,7
+2023-07-29,IT,Summer Holiday,school,Northern Italy,Saturday,2023,7
+2023-07-29,SI,Summer Holiday,school,,Saturday,2023,7
+2023-07-30,AT,Summer Holiday,school,,Sunday,2023,7
+2023-07-30,IT,Summer Holiday,school,Northern Italy,Sunday,2023,7
+2023-07-30,SI,Summer Holiday,school,,Sunday,2023,7
+2023-07-31,AT,Summer Holiday,school,,Monday,2023,7
+2023-07-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,7
+2023-07-31,IT,Summer Holiday,school,Northern Italy,Monday,2023,7
+2023-07-31,SI,Summer Holiday,school,,Monday,2023,7
+2023-08-01,AT,Summer Holiday,school,,Tuesday,2023,8
+2023-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,8
+2023-08-01,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,8
+2023-08-01,SI,Summer Holiday,school,,Tuesday,2023,8
+2023-08-02,AT,Summer Holiday,school,,Wednesday,2023,8
+2023-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,8
+2023-08-02,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,8
+2023-08-02,SI,Summer Holiday,school,,Wednesday,2023,8
+2023-08-03,AT,Summer Holiday,school,,Thursday,2023,8
+2023-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,8
+2023-08-03,IT,Summer Holiday,school,Northern Italy,Thursday,2023,8
+2023-08-03,SI,Summer Holiday,school,,Thursday,2023,8
+2023-08-04,AT,Summer Holiday,school,,Friday,2023,8
+2023-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,8
+2023-08-04,IT,Summer Holiday,school,Northern Italy,Friday,2023,8
+2023-08-04,SI,Summer Holiday,school,,Friday,2023,8
+2023-08-05,AT,Summer Holiday,school,,Saturday,2023,8
+2023-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,8
+2023-08-05,IT,Summer Holiday,school,Northern Italy,Saturday,2023,8
+2023-08-05,SI,Summer Holiday,school,,Saturday,2023,8
+2023-08-06,AT,Summer Holiday,school,,Sunday,2023,8
+2023-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,8
+2023-08-06,IT,Summer Holiday,school,Northern Italy,Sunday,2023,8
+2023-08-06,SI,Summer Holiday,school,,Sunday,2023,8
+2023-08-07,AT,Summer Holiday,school,,Monday,2023,8
+2023-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,8
+2023-08-07,IT,Summer Holiday,school,Northern Italy,Monday,2023,8
+2023-08-07,SI,Summer Holiday,school,,Monday,2023,8
+2023-08-08,AT,Summer Holiday,school,,Tuesday,2023,8
+2023-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,8
+2023-08-08,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,8
+2023-08-08,SI,Summer Holiday,school,,Tuesday,2023,8
+2023-08-09,AT,Summer Holiday,school,,Wednesday,2023,8
+2023-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,8
+2023-08-09,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,8
+2023-08-09,SI,Summer Holiday,school,,Wednesday,2023,8
+2023-08-10,AT,Summer Holiday,school,,Thursday,2023,8
+2023-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,8
+2023-08-10,IT,Summer Holiday,school,Northern Italy,Thursday,2023,8
+2023-08-10,SI,Summer Holiday,school,,Thursday,2023,8
+2023-08-11,AT,Summer Holiday,school,,Friday,2023,8
+2023-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,8
+2023-08-11,IT,Summer Holiday,school,Northern Italy,Friday,2023,8
+2023-08-11,SI,Summer Holiday,school,,Friday,2023,8
+2023-08-12,AT,Summer Holiday,school,,Saturday,2023,8
+2023-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,8
+2023-08-12,IT,Summer Holiday,school,Northern Italy,Saturday,2023,8
+2023-08-12,SI,Summer Holiday,school,,Saturday,2023,8
+2023-08-13,AT,Summer Holiday,school,,Sunday,2023,8
+2023-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,8
+2023-08-13,IT,Summer Holiday,school,Northern Italy,Sunday,2023,8
+2023-08-13,SI,Summer Holiday,school,,Sunday,2023,8
+2023-08-14,AT,Summer Holiday,school,,Monday,2023,8
+2023-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,8
+2023-08-14,IT,Summer Holiday,school,Northern Italy,Monday,2023,8
+2023-08-14,SI,Summer Holiday,school,,Monday,2023,8
+2023-08-15,AT,Assumption of Mary,public,,Tuesday,2023,8
+2023-08-15,AT,Summer Holiday,school,,Tuesday,2023,8
+2023-08-15,DE,Assumption of Mary,public,Bavaria,Tuesday,2023,8
+2023-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,8
+2023-08-15,IT,Ferragosto,public,,Tuesday,2023,8
+2023-08-15,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,8
+2023-08-15,SI,Assumption of Mary,public,,Tuesday,2023,8
+2023-08-15,SI,Summer Holiday,school,,Tuesday,2023,8
+2023-08-16,AT,Summer Holiday,school,,Wednesday,2023,8
+2023-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,8
+2023-08-16,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,8
+2023-08-16,SI,Summer Holiday,school,,Wednesday,2023,8
+2023-08-17,AT,Summer Holiday,school,,Thursday,2023,8
+2023-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,8
+2023-08-17,IT,Summer Holiday,school,Northern Italy,Thursday,2023,8
+2023-08-17,SI,Summer Holiday,school,,Thursday,2023,8
+2023-08-18,AT,Summer Holiday,school,,Friday,2023,8
+2023-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,8
+2023-08-18,IT,Summer Holiday,school,Northern Italy,Friday,2023,8
+2023-08-18,SI,Summer Holiday,school,,Friday,2023,8
+2023-08-19,AT,Summer Holiday,school,,Saturday,2023,8
+2023-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,8
+2023-08-19,IT,Summer Holiday,school,Northern Italy,Saturday,2023,8
+2023-08-19,SI,Summer Holiday,school,,Saturday,2023,8
+2023-08-20,AT,Summer Holiday,school,,Sunday,2023,8
+2023-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,8
+2023-08-20,IT,Summer Holiday,school,Northern Italy,Sunday,2023,8
+2023-08-20,SI,Summer Holiday,school,,Sunday,2023,8
+2023-08-21,AT,Summer Holiday,school,,Monday,2023,8
+2023-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,8
+2023-08-21,IT,Summer Holiday,school,Northern Italy,Monday,2023,8
+2023-08-21,SI,Summer Holiday,school,,Monday,2023,8
+2023-08-22,AT,Summer Holiday,school,,Tuesday,2023,8
+2023-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,8
+2023-08-22,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,8
+2023-08-22,SI,Summer Holiday,school,,Tuesday,2023,8
+2023-08-23,AT,Summer Holiday,school,,Wednesday,2023,8
+2023-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,8
+2023-08-23,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,8
+2023-08-23,SI,Summer Holiday,school,,Wednesday,2023,8
+2023-08-24,AT,Summer Holiday,school,,Thursday,2023,8
+2023-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,8
+2023-08-24,IT,Summer Holiday,school,Northern Italy,Thursday,2023,8
+2023-08-24,SI,Summer Holiday,school,,Thursday,2023,8
+2023-08-25,AT,Summer Holiday,school,,Friday,2023,8
+2023-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,8
+2023-08-25,IT,Summer Holiday,school,Northern Italy,Friday,2023,8
+2023-08-25,SI,Summer Holiday,school,,Friday,2023,8
+2023-08-26,AT,Summer Holiday,school,,Saturday,2023,8
+2023-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,8
+2023-08-26,IT,Summer Holiday,school,Northern Italy,Saturday,2023,8
+2023-08-26,SI,Summer Holiday,school,,Saturday,2023,8
+2023-08-27,AT,Summer Holiday,school,,Sunday,2023,8
+2023-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,8
+2023-08-27,IT,Summer Holiday,school,Northern Italy,Sunday,2023,8
+2023-08-27,SI,Summer Holiday,school,,Sunday,2023,8
+2023-08-28,AT,Summer Holiday,school,,Monday,2023,8
+2023-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,8
+2023-08-28,IT,Summer Holiday,school,Northern Italy,Monday,2023,8
+2023-08-28,SI,Summer Holiday,school,,Monday,2023,8
+2023-08-29,AT,Summer Holiday,school,,Tuesday,2023,8
+2023-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,8
+2023-08-29,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,8
+2023-08-29,SI,Summer Holiday,school,,Tuesday,2023,8
+2023-08-30,AT,Summer Holiday,school,,Wednesday,2023,8
+2023-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,8
+2023-08-30,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,8
+2023-08-30,SI,Summer Holiday,school,,Wednesday,2023,8
+2023-08-31,AT,Summer Holiday,school,,Thursday,2023,8
+2023-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,8
+2023-08-31,IT,Summer Holiday,school,Northern Italy,Thursday,2023,8
+2023-08-31,SI,Summer Holiday,school,,Thursday,2023,8
+2023-09-01,AT,Summer Holiday,school,,Friday,2023,9
+2023-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,9
+2023-09-01,IT,Summer Holiday,school,Northern Italy,Friday,2023,9
+2023-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,9
+2023-09-02,IT,Summer Holiday,school,Northern Italy,Saturday,2023,9
+2023-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,9
+2023-09-03,IT,Summer Holiday,school,Northern Italy,Sunday,2023,9
+2023-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2023,9
+2023-09-04,IT,Summer Holiday,school,Northern Italy,Monday,2023,9
+2023-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2023,9
+2023-09-05,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,9
+2023-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2023,9
+2023-09-06,IT,Summer Holiday,school,Northern Italy,Wednesday,2023,9
+2023-09-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2023,9
+2023-09-07,IT,Summer Holiday,school,Northern Italy,Thursday,2023,9
+2023-09-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2023,9
+2023-09-08,IT,Summer Holiday,school,Northern Italy,Friday,2023,9
+2023-09-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2023,9
+2023-09-09,IT,Summer Holiday,school,Northern Italy,Saturday,2023,9
+2023-09-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2023,9
+2023-09-10,IT,Summer Holiday,school,Northern Italy,Sunday,2023,9
+2023-09-11,IT,Summer Holiday,school,Northern Italy,Monday,2023,9
+2023-09-12,IT,Summer Holiday,school,Northern Italy,Tuesday,2023,9
+2023-10-03,DE,German Unity Day,public,,Tuesday,2023,10
+2023-10-26,AT,National Day,public,,Thursday,2023,10
+2023-10-31,SI,Reformation Day,public,,Tuesday,2023,10
+2023-11-01,AT,All Saints' Day,public,,Wednesday,2023,11
+2023-11-01,DE,All Saints' Day,public,Bavaria,Wednesday,2023,11
+2023-11-01,IT,All Saints' Day,public,,Wednesday,2023,11
+2023-11-01,SI,All Saints' Day,public,,Wednesday,2023,11
+2023-12-08,AT,Immaculate Conception,public,,Friday,2023,12
+2023-12-08,IT,Immaculate Conception,public,,Friday,2023,12
+2023-12-23,IT,Christmas Holiday,school,,Saturday,2023,12
+2023-12-24,IT,Christmas Holiday,school,,Sunday,2023,12
+2023-12-25,AT,Christmas Day,public,,Monday,2023,12
+2023-12-25,DE,Christmas Day,public,,Monday,2023,12
+2023-12-25,IT,Christmas Day,public,,Monday,2023,12
+2023-12-25,IT,Christmas Holiday,school,,Monday,2023,12
+2023-12-25,SI,Christmas,public,,Monday,2023,12
+2023-12-26,AT,St. Stephen's Day,public,,Tuesday,2023,12
+2023-12-26,DE,Boxing Day,public,,Tuesday,2023,12
+2023-12-26,IT,St. Stephen's Day,public,,Tuesday,2023,12
+2023-12-26,IT,Christmas Holiday,school,,Tuesday,2023,12
+2023-12-26,SI,Independence Day,public,,Tuesday,2023,12
+2023-12-27,IT,Christmas Holiday,school,,Wednesday,2023,12
+2023-12-28,IT,Christmas Holiday,school,,Thursday,2023,12
+2023-12-29,IT,Christmas Holiday,school,,Friday,2023,12
+2023-12-30,IT,Christmas Holiday,school,,Saturday,2023,12
+2023-12-31,IT,Christmas Holiday,school,,Sunday,2023,12
+2024-01-01,AT,New Year's Day,public,,Monday,2024,1
+2024-01-01,DE,New Year's Day,public,,Monday,2024,1
+2024-01-01,IT,Christmas Holiday,school,,Monday,2024,1
+2024-01-01,IT,New Year's Day,public,,Monday,2024,1
+2024-01-01,SI,New Year's Day,public,,Monday,2024,1
+2024-01-02,IT,Christmas Holiday,school,,Tuesday,2024,1
+2024-01-02,SI,New Year Holiday,public,,Tuesday,2024,1
+2024-01-03,IT,Christmas Holiday,school,,Wednesday,2024,1
+2024-01-04,IT,Christmas Holiday,school,,Thursday,2024,1
+2024-01-05,IT,Christmas Holiday,school,,Friday,2024,1
+2024-01-06,AT,Epiphany,public,,Saturday,2024,1
+2024-01-06,DE,Epiphany,public,Bavaria,Saturday,2024,1
+2024-01-06,IT,Christmas Holiday,school,,Saturday,2024,1
+2024-01-06,IT,Epiphany,public,,Saturday,2024,1
+2024-02-08,SI,Prešeren Day,public,,Thursday,2024,2
+2024-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Thursday,2024,2
+2024-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Thursday,2024,2
+2024-03-29,DE,Good Friday,public,,Friday,2024,3
+2024-04-01,AT,Easter Monday,public,,Monday,2024,4
+2024-04-01,DE,Easter Monday,public,,Monday,2024,4
+2024-04-01,IT,Easter Monday,public,,Monday,2024,4
+2024-04-01,SI,Easter Monday,public,,Monday,2024,4
+2024-04-25,IT,Liberation Day,public,,Thursday,2024,4
+2024-04-27,SI,Day of Uprising,public,,Saturday,2024,4
+2024-05-01,AT,Labour Day,public,,Wednesday,2024,5
+2024-05-01,DE,Labour Day,public,,Wednesday,2024,5
+2024-05-01,IT,Labour Day,public,,Wednesday,2024,5
+2024-05-01,SI,Labour Day,public,,Wednesday,2024,5
+2024-05-02,SI,Labour Day Holiday,public,,Thursday,2024,5
+2024-05-09,AT,Ascension Day,public,,Thursday,2024,5
+2024-05-20,AT,Whit Monday,public,,Monday,2024,5
+2024-05-30,AT,Corpus Christi,public,,Thursday,2024,5
+2024-06-02,IT,Republic Day,public,,Sunday,2024,6
+2024-06-10,IT,Summer Holiday,school,Northern Italy,Monday,2024,6
+2024-06-11,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,6
+2024-06-12,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,6
+2024-06-13,IT,Summer Holiday,school,Northern Italy,Thursday,2024,6
+2024-06-14,IT,Summer Holiday,school,Northern Italy,Friday,2024,6
+2024-06-15,IT,Summer Holiday,school,Northern Italy,Saturday,2024,6
+2024-06-16,IT,Summer Holiday,school,Northern Italy,Sunday,2024,6
+2024-06-17,IT,Summer Holiday,school,Northern Italy,Monday,2024,6
+2024-06-18,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,6
+2024-06-19,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,6
+2024-06-20,IT,Summer Holiday,school,Northern Italy,Thursday,2024,6
+2024-06-21,IT,Summer Holiday,school,Northern Italy,Friday,2024,6
+2024-06-22,IT,Summer Holiday,school,Northern Italy,Saturday,2024,6
+2024-06-23,IT,Summer Holiday,school,Northern Italy,Sunday,2024,6
+2024-06-24,IT,Summer Holiday,school,Northern Italy,Monday,2024,6
+2024-06-25,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,6
+2024-06-25,SI,Statehood Day,public,,Tuesday,2024,6
+2024-06-26,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,6
+2024-06-27,IT,Summer Holiday,school,Northern Italy,Thursday,2024,6
+2024-06-28,IT,Summer Holiday,school,Northern Italy,Friday,2024,6
+2024-06-29,IT,Summer Holiday,school,Northern Italy,Saturday,2024,6
+2024-06-30,IT,Summer Holiday,school,Northern Italy,Sunday,2024,6
+2024-07-01,AT,Summer Holiday,school,,Monday,2024,7
+2024-07-01,IT,Summer Holiday,school,Northern Italy,Monday,2024,7
+2024-07-01,SI,Summer Holiday,school,,Monday,2024,7
+2024-07-02,AT,Summer Holiday,school,,Tuesday,2024,7
+2024-07-02,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,7
+2024-07-02,SI,Summer Holiday,school,,Tuesday,2024,7
+2024-07-03,AT,Summer Holiday,school,,Wednesday,2024,7
+2024-07-03,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,7
+2024-07-03,SI,Summer Holiday,school,,Wednesday,2024,7
+2024-07-04,AT,Summer Holiday,school,,Thursday,2024,7
+2024-07-04,IT,Summer Holiday,school,Northern Italy,Thursday,2024,7
+2024-07-04,SI,Summer Holiday,school,,Thursday,2024,7
+2024-07-05,AT,Summer Holiday,school,,Friday,2024,7
+2024-07-05,IT,Summer Holiday,school,Northern Italy,Friday,2024,7
+2024-07-05,SI,Summer Holiday,school,,Friday,2024,7
+2024-07-06,AT,Summer Holiday,school,,Saturday,2024,7
+2024-07-06,IT,Summer Holiday,school,Northern Italy,Saturday,2024,7
+2024-07-06,SI,Summer Holiday,school,,Saturday,2024,7
+2024-07-07,AT,Summer Holiday,school,,Sunday,2024,7
+2024-07-07,IT,Summer Holiday,school,Northern Italy,Sunday,2024,7
+2024-07-07,SI,Summer Holiday,school,,Sunday,2024,7
+2024-07-08,AT,Summer Holiday,school,,Monday,2024,7
+2024-07-08,IT,Summer Holiday,school,Northern Italy,Monday,2024,7
+2024-07-08,SI,Summer Holiday,school,,Monday,2024,7
+2024-07-09,AT,Summer Holiday,school,,Tuesday,2024,7
+2024-07-09,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,7
+2024-07-09,SI,Summer Holiday,school,,Tuesday,2024,7
+2024-07-10,AT,Summer Holiday,school,,Wednesday,2024,7
+2024-07-10,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,7
+2024-07-10,SI,Summer Holiday,school,,Wednesday,2024,7
+2024-07-11,AT,Summer Holiday,school,,Thursday,2024,7
+2024-07-11,IT,Summer Holiday,school,Northern Italy,Thursday,2024,7
+2024-07-11,SI,Summer Holiday,school,,Thursday,2024,7
+2024-07-12,AT,Summer Holiday,school,,Friday,2024,7
+2024-07-12,IT,Summer Holiday,school,Northern Italy,Friday,2024,7
+2024-07-12,SI,Summer Holiday,school,,Friday,2024,7
+2024-07-13,AT,Summer Holiday,school,,Saturday,2024,7
+2024-07-13,IT,Summer Holiday,school,Northern Italy,Saturday,2024,7
+2024-07-13,SI,Summer Holiday,school,,Saturday,2024,7
+2024-07-14,AT,Summer Holiday,school,,Sunday,2024,7
+2024-07-14,IT,Summer Holiday,school,Northern Italy,Sunday,2024,7
+2024-07-14,SI,Summer Holiday,school,,Sunday,2024,7
+2024-07-15,AT,Summer Holiday,school,,Monday,2024,7
+2024-07-15,IT,Summer Holiday,school,Northern Italy,Monday,2024,7
+2024-07-15,SI,Summer Holiday,school,,Monday,2024,7
+2024-07-16,AT,Summer Holiday,school,,Tuesday,2024,7
+2024-07-16,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,7
+2024-07-16,SI,Summer Holiday,school,,Tuesday,2024,7
+2024-07-17,AT,Summer Holiday,school,,Wednesday,2024,7
+2024-07-17,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,7
+2024-07-17,SI,Summer Holiday,school,,Wednesday,2024,7
+2024-07-18,AT,Summer Holiday,school,,Thursday,2024,7
+2024-07-18,IT,Summer Holiday,school,Northern Italy,Thursday,2024,7
+2024-07-18,SI,Summer Holiday,school,,Thursday,2024,7
+2024-07-19,AT,Summer Holiday,school,,Friday,2024,7
+2024-07-19,IT,Summer Holiday,school,Northern Italy,Friday,2024,7
+2024-07-19,SI,Summer Holiday,school,,Friday,2024,7
+2024-07-20,AT,Summer Holiday,school,,Saturday,2024,7
+2024-07-20,IT,Summer Holiday,school,Northern Italy,Saturday,2024,7
+2024-07-20,SI,Summer Holiday,school,,Saturday,2024,7
+2024-07-21,AT,Summer Holiday,school,,Sunday,2024,7
+2024-07-21,IT,Summer Holiday,school,Northern Italy,Sunday,2024,7
+2024-07-21,SI,Summer Holiday,school,,Sunday,2024,7
+2024-07-22,AT,Summer Holiday,school,,Monday,2024,7
+2024-07-22,IT,Summer Holiday,school,Northern Italy,Monday,2024,7
+2024-07-22,SI,Summer Holiday,school,,Monday,2024,7
+2024-07-23,AT,Summer Holiday,school,,Tuesday,2024,7
+2024-07-23,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,7
+2024-07-23,SI,Summer Holiday,school,,Tuesday,2024,7
+2024-07-24,AT,Summer Holiday,school,,Wednesday,2024,7
+2024-07-24,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,7
+2024-07-24,SI,Summer Holiday,school,,Wednesday,2024,7
+2024-07-25,AT,Summer Holiday,school,,Thursday,2024,7
+2024-07-25,IT,Summer Holiday,school,Northern Italy,Thursday,2024,7
+2024-07-25,SI,Summer Holiday,school,,Thursday,2024,7
+2024-07-26,AT,Summer Holiday,school,,Friday,2024,7
+2024-07-26,IT,Summer Holiday,school,Northern Italy,Friday,2024,7
+2024-07-26,SI,Summer Holiday,school,,Friday,2024,7
+2024-07-27,AT,Summer Holiday,school,,Saturday,2024,7
+2024-07-27,IT,Summer Holiday,school,Northern Italy,Saturday,2024,7
+2024-07-27,SI,Summer Holiday,school,,Saturday,2024,7
+2024-07-28,AT,Summer Holiday,school,,Sunday,2024,7
+2024-07-28,IT,Summer Holiday,school,Northern Italy,Sunday,2024,7
+2024-07-28,SI,Summer Holiday,school,,Sunday,2024,7
+2024-07-29,AT,Summer Holiday,school,,Monday,2024,7
+2024-07-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,7
+2024-07-29,IT,Summer Holiday,school,Northern Italy,Monday,2024,7
+2024-07-29,SI,Summer Holiday,school,,Monday,2024,7
+2024-07-30,AT,Summer Holiday,school,,Tuesday,2024,7
+2024-07-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,7
+2024-07-30,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,7
+2024-07-30,SI,Summer Holiday,school,,Tuesday,2024,7
+2024-07-31,AT,Summer Holiday,school,,Wednesday,2024,7
+2024-07-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,7
+2024-07-31,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,7
+2024-07-31,SI,Summer Holiday,school,,Wednesday,2024,7
+2024-08-01,AT,Summer Holiday,school,,Thursday,2024,8
+2024-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,8
+2024-08-01,IT,Summer Holiday,school,Northern Italy,Thursday,2024,8
+2024-08-01,SI,Summer Holiday,school,,Thursday,2024,8
+2024-08-02,AT,Summer Holiday,school,,Friday,2024,8
+2024-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,8
+2024-08-02,IT,Summer Holiday,school,Northern Italy,Friday,2024,8
+2024-08-02,SI,Summer Holiday,school,,Friday,2024,8
+2024-08-03,AT,Summer Holiday,school,,Saturday,2024,8
+2024-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,8
+2024-08-03,IT,Summer Holiday,school,Northern Italy,Saturday,2024,8
+2024-08-03,SI,Summer Holiday,school,,Saturday,2024,8
+2024-08-04,AT,Summer Holiday,school,,Sunday,2024,8
+2024-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,8
+2024-08-04,IT,Summer Holiday,school,Northern Italy,Sunday,2024,8
+2024-08-04,SI,Summer Holiday,school,,Sunday,2024,8
+2024-08-05,AT,Summer Holiday,school,,Monday,2024,8
+2024-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,8
+2024-08-05,IT,Summer Holiday,school,Northern Italy,Monday,2024,8
+2024-08-05,SI,Summer Holiday,school,,Monday,2024,8
+2024-08-06,AT,Summer Holiday,school,,Tuesday,2024,8
+2024-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,8
+2024-08-06,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,8
+2024-08-06,SI,Summer Holiday,school,,Tuesday,2024,8
+2024-08-07,AT,Summer Holiday,school,,Wednesday,2024,8
+2024-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,8
+2024-08-07,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,8
+2024-08-07,SI,Summer Holiday,school,,Wednesday,2024,8
+2024-08-08,AT,Summer Holiday,school,,Thursday,2024,8
+2024-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,8
+2024-08-08,IT,Summer Holiday,school,Northern Italy,Thursday,2024,8
+2024-08-08,SI,Summer Holiday,school,,Thursday,2024,8
+2024-08-09,AT,Summer Holiday,school,,Friday,2024,8
+2024-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,8
+2024-08-09,IT,Summer Holiday,school,Northern Italy,Friday,2024,8
+2024-08-09,SI,Summer Holiday,school,,Friday,2024,8
+2024-08-10,AT,Summer Holiday,school,,Saturday,2024,8
+2024-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,8
+2024-08-10,IT,Summer Holiday,school,Northern Italy,Saturday,2024,8
+2024-08-10,SI,Summer Holiday,school,,Saturday,2024,8
+2024-08-11,AT,Summer Holiday,school,,Sunday,2024,8
+2024-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,8
+2024-08-11,IT,Summer Holiday,school,Northern Italy,Sunday,2024,8
+2024-08-11,SI,Summer Holiday,school,,Sunday,2024,8
+2024-08-12,AT,Summer Holiday,school,,Monday,2024,8
+2024-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,8
+2024-08-12,IT,Summer Holiday,school,Northern Italy,Monday,2024,8
+2024-08-12,SI,Summer Holiday,school,,Monday,2024,8
+2024-08-13,AT,Summer Holiday,school,,Tuesday,2024,8
+2024-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,8
+2024-08-13,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,8
+2024-08-13,SI,Summer Holiday,school,,Tuesday,2024,8
+2024-08-14,AT,Summer Holiday,school,,Wednesday,2024,8
+2024-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,8
+2024-08-14,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,8
+2024-08-14,SI,Summer Holiday,school,,Wednesday,2024,8
+2024-08-15,AT,Assumption of Mary,public,,Thursday,2024,8
+2024-08-15,AT,Summer Holiday,school,,Thursday,2024,8
+2024-08-15,DE,Assumption of Mary,public,Bavaria,Thursday,2024,8
+2024-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,8
+2024-08-15,IT,Ferragosto,public,,Thursday,2024,8
+2024-08-15,IT,Summer Holiday,school,Northern Italy,Thursday,2024,8
+2024-08-15,SI,Assumption of Mary,public,,Thursday,2024,8
+2024-08-15,SI,Summer Holiday,school,,Thursday,2024,8
+2024-08-16,AT,Summer Holiday,school,,Friday,2024,8
+2024-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,8
+2024-08-16,IT,Summer Holiday,school,Northern Italy,Friday,2024,8
+2024-08-16,SI,Summer Holiday,school,,Friday,2024,8
+2024-08-17,AT,Summer Holiday,school,,Saturday,2024,8
+2024-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,8
+2024-08-17,IT,Summer Holiday,school,Northern Italy,Saturday,2024,8
+2024-08-17,SI,Summer Holiday,school,,Saturday,2024,8
+2024-08-18,AT,Summer Holiday,school,,Sunday,2024,8
+2024-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,8
+2024-08-18,IT,Summer Holiday,school,Northern Italy,Sunday,2024,8
+2024-08-18,SI,Summer Holiday,school,,Sunday,2024,8
+2024-08-19,AT,Summer Holiday,school,,Monday,2024,8
+2024-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,8
+2024-08-19,IT,Summer Holiday,school,Northern Italy,Monday,2024,8
+2024-08-19,SI,Summer Holiday,school,,Monday,2024,8
+2024-08-20,AT,Summer Holiday,school,,Tuesday,2024,8
+2024-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,8
+2024-08-20,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,8
+2024-08-20,SI,Summer Holiday,school,,Tuesday,2024,8
+2024-08-21,AT,Summer Holiday,school,,Wednesday,2024,8
+2024-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,8
+2024-08-21,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,8
+2024-08-21,SI,Summer Holiday,school,,Wednesday,2024,8
+2024-08-22,AT,Summer Holiday,school,,Thursday,2024,8
+2024-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,8
+2024-08-22,IT,Summer Holiday,school,Northern Italy,Thursday,2024,8
+2024-08-22,SI,Summer Holiday,school,,Thursday,2024,8
+2024-08-23,AT,Summer Holiday,school,,Friday,2024,8
+2024-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,8
+2024-08-23,IT,Summer Holiday,school,Northern Italy,Friday,2024,8
+2024-08-23,SI,Summer Holiday,school,,Friday,2024,8
+2024-08-24,AT,Summer Holiday,school,,Saturday,2024,8
+2024-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,8
+2024-08-24,IT,Summer Holiday,school,Northern Italy,Saturday,2024,8
+2024-08-24,SI,Summer Holiday,school,,Saturday,2024,8
+2024-08-25,AT,Summer Holiday,school,,Sunday,2024,8
+2024-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,8
+2024-08-25,IT,Summer Holiday,school,Northern Italy,Sunday,2024,8
+2024-08-25,SI,Summer Holiday,school,,Sunday,2024,8
+2024-08-26,AT,Summer Holiday,school,,Monday,2024,8
+2024-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,8
+2024-08-26,IT,Summer Holiday,school,Northern Italy,Monday,2024,8
+2024-08-26,SI,Summer Holiday,school,,Monday,2024,8
+2024-08-27,AT,Summer Holiday,school,,Tuesday,2024,8
+2024-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,8
+2024-08-27,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,8
+2024-08-27,SI,Summer Holiday,school,,Tuesday,2024,8
+2024-08-28,AT,Summer Holiday,school,,Wednesday,2024,8
+2024-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,8
+2024-08-28,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,8
+2024-08-28,SI,Summer Holiday,school,,Wednesday,2024,8
+2024-08-29,AT,Summer Holiday,school,,Thursday,2024,8
+2024-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,8
+2024-08-29,IT,Summer Holiday,school,Northern Italy,Thursday,2024,8
+2024-08-29,SI,Summer Holiday,school,,Thursday,2024,8
+2024-08-30,AT,Summer Holiday,school,,Friday,2024,8
+2024-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,8
+2024-08-30,IT,Summer Holiday,school,Northern Italy,Friday,2024,8
+2024-08-30,SI,Summer Holiday,school,,Friday,2024,8
+2024-08-31,AT,Summer Holiday,school,,Saturday,2024,8
+2024-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,8
+2024-08-31,IT,Summer Holiday,school,Northern Italy,Saturday,2024,8
+2024-08-31,SI,Summer Holiday,school,,Saturday,2024,8
+2024-09-01,AT,Summer Holiday,school,,Sunday,2024,9
+2024-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,9
+2024-09-01,IT,Summer Holiday,school,Northern Italy,Sunday,2024,9
+2024-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2024,9
+2024-09-02,IT,Summer Holiday,school,Northern Italy,Monday,2024,9
+2024-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2024,9
+2024-09-03,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,9
+2024-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2024,9
+2024-09-04,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,9
+2024-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2024,9
+2024-09-05,IT,Summer Holiday,school,Northern Italy,Thursday,2024,9
+2024-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2024,9
+2024-09-06,IT,Summer Holiday,school,Northern Italy,Friday,2024,9
+2024-09-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2024,9
+2024-09-07,IT,Summer Holiday,school,Northern Italy,Saturday,2024,9
+2024-09-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2024,9
+2024-09-08,IT,Summer Holiday,school,Northern Italy,Sunday,2024,9
+2024-09-09,IT,Summer Holiday,school,Northern Italy,Monday,2024,9
+2024-09-10,IT,Summer Holiday,school,Northern Italy,Tuesday,2024,9
+2024-09-11,IT,Summer Holiday,school,Northern Italy,Wednesday,2024,9
+2024-09-12,IT,Summer Holiday,school,Northern Italy,Thursday,2024,9
+2024-10-03,DE,German Unity Day,public,,Thursday,2024,10
+2024-10-26,AT,National Day,public,,Saturday,2024,10
+2024-10-31,SI,Reformation Day,public,,Thursday,2024,10
+2024-11-01,AT,All Saints' Day,public,,Friday,2024,11
+2024-11-01,DE,All Saints' Day,public,Bavaria,Friday,2024,11
+2024-11-01,IT,All Saints' Day,public,,Friday,2024,11
+2024-11-01,SI,All Saints' Day,public,,Friday,2024,11
+2024-12-08,AT,Immaculate Conception,public,,Sunday,2024,12
+2024-12-08,IT,Immaculate Conception,public,,Sunday,2024,12
+2024-12-23,IT,Christmas Holiday,school,,Monday,2024,12
+2024-12-24,IT,Christmas Holiday,school,,Tuesday,2024,12
+2024-12-25,AT,Christmas Day,public,,Wednesday,2024,12
+2024-12-25,DE,Christmas Day,public,,Wednesday,2024,12
+2024-12-25,IT,Christmas Day,public,,Wednesday,2024,12
+2024-12-25,IT,Christmas Holiday,school,,Wednesday,2024,12
+2024-12-25,SI,Christmas,public,,Wednesday,2024,12
+2024-12-26,AT,St. Stephen's Day,public,,Thursday,2024,12
+2024-12-26,DE,Boxing Day,public,,Thursday,2024,12
+2024-12-26,IT,St. Stephen's Day,public,,Thursday,2024,12
+2024-12-26,IT,Christmas Holiday,school,,Thursday,2024,12
+2024-12-26,SI,Independence Day,public,,Thursday,2024,12
+2024-12-27,IT,Christmas Holiday,school,,Friday,2024,12
+2024-12-28,IT,Christmas Holiday,school,,Saturday,2024,12
+2024-12-29,IT,Christmas Holiday,school,,Sunday,2024,12
+2024-12-30,IT,Christmas Holiday,school,,Monday,2024,12
+2024-12-31,IT,Christmas Holiday,school,,Tuesday,2024,12
+2025-01-01,AT,New Year's Day,public,,Wednesday,2025,1
+2025-01-01,DE,New Year's Day,public,,Wednesday,2025,1
+2025-01-01,IT,Christmas Holiday,school,,Wednesday,2025,1
+2025-01-01,IT,New Year's Day,public,,Wednesday,2025,1
+2025-01-01,SI,New Year's Day,public,,Wednesday,2025,1
+2025-01-02,IT,Christmas Holiday,school,,Thursday,2025,1
+2025-01-02,SI,New Year Holiday,public,,Thursday,2025,1
+2025-01-03,IT,Christmas Holiday,school,,Friday,2025,1
+2025-01-04,IT,Christmas Holiday,school,,Saturday,2025,1
+2025-01-05,IT,Christmas Holiday,school,,Sunday,2025,1
+2025-01-06,AT,Epiphany,public,,Monday,2025,1
+2025-01-06,DE,Epiphany,public,Bavaria,Monday,2025,1
+2025-01-06,IT,Christmas Holiday,school,,Monday,2025,1
+2025-01-06,IT,Epiphany,public,,Monday,2025,1
+2025-02-08,SI,Prešeren Day,public,,Saturday,2025,2
+2025-02-15,SI,Winter Holiday Group 1,school,Eastern Slovenia,Saturday,2025,2
+2025-02-22,SI,Winter Holiday Group 2,school,Western Slovenia,Saturday,2025,2
+2025-04-18,DE,Good Friday,public,,Friday,2025,4
+2025-04-21,AT,Easter Monday,public,,Monday,2025,4
+2025-04-21,DE,Easter Monday,public,,Monday,2025,4
+2025-04-21,IT,Easter Monday,public,,Monday,2025,4
+2025-04-21,SI,Easter Monday,public,,Monday,2025,4
+2025-04-25,IT,Liberation Day,public,,Friday,2025,4
+2025-04-27,SI,Day of Uprising,public,,Sunday,2025,4
+2025-05-01,AT,Labour Day,public,,Thursday,2025,5
+2025-05-01,DE,Labour Day,public,,Thursday,2025,5
+2025-05-01,IT,Labour Day,public,,Thursday,2025,5
+2025-05-01,SI,Labour Day,public,,Thursday,2025,5
+2025-05-02,SI,Labour Day Holiday,public,,Friday,2025,5
+2025-05-29,AT,Ascension Day,public,,Thursday,2025,5
+2025-06-02,IT,Republic Day,public,,Monday,2025,6
+2025-06-09,AT,Whit Monday,public,,Monday,2025,6
+2025-06-10,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,6
+2025-06-11,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,6
+2025-06-12,IT,Summer Holiday,school,Northern Italy,Thursday,2025,6
+2025-06-13,IT,Summer Holiday,school,Northern Italy,Friday,2025,6
+2025-06-14,IT,Summer Holiday,school,Northern Italy,Saturday,2025,6
+2025-06-15,IT,Summer Holiday,school,Northern Italy,Sunday,2025,6
+2025-06-16,IT,Summer Holiday,school,Northern Italy,Monday,2025,6
+2025-06-17,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,6
+2025-06-18,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,6
+2025-06-19,AT,Corpus Christi,public,,Thursday,2025,6
+2025-06-19,IT,Summer Holiday,school,Northern Italy,Thursday,2025,6
+2025-06-20,IT,Summer Holiday,school,Northern Italy,Friday,2025,6
+2025-06-21,IT,Summer Holiday,school,Northern Italy,Saturday,2025,6
+2025-06-22,IT,Summer Holiday,school,Northern Italy,Sunday,2025,6
+2025-06-23,IT,Summer Holiday,school,Northern Italy,Monday,2025,6
+2025-06-24,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,6
+2025-06-25,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,6
+2025-06-25,SI,Statehood Day,public,,Wednesday,2025,6
+2025-06-26,IT,Summer Holiday,school,Northern Italy,Thursday,2025,6
+2025-06-27,IT,Summer Holiday,school,Northern Italy,Friday,2025,6
+2025-06-28,IT,Summer Holiday,school,Northern Italy,Saturday,2025,6
+2025-06-29,IT,Summer Holiday,school,Northern Italy,Sunday,2025,6
+2025-06-30,IT,Summer Holiday,school,Northern Italy,Monday,2025,6
+2025-07-01,AT,Summer Holiday,school,,Tuesday,2025,7
+2025-07-01,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,7
+2025-07-01,SI,Summer Holiday,school,,Tuesday,2025,7
+2025-07-02,AT,Summer Holiday,school,,Wednesday,2025,7
+2025-07-02,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,7
+2025-07-02,SI,Summer Holiday,school,,Wednesday,2025,7
+2025-07-03,AT,Summer Holiday,school,,Thursday,2025,7
+2025-07-03,IT,Summer Holiday,school,Northern Italy,Thursday,2025,7
+2025-07-03,SI,Summer Holiday,school,,Thursday,2025,7
+2025-07-04,AT,Summer Holiday,school,,Friday,2025,7
+2025-07-04,IT,Summer Holiday,school,Northern Italy,Friday,2025,7
+2025-07-04,SI,Summer Holiday,school,,Friday,2025,7
+2025-07-05,AT,Summer Holiday,school,,Saturday,2025,7
+2025-07-05,IT,Summer Holiday,school,Northern Italy,Saturday,2025,7
+2025-07-05,SI,Summer Holiday,school,,Saturday,2025,7
+2025-07-06,AT,Summer Holiday,school,,Sunday,2025,7
+2025-07-06,IT,Summer Holiday,school,Northern Italy,Sunday,2025,7
+2025-07-06,SI,Summer Holiday,school,,Sunday,2025,7
+2025-07-07,AT,Summer Holiday,school,,Monday,2025,7
+2025-07-07,IT,Summer Holiday,school,Northern Italy,Monday,2025,7
+2025-07-07,SI,Summer Holiday,school,,Monday,2025,7
+2025-07-08,AT,Summer Holiday,school,,Tuesday,2025,7
+2025-07-08,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,7
+2025-07-08,SI,Summer Holiday,school,,Tuesday,2025,7
+2025-07-09,AT,Summer Holiday,school,,Wednesday,2025,7
+2025-07-09,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,7
+2025-07-09,SI,Summer Holiday,school,,Wednesday,2025,7
+2025-07-10,AT,Summer Holiday,school,,Thursday,2025,7
+2025-07-10,IT,Summer Holiday,school,Northern Italy,Thursday,2025,7
+2025-07-10,SI,Summer Holiday,school,,Thursday,2025,7
+2025-07-11,AT,Summer Holiday,school,,Friday,2025,7
+2025-07-11,IT,Summer Holiday,school,Northern Italy,Friday,2025,7
+2025-07-11,SI,Summer Holiday,school,,Friday,2025,7
+2025-07-12,AT,Summer Holiday,school,,Saturday,2025,7
+2025-07-12,IT,Summer Holiday,school,Northern Italy,Saturday,2025,7
+2025-07-12,SI,Summer Holiday,school,,Saturday,2025,7
+2025-07-13,AT,Summer Holiday,school,,Sunday,2025,7
+2025-07-13,IT,Summer Holiday,school,Northern Italy,Sunday,2025,7
+2025-07-13,SI,Summer Holiday,school,,Sunday,2025,7
+2025-07-14,AT,Summer Holiday,school,,Monday,2025,7
+2025-07-14,IT,Summer Holiday,school,Northern Italy,Monday,2025,7
+2025-07-14,SI,Summer Holiday,school,,Monday,2025,7
+2025-07-15,AT,Summer Holiday,school,,Tuesday,2025,7
+2025-07-15,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,7
+2025-07-15,SI,Summer Holiday,school,,Tuesday,2025,7
+2025-07-16,AT,Summer Holiday,school,,Wednesday,2025,7
+2025-07-16,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,7
+2025-07-16,SI,Summer Holiday,school,,Wednesday,2025,7
+2025-07-17,AT,Summer Holiday,school,,Thursday,2025,7
+2025-07-17,IT,Summer Holiday,school,Northern Italy,Thursday,2025,7
+2025-07-17,SI,Summer Holiday,school,,Thursday,2025,7
+2025-07-18,AT,Summer Holiday,school,,Friday,2025,7
+2025-07-18,IT,Summer Holiday,school,Northern Italy,Friday,2025,7
+2025-07-18,SI,Summer Holiday,school,,Friday,2025,7
+2025-07-19,AT,Summer Holiday,school,,Saturday,2025,7
+2025-07-19,IT,Summer Holiday,school,Northern Italy,Saturday,2025,7
+2025-07-19,SI,Summer Holiday,school,,Saturday,2025,7
+2025-07-20,AT,Summer Holiday,school,,Sunday,2025,7
+2025-07-20,IT,Summer Holiday,school,Northern Italy,Sunday,2025,7
+2025-07-20,SI,Summer Holiday,school,,Sunday,2025,7
+2025-07-21,AT,Summer Holiday,school,,Monday,2025,7
+2025-07-21,IT,Summer Holiday,school,Northern Italy,Monday,2025,7
+2025-07-21,SI,Summer Holiday,school,,Monday,2025,7
+2025-07-22,AT,Summer Holiday,school,,Tuesday,2025,7
+2025-07-22,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,7
+2025-07-22,SI,Summer Holiday,school,,Tuesday,2025,7
+2025-07-23,AT,Summer Holiday,school,,Wednesday,2025,7
+2025-07-23,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,7
+2025-07-23,SI,Summer Holiday,school,,Wednesday,2025,7
+2025-07-24,AT,Summer Holiday,school,,Thursday,2025,7
+2025-07-24,IT,Summer Holiday,school,Northern Italy,Thursday,2025,7
+2025-07-24,SI,Summer Holiday,school,,Thursday,2025,7
+2025-07-25,AT,Summer Holiday,school,,Friday,2025,7
+2025-07-25,IT,Summer Holiday,school,Northern Italy,Friday,2025,7
+2025-07-25,SI,Summer Holiday,school,,Friday,2025,7
+2025-07-26,AT,Summer Holiday,school,,Saturday,2025,7
+2025-07-26,IT,Summer Holiday,school,Northern Italy,Saturday,2025,7
+2025-07-26,SI,Summer Holiday,school,,Saturday,2025,7
+2025-07-27,AT,Summer Holiday,school,,Sunday,2025,7
+2025-07-27,IT,Summer Holiday,school,Northern Italy,Sunday,2025,7
+2025-07-27,SI,Summer Holiday,school,,Sunday,2025,7
+2025-07-28,AT,Summer Holiday,school,,Monday,2025,7
+2025-07-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,7
+2025-07-28,IT,Summer Holiday,school,Northern Italy,Monday,2025,7
+2025-07-28,SI,Summer Holiday,school,,Monday,2025,7
+2025-07-29,AT,Summer Holiday,school,,Tuesday,2025,7
+2025-07-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,7
+2025-07-29,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,7
+2025-07-29,SI,Summer Holiday,school,,Tuesday,2025,7
+2025-07-30,AT,Summer Holiday,school,,Wednesday,2025,7
+2025-07-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,7
+2025-07-30,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,7
+2025-07-30,SI,Summer Holiday,school,,Wednesday,2025,7
+2025-07-31,AT,Summer Holiday,school,,Thursday,2025,7
+2025-07-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,7
+2025-07-31,IT,Summer Holiday,school,Northern Italy,Thursday,2025,7
+2025-07-31,SI,Summer Holiday,school,,Thursday,2025,7
+2025-08-01,AT,Summer Holiday,school,,Friday,2025,8
+2025-08-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,8
+2025-08-01,IT,Summer Holiday,school,Northern Italy,Friday,2025,8
+2025-08-01,SI,Summer Holiday,school,,Friday,2025,8
+2025-08-02,AT,Summer Holiday,school,,Saturday,2025,8
+2025-08-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,8
+2025-08-02,IT,Summer Holiday,school,Northern Italy,Saturday,2025,8
+2025-08-02,SI,Summer Holiday,school,,Saturday,2025,8
+2025-08-03,AT,Summer Holiday,school,,Sunday,2025,8
+2025-08-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,8
+2025-08-03,IT,Summer Holiday,school,Northern Italy,Sunday,2025,8
+2025-08-03,SI,Summer Holiday,school,,Sunday,2025,8
+2025-08-04,AT,Summer Holiday,school,,Monday,2025,8
+2025-08-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,8
+2025-08-04,IT,Summer Holiday,school,Northern Italy,Monday,2025,8
+2025-08-04,SI,Summer Holiday,school,,Monday,2025,8
+2025-08-05,AT,Summer Holiday,school,,Tuesday,2025,8
+2025-08-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,8
+2025-08-05,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,8
+2025-08-05,SI,Summer Holiday,school,,Tuesday,2025,8
+2025-08-06,AT,Summer Holiday,school,,Wednesday,2025,8
+2025-08-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,8
+2025-08-06,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,8
+2025-08-06,SI,Summer Holiday,school,,Wednesday,2025,8
+2025-08-07,AT,Summer Holiday,school,,Thursday,2025,8
+2025-08-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,8
+2025-08-07,IT,Summer Holiday,school,Northern Italy,Thursday,2025,8
+2025-08-07,SI,Summer Holiday,school,,Thursday,2025,8
+2025-08-08,AT,Summer Holiday,school,,Friday,2025,8
+2025-08-08,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,8
+2025-08-08,IT,Summer Holiday,school,Northern Italy,Friday,2025,8
+2025-08-08,SI,Summer Holiday,school,,Friday,2025,8
+2025-08-09,AT,Summer Holiday,school,,Saturday,2025,8
+2025-08-09,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,8
+2025-08-09,IT,Summer Holiday,school,Northern Italy,Saturday,2025,8
+2025-08-09,SI,Summer Holiday,school,,Saturday,2025,8
+2025-08-10,AT,Summer Holiday,school,,Sunday,2025,8
+2025-08-10,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,8
+2025-08-10,IT,Summer Holiday,school,Northern Italy,Sunday,2025,8
+2025-08-10,SI,Summer Holiday,school,,Sunday,2025,8
+2025-08-11,AT,Summer Holiday,school,,Monday,2025,8
+2025-08-11,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,8
+2025-08-11,IT,Summer Holiday,school,Northern Italy,Monday,2025,8
+2025-08-11,SI,Summer Holiday,school,,Monday,2025,8
+2025-08-12,AT,Summer Holiday,school,,Tuesday,2025,8
+2025-08-12,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,8
+2025-08-12,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,8
+2025-08-12,SI,Summer Holiday,school,,Tuesday,2025,8
+2025-08-13,AT,Summer Holiday,school,,Wednesday,2025,8
+2025-08-13,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,8
+2025-08-13,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,8
+2025-08-13,SI,Summer Holiday,school,,Wednesday,2025,8
+2025-08-14,AT,Summer Holiday,school,,Thursday,2025,8
+2025-08-14,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,8
+2025-08-14,IT,Summer Holiday,school,Northern Italy,Thursday,2025,8
+2025-08-14,SI,Summer Holiday,school,,Thursday,2025,8
+2025-08-15,AT,Assumption of Mary,public,,Friday,2025,8
+2025-08-15,AT,Summer Holiday,school,,Friday,2025,8
+2025-08-15,DE,Assumption of Mary,public,Bavaria,Friday,2025,8
+2025-08-15,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,8
+2025-08-15,IT,Ferragosto,public,,Friday,2025,8
+2025-08-15,IT,Summer Holiday,school,Northern Italy,Friday,2025,8
+2025-08-15,SI,Assumption of Mary,public,,Friday,2025,8
+2025-08-15,SI,Summer Holiday,school,,Friday,2025,8
+2025-08-16,AT,Summer Holiday,school,,Saturday,2025,8
+2025-08-16,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,8
+2025-08-16,IT,Summer Holiday,school,Northern Italy,Saturday,2025,8
+2025-08-16,SI,Summer Holiday,school,,Saturday,2025,8
+2025-08-17,AT,Summer Holiday,school,,Sunday,2025,8
+2025-08-17,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,8
+2025-08-17,IT,Summer Holiday,school,Northern Italy,Sunday,2025,8
+2025-08-17,SI,Summer Holiday,school,,Sunday,2025,8
+2025-08-18,AT,Summer Holiday,school,,Monday,2025,8
+2025-08-18,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,8
+2025-08-18,IT,Summer Holiday,school,Northern Italy,Monday,2025,8
+2025-08-18,SI,Summer Holiday,school,,Monday,2025,8
+2025-08-19,AT,Summer Holiday,school,,Tuesday,2025,8
+2025-08-19,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,8
+2025-08-19,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,8
+2025-08-19,SI,Summer Holiday,school,,Tuesday,2025,8
+2025-08-20,AT,Summer Holiday,school,,Wednesday,2025,8
+2025-08-20,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,8
+2025-08-20,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,8
+2025-08-20,SI,Summer Holiday,school,,Wednesday,2025,8
+2025-08-21,AT,Summer Holiday,school,,Thursday,2025,8
+2025-08-21,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,8
+2025-08-21,IT,Summer Holiday,school,Northern Italy,Thursday,2025,8
+2025-08-21,SI,Summer Holiday,school,,Thursday,2025,8
+2025-08-22,AT,Summer Holiday,school,,Friday,2025,8
+2025-08-22,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,8
+2025-08-22,IT,Summer Holiday,school,Northern Italy,Friday,2025,8
+2025-08-22,SI,Summer Holiday,school,,Friday,2025,8
+2025-08-23,AT,Summer Holiday,school,,Saturday,2025,8
+2025-08-23,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,8
+2025-08-23,IT,Summer Holiday,school,Northern Italy,Saturday,2025,8
+2025-08-23,SI,Summer Holiday,school,,Saturday,2025,8
+2025-08-24,AT,Summer Holiday,school,,Sunday,2025,8
+2025-08-24,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,8
+2025-08-24,IT,Summer Holiday,school,Northern Italy,Sunday,2025,8
+2025-08-24,SI,Summer Holiday,school,,Sunday,2025,8
+2025-08-25,AT,Summer Holiday,school,,Monday,2025,8
+2025-08-25,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,8
+2025-08-25,IT,Summer Holiday,school,Northern Italy,Monday,2025,8
+2025-08-25,SI,Summer Holiday,school,,Monday,2025,8
+2025-08-26,AT,Summer Holiday,school,,Tuesday,2025,8
+2025-08-26,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,8
+2025-08-26,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,8
+2025-08-26,SI,Summer Holiday,school,,Tuesday,2025,8
+2025-08-27,AT,Summer Holiday,school,,Wednesday,2025,8
+2025-08-27,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,8
+2025-08-27,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,8
+2025-08-27,SI,Summer Holiday,school,,Wednesday,2025,8
+2025-08-28,AT,Summer Holiday,school,,Thursday,2025,8
+2025-08-28,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,8
+2025-08-28,IT,Summer Holiday,school,Northern Italy,Thursday,2025,8
+2025-08-28,SI,Summer Holiday,school,,Thursday,2025,8
+2025-08-29,AT,Summer Holiday,school,,Friday,2025,8
+2025-08-29,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,8
+2025-08-29,IT,Summer Holiday,school,Northern Italy,Friday,2025,8
+2025-08-29,SI,Summer Holiday,school,,Friday,2025,8
+2025-08-30,AT,Summer Holiday,school,,Saturday,2025,8
+2025-08-30,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,8
+2025-08-30,IT,Summer Holiday,school,Northern Italy,Saturday,2025,8
+2025-08-30,SI,Summer Holiday,school,,Saturday,2025,8
+2025-08-31,AT,Summer Holiday,school,,Sunday,2025,8
+2025-08-31,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,8
+2025-08-31,IT,Summer Holiday,school,Northern Italy,Sunday,2025,8
+2025-08-31,SI,Summer Holiday,school,,Sunday,2025,8
+2025-09-01,AT,Summer Holiday,school,,Monday,2025,9
+2025-09-01,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Monday,2025,9
+2025-09-01,IT,Summer Holiday,school,Northern Italy,Monday,2025,9
+2025-09-02,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Tuesday,2025,9
+2025-09-02,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,9
+2025-09-03,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Wednesday,2025,9
+2025-09-03,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,9
+2025-09-04,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Thursday,2025,9
+2025-09-04,IT,Summer Holiday,school,Northern Italy,Thursday,2025,9
+2025-09-05,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Friday,2025,9
+2025-09-05,IT,Summer Holiday,school,Northern Italy,Friday,2025,9
+2025-09-06,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Saturday,2025,9
+2025-09-06,IT,Summer Holiday,school,Northern Italy,Saturday,2025,9
+2025-09-07,DE,Summer Holiday,school,Bavaria/Baden-Württemberg,Sunday,2025,9
+2025-09-07,IT,Summer Holiday,school,Northern Italy,Sunday,2025,9
+2025-09-08,IT,Summer Holiday,school,Northern Italy,Monday,2025,9
+2025-09-09,IT,Summer Holiday,school,Northern Italy,Tuesday,2025,9
+2025-09-10,IT,Summer Holiday,school,Northern Italy,Wednesday,2025,9
+2025-09-11,IT,Summer Holiday,school,Northern Italy,Thursday,2025,9
+2025-09-12,IT,Summer Holiday,school,Northern Italy,Friday,2025,9
+2025-10-03,DE,German Unity Day,public,,Friday,2025,10
+2025-10-26,AT,National Day,public,,Sunday,2025,10
+2025-10-31,SI,Reformation Day,public,,Friday,2025,10
+2025-11-01,AT,All Saints' Day,public,,Saturday,2025,11
+2025-11-01,DE,All Saints' Day,public,Bavaria,Saturday,2025,11
+2025-11-01,IT,All Saints' Day,public,,Saturday,2025,11
+2025-11-01,SI,All Saints' Day,public,,Saturday,2025,11
+2025-12-08,AT,Immaculate Conception,public,,Monday,2025,12
+2025-12-08,IT,Immaculate Conception,public,,Monday,2025,12
+2025-12-23,IT,Christmas Holiday,school,,Tuesday,2025,12
+2025-12-24,IT,Christmas Holiday,school,,Wednesday,2025,12
+2025-12-25,AT,Christmas Day,public,,Thursday,2025,12
+2025-12-25,DE,Christmas Day,public,,Thursday,2025,12
+2025-12-25,IT,Christmas Day,public,,Thursday,2025,12
+2025-12-25,IT,Christmas Holiday,school,,Thursday,2025,12
+2025-12-25,SI,Christmas,public,,Thursday,2025,12
+2025-12-26,AT,St. Stephen's Day,public,,Friday,2025,12
+2025-12-26,DE,Boxing Day,public,,Friday,2025,12
+2025-12-26,IT,St. Stephen's Day,public,,Friday,2025,12
+2025-12-26,IT,Christmas Holiday,school,,Friday,2025,12
+2025-12-26,SI,Independence Day,public,,Friday,2025,12
+2025-12-27,IT,Christmas Holiday,school,,Saturday,2025,12
+2025-12-28,IT,Christmas Holiday,school,,Sunday,2025,12
+2025-12-29,IT,Christmas Holiday,school,,Monday,2025,12
+2025-12-30,IT,Christmas Holiday,school,,Tuesday,2025,12
+2025-12-31,IT,Christmas Holiday,school,,Wednesday,2025,12
+2026-01-01,IT,Christmas Holiday,school,,Thursday,2026,1
+2026-01-02,IT,Christmas Holiday,school,,Friday,2026,1
+2026-01-03,IT,Christmas Holiday,school,,Saturday,2026,1
+2026-01-04,IT,Christmas Holiday,school,,Sunday,2026,1
+2026-01-05,IT,Christmas Holiday,school,,Monday,2026,1
+2026-01-06,IT,Christmas Holiday,school,,Tuesday,2026,1

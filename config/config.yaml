@@ -1,0 +1,169 @@
+# Main configuration file for Slovenia Traffic Analysis
+
+project:
+  name: "Slovenia Traffic Analysis"
+  version: "0.1.0"
+  description: "Comprehensive analysis of Slovenian motorway traffic data"
+
+data:
+  # Data source configuration
+  sources:
+    dars:
+      base_path: "${DATA_DIR}/raw/dars"
+      file_pattern: "*.csv"
+      encoding: "utf-8"
+      date_format: "%Y-%m-%d"
+      time_format: "%H:%M:%S"
+    
+    external:
+      weather: "${DATA_DIR}/external/weather"
+      incidents: "${DATA_DIR}/external/incidents"
+      roadworks: "${DATA_DIR}/external/roadworks"
+      holidays: "${DATA_DIR}/external/holidays.csv"
+  
+  # Data processing settings
+  processing:
+    chunk_size: 10000
+    missing_data_threshold: 0.3  # Max proportion of missing data
+    imputation_method: "mice"  # Options: mice, kalman, interpolation
+    outlier_detection: true
+    outlier_method: "iqr"  # Options: iqr, zscore, isolation_forest
+
+# Road segments configuration
+roads:
+  # Key road segments for analysis
+  segments:
+    - id: "0071"
+      name: "Ljubljana-Kranj"
+      type: "commuter"
+      priority: "high"
+    - id: "0171"
+      name: "Bled-Austria"
+      type: "international"
+      priority: "high"
+    - id: "0161"
+      name: "Koper Port"
+      type: "freight"
+      priority: "high"
+    - id: "0011"
+      name: "Bertoki-Italy"
+      type: "international"
+      priority: "medium"
+
+# Analysis configuration
+analysis:
+  # Time series decomposition
+  decomposition:
+    method: "stl"  # Options: stl, prophet, x13
+    seasonal_periods:
+      daily: 24
+      weekly: 168
+      yearly: 8760
+  
+  # Bayesian analysis settings
+  bayesian:
+    mcmc:
+      chains: 4
+      samples: 10000
+      warmup: 2000
+      thin: 2
+      target_accept: 0.95
+    
+    priors:
+      use_informative: true
+      hierarchical: true
+    
+    models:
+      - "bsts"  # Bayesian Structural Time Series
+      - "hierarchical_regression"
+      - "gaussian_process"
+  
+  # Machine learning settings
+  ml:
+    train_test_split: 0.8
+    validation_strategy: "time_series"  # Options: time_series, kfold
+    n_folds: 5
+    
+    models:
+      - name: "xgboost"
+        params:
+          n_estimators: 1000
+          max_depth: 6
+          learning_rate: 0.01
+          early_stopping_rounds: 50
+      
+      - name: "prophet"
+        params:
+          yearly_seasonality: true
+          weekly_seasonality: true
+          daily_seasonality: true
+          holidays: true
+
+# Hypothesis testing configuration
+hypotheses:
+  h1_roadworks:
+    enabled: true
+    methods: ["bsts", "gaussian_process"]
+    significance_level: 0.05
+  
+  h2_international_transit:
+    enabled: true
+    methods: ["hierarchical_regression"]
+    significance_level: 0.05
+  
+  h3_smart_lanes:
+    enabled: true
+    simulation_tool: "sumo"  # Options: sumo, vissim
+    scenarios: ["reversible_lane", "variable_speed_limits"]
+  
+  h4_tourist_traffic:
+    enabled: true
+    methods: ["clustering", "decomposition"]
+    clustering_algorithm: "dbscan"
+  
+  h5_incident_impact:
+    enabled: true
+    methods: ["shockwave_analysis", "queuing_theory"]
+  
+  h6_roadwork_management:
+    enabled: true
+    methods: ["bayesian_regression"]
+  
+  h7_economic_impact:
+    enabled: true
+    vot_values:  # Value of Time in EUR/hour (2010 prices)
+      commuter: 5.64
+      business: 17.14
+      leisure: 4.86
+      freight: 20.81
+
+# Visualization settings
+visualization:
+  style: "seaborn"
+  color_palette: "viridis"
+  figure_format: "png"
+  dpi: 300
+  save_figures: true
+  output_dir: "${RESULTS_DIR}/figures"
+
+# Reporting configuration
+reporting:
+  formats: ["html", "pdf", "markdown"]
+  template: "default"
+  include_code: false
+  include_raw_data: false
+  
+# Logging configuration
+logging:
+  level: "${LOG_LEVEL}"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "${LOG_FILE}"
+  console: true
+
+# Performance settings
+performance:
+  parallel_processing: true
+  n_jobs: "${N_JOBS}"
+  memory_limit: "8GB"
+  cache_enabled: true
+  cache_dir: "./cache"
