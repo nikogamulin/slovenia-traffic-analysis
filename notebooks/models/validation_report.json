@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-09-06T18:27:54.180026",
+  "description": "Comprehensive model validation results",
+  "vehicle_count_model": {
+    "metrics": {
+      "mae": 16.433189392089844,
+      "rmse": 20.680755898921618,
+      "r2": 0.8000497221946716,
+      "explained_variance": 0.8036360740661621,
+      "mape": 0.08748442679643631,
+      "bias": -2.769680976867676,
+      "std_error": 20.494449615478516,
+      "median_absolute_error": 13.87496566772461,
+      "p90_error": 34.064370727539064,
+      "p95_error": 40.721409606933584,
+      "p99_error": 53.10486099243171,
+      "rmse_percentage": 10.342106736376351,
+      "mae_percentage": 8.217968411925547
+    },
+    "residual_analysis": {
+      "mean_residual": -2.769680976867676,
+      "std_residual": 20.494449615478516,
+      "skewness": -0.010902651305762914,
+      "kurtosis": 0.07964783278325838,
+      "heteroscedasticity": "Homoscedastic"
+    },
+    "acceptance_criteria": {
+      "target": "RMSE < 15% of mean",
+      "achieved": "10.34% of mean",
+      "passed": true
+    },
+    "recommendations": [
+      "Model shows systematic bias (-2.77). Consider bias correction or rebalancing training data."
+    ]
+  },
+  "speed_model": {
+    "metrics": {
+      "mae": 3.979591131210327,
+      "rmse": 5.003499523014531,
+      "r2": 0.9173086881637573,
+      "explained_variance": 0.9173229336738586,
+      "mape": 0.05246119946241379,
+      "bias": -0.06559855490922928,
+      "std_error": 5.003069877624512,
+      "median_absolute_error": 3.369335174560547,
+      "p90_error": 8.184165954589844,
+      "p95_error": 9.803689193725585,
+      "p99_error": 13.028380050659191,
+      "rmse_percentage": 6.25710023707762,
+      "mae_percentage": 4.976656937016324
+    },
+    "residual_analysis": {
+      "mean_residual": -0.06559855490922928,
+      "std_residual": 5.003069877624512,
+      "skewness": 0.0080804726639045,
+      "kurtosis": 0.07830728397789377,
+      "heteroscedasticity": "Homoscedastic"
+    },
+    "acceptance_criteria": {
+      "target": "MAE < 5 km/h",
+      "achieved": "3.98 km/h",
+      "passed": true
+    },
+    "recommendations": []
+  }
+}

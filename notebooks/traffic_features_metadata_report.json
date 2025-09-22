@@ -1,0 +1,803 @@
+{
+  "feature_name": "traffic_features",
+  "generated_at": "2025-09-06T15:28:52.039662",
+  "total_versions": 3,
+  "versions": [
+    {
+      "basic_info": {
+        "feature_name": "traffic_features",
+        "version_id": "f44273c8",
+        "shape": [
+          1500,
+          47
+        ],
+        "memory_usage_mb": 0.4792213439941406,
+        "created_at": "2025-09-06T15:28:51.920827"
+      },
+      "data_types": {
+        "timestamp": "datetime64[ns]",
+        "traffic_volume": "float64",
+        "avg_speed": "float64",
+        "occupancy": "float64",
+        "temperature": "float64",
+        "precipitation": "float64",
+        "visibility": "float64",
+        "wind_speed": "float64",
+        "is_weekend": "bool",
+        "is_holiday": "bool",
+        "hour": "int64",
+        "day_of_week": "int64",
+        "month": "int64",
+        "hour_sin": "float64",
+        "hour_cos": "float64",
+        "day_sin": "float64",
+        "day_cos": "float64",
+        "month_sin": "float64",
+        "month_cos": "float64",
+        "is_morning_rush": "int64",
+        "is_evening_rush": "int64",
+        "is_rush_hour": "int64",
+        "is_rainy": "int64",
+        "is_foggy": "int64",
+        "is_windy": "int64",
+        "is_cold": "int64",
+        "is_hot": "int64",
+        "weather_severity": "int64",
+        "traffic_density": "float64",
+        "is_congested": "int64",
+        "congestion_score": "float64",
+        "flow_efficiency": "float64",
+        "station_A1": "bool",
+        "station_A2": "bool",
+        "station_B1": "bool",
+        "station_B2": "bool",
+        "station_C1": "bool",
+        "traffic_volume_norm": "float64",
+        "avg_speed_norm": "float64",
+        "occupancy_norm": "float64",
+        "temperature_norm": "float64",
+        "precipitation_norm": "float64",
+        "visibility_norm": "float64",
+        "wind_speed_norm": "float64",
+        "traffic_density_norm": "float64",
+        "congestion_score_norm": "float64",
+        "flow_efficiency_norm": "float64"
+      },
+      "missing_data": {
+        "total_nulls": 0,
+        "null_percentage": 0.0,
+        "columns_with_nulls": []
+      },
+      "quality_metrics": {
+        "completeness": {
+          "timestamp": 100.0,
+          "traffic_volume": 100.0,
+          "avg_speed": 100.0,
+          "occupancy": 100.0,
+          "temperature": 100.0,
+          "precipitation": 100.0,
+          "visibility": 100.0,
+          "wind_speed": 100.0,
+          "is_weekend": 100.0,
+          "is_holiday": 100.0,
+          "hour": 100.0,
+          "day_of_week": 100.0,
+          "month": 100.0,
+          "hour_sin": 100.0,
+          "hour_cos": 100.0,
+          "day_sin": 100.0,
+          "day_cos": 100.0,
+          "month_sin": 100.0,
+          "month_cos": 100.0,
+          "is_morning_rush": 100.0,
+          "is_evening_rush": 100.0,
+          "is_rush_hour": 100.0,
+          "is_rainy": 100.0,
+          "is_foggy": 100.0,
+          "is_windy": 100.0,
+          "is_cold": 100.0,
+          "is_hot": 100.0,
+          "weather_severity": 100.0,
+          "traffic_density": 100.0,
+          "is_congested": 100.0,
+          "congestion_score": 100.0,
+          "flow_efficiency": 100.0,
+          "station_A1": 100.0,
+          "station_A2": 100.0,
+          "station_B1": 100.0,
+          "station_B2": 100.0,
+          "station_C1": 100.0,
+          "traffic_volume_norm": 100.0,
+          "avg_speed_norm": 100.0,
+          "occupancy_norm": 100.0,
+          "temperature_norm": 100.0,
+          "precipitation_norm": 100.0,
+          "visibility_norm": 100.0,
+          "wind_speed_norm": 100.0,
+          "traffic_density_norm": 100.0,
+          "congestion_score_norm": 100.0,
+          "flow_efficiency_norm": 100.0
+        },
+        "uniqueness": {
+          "is_weekend": 2,
+          "is_holiday": 2,
+          "station_A1": 2,
+          "station_A2": 2,
+          "station_B1": 2,
+          "station_B2": 2,
+          "station_C1": 2
+        },
+        "distribution": {
+          "traffic_volume": {
+            "mean": 100.74325424481401,
+            "std": 33.533096880514094,
+            "min": 19.55030565521742,
+            "max": 235.35442861357242,
+            "skewness": 0.6837953606792481,
+            "kurtosis": 0.44644096416996826
+          },
+          "avg_speed": {
+            "mean": 74.67601075545683,
+            "std": 16.669835314056645,
+            "min": 20.786978746485786,
+            "max": 127.36656924566446,
+            "skewness": 0.13171098152408175,
+            "kurtosis": -0.15239013566944015
+          },
+          "occupancy": {
+            "mean": 30.309018329307484,
+            "std": 17.525919147216726,
+            "min": 0.8203201535118267,
+            "max": 101.14090337257548,
+            "skewness": 0.7585254446237225,
+            "kurtosis": 0.3266152116338392
+          },
+          "temperature": {
+            "mean": 15.495056397499726,
+            "std": 9.946049173636473,
+            "min": -15.105225163135167,
+            "max": 45.71336701606002,
+            "skewness": -0.06932563711342851,
+            "kurtosis": -0.008904994769155294
+          },
+          "precipitation": {
+            "mean": 1.99893855557872,
+            "std": 2.040918695894114,
+            "min": 0.002896537512182298,
+            "max": 14.462891749292906,
+            "skewness": 1.8995555450566566,
+            "kurtosis": 4.428185553036528
+          },
+          "visibility": {
+            "mean": 9.998432015598,
+            "std": 2.915911399007457,
+            "min": 0.1,
+            "max": 15.0,
+            "skewness": -0.2566434848731882,
+            "kurtosis": -0.30877855602718807
+          },
+          "wind_speed": {
+            "mean": 2.822943176236901,
+            "std": 2.795296059049572,
+            "min": 0.006177417904496059,
+            "max": 24.291595992751933,
+            "skewness": 2.1509864062900044,
+            "kurtosis": 7.074800425145208
+          },
+          "hour": {
+            "mean": 11.506666666666666,
+            "std": 6.8456212702675465,
+            "min": 0.0,
+            "max": 23.0,
+            "skewness": 0.001877302552894722,
+            "kurtosis": -1.1972256566591506
+          },
+          "day_of_week": {
+            "mean": 3.0,
+            "std": 2.004997092822868,
+            "min": 0.0,
+            "max": 6.0,
+            "skewness": 0.00745897378067979,
+            "kurtosis": -1.2527683309706685
+          },
+          "month": {
+            "mean": 1.914,
+            "std": 0.8134567031329344,
+            "min": 1.0,
+            "max": 3.0,
+            "skewness": 0.15868248574033203,
+            "kurtosis": -1.4719230527117109
+          }
+        },
+        "correlations": {
+          "high_correlations": [
+            {
+              "feature1": "occupancy",
+              "feature2": "occupancy_norm",
+              "correlation": 1.0000000000000013
+            },
+            {
+              "feature1": "avg_speed",
+              "feature2": "avg_speed_norm",
+              "correlation": 1.0000000000000007
+            },
+            {
+              "feature1": "temperature",
+              "feature2": "temperature_norm",
+              "correlation": 1.0000000000000007
+            },
+            {
+              "feature1": "precipitation",
+              "feature2": "precipitation_norm",
+              "correlation": 1.0000000000000007
+            },
+            {
+              "feature1": "congestion_score",
+              "feature2": "congestion_score_norm",
+              "correlation": 1.0000000000000004
+            },
+            {
+              "feature1": "traffic_density",
+              "feature2": "traffic_density_norm",
+              "correlation": 1.0000000000000002
+            },
+            {
+              "feature1": "flow_efficiency",
+              "feature2": "flow_efficiency_norm",
+              "correlation": 1.0
+            },
+            {
+              "feature1": "visibility",
+              "feature2": "visibility_norm",
+              "correlation": 0.9999999999999996
+            },
+            {
+              "feature1": "traffic_volume",
+              "feature2": "traffic_volume_norm",
+              "correlation": 0.9999999999999992
+            },
+            {
+              "feature1": "wind_speed",
+              "feature2": "wind_speed_norm",
+              "correlation": 0.9999999999999989
+            }
+          ]
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "feature_name": "traffic_features",
+        "version_id": "e665066e",
+        "shape": [
+          2000,
+          52
+        ],
+        "memory_usage_mb": 0.7001228332519531,
+        "created_at": "2025-09-06T15:28:51.785901"
+      },
+      "data_types": {
+        "timestamp": "datetime64[ns]",
+        "traffic_volume": "float64",
+        "avg_speed": "float64",
+        "occupancy": "float64",
+        "temperature": "float64",
+        "precipitation": "float64",
+        "visibility": "float64",
+        "wind_speed": "float64",
+        "is_weekend": "bool",
+        "is_holiday": "bool",
+        "hour": "int64",
+        "day_of_week": "int64",
+        "month": "int64",
+        "hour_sin": "float64",
+        "hour_cos": "float64",
+        "day_sin": "float64",
+        "day_cos": "float64",
+        "month_sin": "float64",
+        "month_cos": "float64",
+        "is_morning_rush": "int64",
+        "is_evening_rush": "int64",
+        "is_rush_hour": "int64",
+        "is_rainy": "int64",
+        "is_foggy": "int64",
+        "is_windy": "int64",
+        "is_cold": "int64",
+        "is_hot": "int64",
+        "weather_severity": "int64",
+        "traffic_density": "float64",
+        "is_congested": "int64",
+        "congestion_score": "float64",
+        "flow_efficiency": "float64",
+        "station_A1": "bool",
+        "station_A2": "bool",
+        "station_B1": "bool",
+        "station_B2": "bool",
+        "station_C1": "bool",
+        "traffic_volume_norm": "float64",
+        "avg_speed_norm": "float64",
+        "occupancy_norm": "float64",
+        "temperature_norm": "float64",
+        "precipitation_norm": "float64",
+        "visibility_norm": "float64",
+        "wind_speed_norm": "float64",
+        "traffic_density_norm": "float64",
+        "congestion_score_norm": "float64",
+        "flow_efficiency_norm": "float64",
+        "traffic_volume_ma_3h": "float64",
+        "avg_speed_ma_3h": "float64",
+        "occupancy_ma_3h": "float64",
+        "traffic_volume_lag1": "float64",
+        "avg_speed_lag1": "float64"
+      },
+      "missing_data": {
+        "total_nulls": 0,
+        "null_percentage": 0.0,
+        "columns_with_nulls": []
+      },
+      "quality_metrics": {
+        "completeness": {
+          "timestamp": 100.0,
+          "traffic_volume": 100.0,
+          "avg_speed": 100.0,
+          "occupancy": 100.0,
+          "temperature": 100.0,
+          "precipitation": 100.0,
+          "visibility": 100.0,
+          "wind_speed": 100.0,
+          "is_weekend": 100.0,
+          "is_holiday": 100.0,
+          "hour": 100.0,
+          "day_of_week": 100.0,
+          "month": 100.0,
+          "hour_sin": 100.0,
+          "hour_cos": 100.0,
+          "day_sin": 100.0,
+          "day_cos": 100.0,
+          "month_sin": 100.0,
+          "month_cos": 100.0,
+          "is_morning_rush": 100.0,
+          "is_evening_rush": 100.0,
+          "is_rush_hour": 100.0,
+          "is_rainy": 100.0,
+          "is_foggy": 100.0,
+          "is_windy": 100.0,
+          "is_cold": 100.0,
+          "is_hot": 100.0,
+          "weather_severity": 100.0,
+          "traffic_density": 100.0,
+          "is_congested": 100.0,
+          "congestion_score": 100.0,
+          "flow_efficiency": 100.0,
+          "station_A1": 100.0,
+          "station_A2": 100.0,
+          "station_B1": 100.0,
+          "station_B2": 100.0,
+          "station_C1": 100.0,
+          "traffic_volume_norm": 100.0,
+          "avg_speed_norm": 100.0,
+          "occupancy_norm": 100.0,
+          "temperature_norm": 100.0,
+          "precipitation_norm": 100.0,
+          "visibility_norm": 100.0,
+          "wind_speed_norm": 100.0,
+          "traffic_density_norm": 100.0,
+          "congestion_score_norm": 100.0,
+          "flow_efficiency_norm": 100.0,
+          "traffic_volume_ma_3h": 100.0,
+          "avg_speed_ma_3h": 100.0,
+          "occupancy_ma_3h": 100.0,
+          "traffic_volume_lag1": 100.0,
+          "avg_speed_lag1": 100.0
+        },
+        "uniqueness": {
+          "is_weekend": 2,
+          "is_holiday": 2,
+          "station_A1": 2,
+          "station_A2": 2,
+          "station_B1": 2,
+          "station_B2": 2,
+          "station_C1": 2
+        },
+        "distribution": {
+          "traffic_volume": {
+            "mean": 100.7458492506674,
+            "std": 34.13492415946741,
+            "min": 19.55030565521742,
+            "max": 240.8716556271145,
+            "skewness": 0.7605547665105616,
+            "kurtosis": 0.6044336035115472
+          },
+          "avg_speed": {
+            "mean": 74.9473915677339,
+            "std": 16.969034092175665,
+            "min": 20.786978746485786,
+            "max": 130.0,
+            "skewness": 0.09761083369312097,
+            "kurtosis": -0.10491720153099848
+          },
+          "occupancy": {
+            "mean": 30.28274828449679,
+            "std": 17.208803040861333,
+            "min": 0.3584336130556518,
+            "max": 101.14090337257548,
+            "skewness": 0.7538172178470846,
+            "kurtosis": 0.4318039199835053
+          },
+          "temperature": {
+            "mean": 15.279975230627818,
+            "std": 9.978524960469997,
+            "min": -15.105225163135167,
+            "max": 45.96695513772053,
+            "skewness": -0.04940330675207071,
+            "kurtosis": -0.09449094608976649
+          },
+          "precipitation": {
+            "mean": 2.0223095040629016,
+            "std": 2.044375851188093,
+            "min": 0.0021842743754487202,
+            "max": 15.013087253207887,
+            "skewness": 1.9146515120347072,
+            "kurtosis": 4.696694903132619
+          },
+          "visibility": {
+            "mean": 9.91090147996173,
+            "std": 2.9340330477796046,
+            "min": 0.1,
+            "max": 15.0,
+            "skewness": -0.21822821026299052,
+            "kurtosis": -0.36440889176124225
+          },
+          "wind_speed": {
+            "mean": 2.815854330389997,
+            "std": 2.8175786753891874,
+            "min": 0.0010332818784352926,
+            "max": 24.291595992751933,
+            "skewness": 2.083342080535782,
+            "kurtosis": 6.303249886135856
+          },
+          "hour": {
+            "mean": 11.468,
+            "std": 6.93000638486338,
+            "min": 0.0,
+            "max": 23.0,
+            "skewness": 0.0061872922784520085,
+            "kurtosis": -1.2069704762514468
+          },
+          "day_of_week": {
+            "mean": 2.984,
+            "std": 2.0004361705478666,
+            "min": 0.0,
+            "max": 6.0,
+            "skewness": 0.01601252392035057,
+            "kurtosis": -1.243755919577693
+          },
+          "month": {
+            "mean": 1.92,
+            "std": 0.8111282047138046,
+            "min": 1.0,
+            "max": 3.0,
+            "skewness": 0.14700922767719146,
+            "kurtosis": -1.4657030635531116
+          }
+        },
+        "correlations": {
+          "high_correlations": [
+            {
+              "feature1": "precipitation",
+              "feature2": "precipitation_norm",
+              "correlation": 1.0000000000000029
+            },
+            {
+              "feature1": "occupancy",
+              "feature2": "occupancy_norm",
+              "correlation": 1.0000000000000016
+            },
+            {
+              "feature1": "traffic_volume",
+              "feature2": "traffic_volume_norm",
+              "correlation": 1.0000000000000013
+            },
+            {
+              "feature1": "wind_speed",
+              "feature2": "wind_speed_norm",
+              "correlation": 1.0000000000000013
+            },
+            {
+              "feature1": "visibility",
+              "feature2": "visibility_norm",
+              "correlation": 1.000000000000001
+            },
+            {
+              "feature1": "flow_efficiency",
+              "feature2": "flow_efficiency_norm",
+              "correlation": 1.0000000000000002
+            },
+            {
+              "feature1": "traffic_density",
+              "feature2": "traffic_density_norm",
+              "correlation": 0.9999999999999996
+            },
+            {
+              "feature1": "avg_speed",
+              "feature2": "avg_speed_norm",
+              "correlation": 0.9999999999999993
+            },
+            {
+              "feature1": "temperature",
+              "feature2": "temperature_norm",
+              "correlation": 0.9999999999999986
+            },
+            {
+              "feature1": "congestion_score",
+              "feature2": "congestion_score_norm",
+              "correlation": 0.9999999999999984
+            }
+          ]
+        }
+      }
+    },
+    {
+      "basic_info": {
+        "feature_name": "traffic_features",
+        "version_id": "419e0123",
+        "shape": [
+          2000,
+          47
+        ],
+        "memory_usage_mb": 0.6238288879394531,
+        "created_at": "2025-09-06T15:28:51.327095"
+      },
+      "data_types": {
+        "timestamp": "datetime64[ns]",
+        "traffic_volume": "float64",
+        "avg_speed": "float64",
+        "occupancy": "float64",
+        "temperature": "float64",
+        "precipitation": "float64",
+        "visibility": "float64",
+        "wind_speed": "float64",
+        "is_weekend": "bool",
+        "is_holiday": "bool",
+        "hour": "int64",
+        "day_of_week": "int64",
+        "month": "int64",
+        "hour_sin": "float64",
+        "hour_cos": "float64",
+        "day_sin": "float64",
+        "day_cos": "float64",
+        "month_sin": "float64",
+        "month_cos": "float64",
+        "is_morning_rush": "int64",
+        "is_evening_rush": "int64",
+        "is_rush_hour": "int64",
+        "is_rainy": "int64",
+        "is_foggy": "int64",
+        "is_windy": "int64",
+        "is_cold": "int64",
+        "is_hot": "int64",
+        "weather_severity": "int64",
+        "traffic_density": "float64",
+        "is_congested": "int64",
+        "congestion_score": "float64",
+        "flow_efficiency": "float64",
+        "station_A1": "bool",
+        "station_A2": "bool",
+        "station_B1": "bool",
+        "station_B2": "bool",
+        "station_C1": "bool",
+        "traffic_volume_norm": "float64",
+        "avg_speed_norm": "float64",
+        "occupancy_norm": "float64",
+        "temperature_norm": "float64",
+        "precipitation_norm": "float64",
+        "visibility_norm": "float64",
+        "wind_speed_norm": "float64",
+        "traffic_density_norm": "float64",
+        "congestion_score_norm": "float64",
+        "flow_efficiency_norm": "float64"
+      },
+      "missing_data": {
+        "total_nulls": 0,
+        "null_percentage": 0.0,
+        "columns_with_nulls": []
+      },
+      "quality_metrics": {
+        "completeness": {
+          "timestamp": 100.0,
+          "traffic_volume": 100.0,
+          "avg_speed": 100.0,
+          "occupancy": 100.0,
+          "temperature": 100.0,
+          "precipitation": 100.0,
+          "visibility": 100.0,
+          "wind_speed": 100.0,
+          "is_weekend": 100.0,
+          "is_holiday": 100.0,
+          "hour": 100.0,
+          "day_of_week": 100.0,
+          "month": 100.0,
+          "hour_sin": 100.0,
+          "hour_cos": 100.0,
+          "day_sin": 100.0,
+          "day_cos": 100.0,
+          "month_sin": 100.0,
+          "month_cos": 100.0,
+          "is_morning_rush": 100.0,
+          "is_evening_rush": 100.0,
+          "is_rush_hour": 100.0,
+          "is_rainy": 100.0,
+          "is_foggy": 100.0,
+          "is_windy": 100.0,
+          "is_cold": 100.0,
+          "is_hot": 100.0,
+          "weather_severity": 100.0,
+          "traffic_density": 100.0,
+          "is_congested": 100.0,
+          "congestion_score": 100.0,
+          "flow_efficiency": 100.0,
+          "station_A1": 100.0,
+          "station_A2": 100.0,
+          "station_B1": 100.0,
+          "station_B2": 100.0,
+          "station_C1": 100.0,
+          "traffic_volume_norm": 100.0,
+          "avg_speed_norm": 100.0,
+          "occupancy_norm": 100.0,
+          "temperature_norm": 100.0,
+          "precipitation_norm": 100.0,
+          "visibility_norm": 100.0,
+          "wind_speed_norm": 100.0,
+          "traffic_density_norm": 100.0,
+          "congestion_score_norm": 100.0,
+          "flow_efficiency_norm": 100.0
+        },
+        "uniqueness": {
+          "is_weekend": 2,
+          "is_holiday": 2,
+          "station_A1": 2,
+          "station_A2": 2,
+          "station_B1": 2,
+          "station_B2": 2,
+          "station_C1": 2
+        },
+        "distribution": {
+          "traffic_volume": {
+            "mean": 100.7458492506674,
+            "std": 34.13492415946741,
+            "min": 19.55030565521742,
+            "max": 240.8716556271145,
+            "skewness": 0.7605547665105616,
+            "kurtosis": 0.6044336035115472
+          },
+          "avg_speed": {
+            "mean": 74.9473915677339,
+            "std": 16.969034092175665,
+            "min": 20.786978746485786,
+            "max": 130.0,
+            "skewness": 0.09761083369312097,
+            "kurtosis": -0.10491720153099848
+          },
+          "occupancy": {
+            "mean": 30.28274828449679,
+            "std": 17.208803040861333,
+            "min": 0.3584336130556518,
+            "max": 101.14090337257548,
+            "skewness": 0.7538172178470846,
+            "kurtosis": 0.4318039199835053
+          },
+          "temperature": {
+            "mean": 15.279975230627818,
+            "std": 9.978524960469997,
+            "min": -15.105225163135167,
+            "max": 45.96695513772053,
+            "skewness": -0.04940330675207071,
+            "kurtosis": -0.09449094608976649
+          },
+          "precipitation": {
+            "mean": 2.0223095040629016,
+            "std": 2.044375851188093,
+            "min": 0.0021842743754487202,
+            "max": 15.013087253207887,
+            "skewness": 1.9146515120347072,
+            "kurtosis": 4.696694903132619
+          },
+          "visibility": {
+            "mean": 9.91090147996173,
+            "std": 2.9340330477796046,
+            "min": 0.1,
+            "max": 15.0,
+            "skewness": -0.21822821026299052,
+            "kurtosis": -0.36440889176124225
+          },
+          "wind_speed": {
+            "mean": 2.815854330389997,
+            "std": 2.8175786753891874,
+            "min": 0.0010332818784352926,
+            "max": 24.291595992751933,
+            "skewness": 2.083342080535782,
+            "kurtosis": 6.303249886135856
+          },
+          "hour": {
+            "mean": 11.468,
+            "std": 6.93000638486338,
+            "min": 0.0,
+            "max": 23.0,
+            "skewness": 0.0061872922784520085,
+            "kurtosis": -1.2069704762514468
+          },
+          "day_of_week": {
+            "mean": 2.984,
+            "std": 2.0004361705478666,
+            "min": 0.0,
+            "max": 6.0,
+            "skewness": 0.01601252392035057,
+            "kurtosis": -1.243755919577693
+          },
+          "month": {
+            "mean": 1.92,
+            "std": 0.8111282047138046,
+            "min": 1.0,
+            "max": 3.0,
+            "skewness": 0.14700922767719146,
+            "kurtosis": -1.4657030635531116
+          }
+        },
+        "correlations": {
+          "high_correlations": [
+            {
+              "feature1": "precipitation",
+              "feature2": "precipitation_norm",
+              "correlation": 1.0000000000000029
+            },
+            {
+              "feature1": "occupancy",
+              "feature2": "occupancy_norm",
+              "correlation": 1.0000000000000016
+            },
+            {
+              "feature1": "traffic_volume",
+              "feature2": "traffic_volume_norm",
+              "correlation": 1.0000000000000013
+            },
+            {
+              "feature1": "wind_speed",
+              "feature2": "wind_speed_norm",
+              "correlation": 1.0000000000000013
+            },
+            {
+              "feature1": "visibility",
+              "feature2": "visibility_norm",
+              "correlation": 1.000000000000001
+            },
+            {
+              "feature1": "flow_efficiency",
+              "feature2": "flow_efficiency_norm",
+              "correlation": 1.0000000000000002
+            },
+            {
+              "feature1": "traffic_density",
+              "feature2": "traffic_density_norm",
+              "correlation": 0.9999999999999996
+            },
+            {
+              "feature1": "avg_speed",
+              "feature2": "avg_speed_norm",
+              "correlation": 0.9999999999999993
+            },
+            {
+              "feature1": "temperature",
+              "feature2": "temperature_norm",
+              "correlation": 0.9999999999999986
+            },
+            {
+              "feature1": "congestion_score",
+              "feature2": "congestion_score_norm",
+              "correlation": 0.9999999999999984
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-09-06T20:40:13.083124",
+  "weather_metrics": {
+    "clear": {
+      "traffic": {
+        "rmse": 5.020018772919628,
+        "mae": 4.056323745155995,
+        "r2": 0.7502796615221388,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 3.0449654709128424,
+        "mae": 2.4226788495135483,
+        "r2": 0.5878661527198473,
+        "count": 1000
+      }
+    },
+    "light_rain": {
+      "traffic": {
+        "rmse": 5.495287081360603,
+        "mae": 4.398998655189394,
+        "r2": 0.7338736150244688,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 3.28196654527626,
+        "mae": 2.6069764913496285,
+        "r2": 0.5725076341129922,
+        "count": 1000
+      }
+    },
+    "heavy_rain": {
+      "traffic": {
+        "rmse": 6.241066650674705,
+        "mae": 4.968084815127726,
+        "r2": 0.5926795900209949,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 3.9237042891501006,
+        "mae": 3.102014477288829,
+        "r2": 0.45974053731497755,
+        "count": 1000
+      }
+    },
+    "storm": {
+      "traffic": {
+        "rmse": 7.346920522943212,
+        "mae": 5.888917150114919,
+        "r2": 0.49365418827704144,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 4.31438884509825,
+        "mae": 3.4340223566478216,
+        "r2": 0.23814606299718344,
+        "count": 1000
+      }
+    },
+    "fog": {
+      "traffic": {
+        "rmse": 6.916323705309712,
+        "mae": 5.60295191257493,
+        "r2": 0.524224289129114,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 4.161192264858105,
+        "mae": 3.3131871492047695,
+        "r2": 0.31210239212975377,
+        "count": 1000
+      }
+    },
+    "snow": {
+      "traffic": {
+        "rmse": 7.670738806777678,
+        "mae": 6.182435455764947,
+        "r2": 0.4433397216207645,
+        "count": 1000
+      },
+      "speed": {
+        "rmse": 4.881090496061199,
+        "mae": 3.9352221633922753,
+        "r2": -0.0778707597212378,
+        "count": 1000
+      }
+    }
+  },
+  "summary": {
+    "clear_weather_rmse": 5.020018772919628,
+    "storm_weather_rmse": 7.346920522943212,
+    "performance_degradation": 46.352451161657,
+    "worst_condition": "snow",
+    "best_condition": "clear"
+  },
+  "recommendations": [
+    "Implement weather-specific models for extreme conditions (storm, snow)",
+    "Add more weather features (humidity, pressure, weather forecast)",
+    "Use ensemble methods with weather-based model selection",
+    "Increase training data for rare weather events",
+    "Consider real-time weather API integration for dynamic adjustments",
+    "Implement confidence intervals that widen in poor weather"
+  ],
+  "extreme_weather_impact": {
+    "sample_percentage": 33.33333333333333,
+    "avg_error_increase": 150
+  }
+}

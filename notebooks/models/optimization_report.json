@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-09-06T18:13:36.311980",
+  "description": "Hyperparameter optimization for XGBoost sensor models",
+  "optimization_framework": "Optuna with Bayesian optimization (TPE)",
+  "summary_statistics": {
+    "total_models_optimized": 6,
+    "average_trials_per_model": 10,
+    "model_types": [
+      "speed",
+      "vehicle_count"
+    ],
+    "sensors_optimized": [
+      "LJ_001",
+      "MB_002",
+      "KP_003"
+    ]
+  },
+  "performance_summary": [
+    {
+      "sensor_id": "LJ_001",
+      "model_type": "speed",
+      "best_score": 1.6627635757128398,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    },
+    {
+      "sensor_id": "MB_002",
+      "model_type": "speed",
+      "best_score": 1.6627635757128398,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    },
+    {
+      "sensor_id": "KP_003",
+      "model_type": "speed",
+      "best_score": 1.6627635757128398,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    },
+    {
+      "sensor_id": "LJ_001",
+      "model_type": "vehicle_count",
+      "best_score": 2.035161032978321,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    },
+    {
+      "sensor_id": "MB_002",
+      "model_type": "vehicle_count",
+      "best_score": 2.035161032978321,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    },
+    {
+      "sensor_id": "KP_003",
+      "model_type": "vehicle_count",
+      "best_score": 2.035161032978321,
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.1601531217136121
+    }
+  ],
+  "recommendations": {
+    "speed_models": {
+      "typical_n_estimators": 250,
+      "typical_max_depth": 4,
+      "typical_learning_rate": 0.1601531217136121
+    },
+    "vehicle_count_models": {
+      "typical_n_estimators": 250,
+      "typical_max_depth": 4,
+      "typical_learning_rate": 0.1601531217136121
+    }
+  }
+}

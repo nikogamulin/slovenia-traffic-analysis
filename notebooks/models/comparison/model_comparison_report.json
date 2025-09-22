@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-09-07T14:38:59.120318",
+  "models_compared": [
+    "moving_average",
+    "arima",
+    "prophet",
+    "xgboost"
+  ],
+  "metrics": {
+    "moving_average": {
+      "rmse": 35.978738998777715,
+      "mae": 31.560024839076416,
+      "r2": -2.9529863067026607,
+      "mape": 17.262363180490933
+    },
+    "arima": {
+      "rmse": 64.76487468607753,
+      "mae": 62.18557573981496,
+      "r2": -11.808919410357777,
+      "mape": 34.9353068651667
+    },
+    "prophet": {
+      "rmse": 34.20521822117172,
+      "mae": 28.91452872885706,
+      "r2": -2.572877819712777,
+      "mape": 16.296812381904182
+    },
+    "xgboost": {
+      "rmse": 20.01695948650407,
+      "mae": 17.10228176547014,
+      "r2": -0.2235723504273186,
+      "mape": 9.363137733193518
+    }
+  },
+  "training_times": {
+    "moving_average": 1.430511474609375e-06,
+    "arima": 0.47531676292419434,
+    "prophet": 0.36138343811035156,
+    "xgboost": 1.8616583347320557
+  },
+  "best_model": {
+    "rmse": "xgboost",
+    "mae": "xgboost",
+    "r2": "xgboost",
+    "mape": "xgboost",
+    "overall": "xgboost"
+  },
+  "recommendations": [
+    "Best overall model: XGBOOST with score 0.397",
+    "XGBoost shows 44.4% improvement over simple moving average",
+    "Consider ensemble methods combining XGBoost with time series models for better performance",
+    "XGBoost provides best accuracy but requires more computational resources",
+    "ARIMA and Prophet capture temporal patterns well but may need parameter tuning",
+    "Moving average serves as a good baseline with minimal computational cost"
+  ],
+  "summary": {
+    "average_rmse": 38.7415,
+    "best_rmse": 20.017,
+    "worst_rmse": 64.765,
+    "rmse_improvement": 69.09287423762835,
+    "fastest_training": "moving_average",
+    "slowest_training": "xgboost"
+  }
+}

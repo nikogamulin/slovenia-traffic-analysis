@@ -1,0 +1,60 @@
+data:
+  input:
+    date_format: '%Y-%m-%d'
+    file_pattern: traffic_*.csv
+    raw_data_path: data/raw/
+  output:
+    feature_store_path: feature_store/
+    model_artifacts_path: models/
+    processed_data_path: data/processed/
+  validation:
+    max_missing_percentage: 5.0
+    min_records_per_day: 1000
+    occupancy_range:
+    - 0
+    - 100
+    speed_range:
+    - 0
+    - 150
+features:
+  temporal:
+    cyclical_encoding: true
+    day_features: true
+    hour_features: true
+    month_features: true
+  traffic:
+    congestion_threshold: 0.6
+    rush_hour_evening:
+    - 16
+    - 18
+    rush_hour_morning:
+    - 7
+    - 9
+    speed_threshold_low: 60
+  weather:
+    precipitation_threshold: 1.0
+    temperature_bins:
+    - -20
+    - 0
+    - 10
+    - 20
+    - 30
+    - 50
+    visibility_threshold: 1000
+    wind_speed_threshold: 15.0
+logging:
+  backup_count: 5
+  file: logs/pipeline.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+  max_file_size: 10MB
+pipeline:
+  author: Slovenia Traffic Analysis Team
+  description: Automated traffic data processing pipeline
+  name: traffic_data_pipeline
+  version: 1.0.0
+processing:
+  batch_size: 1000
+  chunk_size: 10000
+  memory_limit_gb: 8
+  parallel_workers: 4

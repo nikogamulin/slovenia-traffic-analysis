@@ -1,0 +1,23 @@
+feature_name,display_name,category,data_type,unit,source,importance_score,has_transformation,has_business_meaning,quality_checks_count
+timestamp,Timestamp,temporal,datetime64[ns],datetime,traffic_sensors,1.0,False,True,2
+hour,Hour of Day,temporal,int64,hour,derived_from_timestamp,0.9,True,True,0
+day_of_week,Day of Week,temporal,int64,day,derived_from_timestamp,0.8,True,True,0
+month,Month,temporal,int64,month,derived_from_timestamp,0.6,True,True,0
+hour_sin,Hour Sine,temporal_cyclical,float64,dimensionless,derived_from_hour,0.7,True,True,0
+hour_cos,Hour Cosine,temporal_cyclical,float64,dimensionless,derived_from_hour,0.7,True,True,0
+temperature,Temperature,weather,float64,°C,weather_api,0.5,False,True,2
+precipitation,Precipitation,weather,float64,mm,weather_api,0.7,False,True,2
+visibility,Visibility,weather,float64,m,weather_api,0.6,False,True,2
+vehicle_count,Vehicle Count,traffic_raw,float64,vehicles,traffic_sensors,1.0,False,True,2
+avg_speed,Average Speed,traffic_raw,float64,km/h,traffic_sensors,1.0,False,True,2
+occupancy,Occupancy Rate,traffic_raw,float64,%,traffic_sensors,0.9,False,True,2
+traffic_density,Traffic Density,traffic_derived,float64,vehicles/(km/h),derived_from_vehicle_count_and_avg_speed,0.8,True,True,0
+flow_efficiency,Flow Efficiency,traffic_derived,float64,(vehicles×km/h)/1000,derived_from_vehicle_count_and_avg_speed,0.7,True,True,0
+congestion_score,Congestion Score,traffic_derived,float64,score (0-100),derived_from_occupancy_and_avg_speed,0.8,True,True,0
+is_weekend,Is Weekend,temporal_boolean,int64,,derived_from_day_of_week,0.8,True,True,0
+is_rush_hour,Is Rush Hour,temporal_boolean,int64,,derived_from_hour,0.9,True,True,0
+is_congested,Is Congested,traffic_boolean,int64,,derived_from_occupancy,0.8,True,True,0
+is_rainy,Is Rainy,weather_boolean,int64,,derived_from_precipitation,0.7,True,True,0
+station_id,Station ID,station,object,,traffic_sensors,0.6,False,True,0
+vehicle_count_lag1,Vehicle Count (Previous Hour),temporal_lag,float64,vehicles,derived_from_vehicle_count,0.6,True,True,0
+vehicle_count_ma3,Vehicle Count (3-Hour Moving Average),temporal_smoothed,float64,vehicles,derived_from_vehicle_count,0.5,True,True,0

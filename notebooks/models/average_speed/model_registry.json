@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-09-06T17:51:45.885016",
+  "task": "average_speed_prediction",
+  "n_models": 10,
+  "models": {
+    "LJ_001": "models/average_speed/LJ_001_average_speed_20250906_175133",
+    "MB_002": "models/average_speed/MB_002_average_speed_20250906_175133",
+    "KP_003": "models/average_speed/KP_003_average_speed_20250906_175133",
+    "CE_004": "models/average_speed/CE_004_average_speed_20250906_175134",
+    "KR_005": "models/average_speed/KR_005_average_speed_20250906_175134",
+    "NM_006": "models/average_speed/NM_006_average_speed_20250906_175134",
+    "GO_007": "models/average_speed/GO_007_average_speed_20250906_175134",
+    "MS_008": "models/average_speed/MS_008_average_speed_20250906_175134",
+    "PO_009": "models/average_speed/PO_009_average_speed_20250906_175134",
+    "BL_010": "models/average_speed/BL_010_average_speed_20250906_175134"
+  },
+  "metrics": [
+    {
+      "sensor_id": "LJ_001",
+      "rmse": 3.867702873644617,
+      "mae": 2.939425468444824,
+      "r2": 0.9674084782600403,
+      "mape": 3.919917717576027,
+      "mean_target": 89.64962768554688,
+      "std_target": 21.42401695251465,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "MB_002",
+      "rmse": 3.200949176445635,
+      "mae": 2.5718765258789062,
+      "r2": 0.8682080507278442,
+      "mape": 8.564071357250214,
+      "mean_target": 34.28556442260742,
+      "std_target": 8.817273139953613,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "KP_003",
+      "rmse": 3.564050838814288,
+      "mae": 2.7918243408203125,
+      "r2": 0.9474812150001526,
+      "mape": 4.925334081053734,
+      "mean_target": 65.385009765625,
+      "std_target": 15.552008628845215,
+      "predictions_above_limit": 1,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "CE_004",
+      "rmse": 3.7088810091244167,
+      "mae": 2.9080231189727783,
+      "r2": 0.9708352088928223,
+      "mape": 3.73053140938282,
+      "mean_target": 88.24207305908203,
+      "std_target": 21.71767234802246,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "KR_005",
+      "rmse": 3.6925335167026794,
+      "mae": 2.91221284866333,
+      "r2": 0.9150243401527405,
+      "mape": 7.05905482172966,
+      "mean_target": 49.380306243896484,
+      "std_target": 12.66710090637207,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "NM_006",
+      "rmse": 3.466561529203599,
+      "mae": 2.6932146549224854,
+      "r2": 0.9520484209060669,
+      "mape": 4.747743159532547,
+      "mean_target": 64.68423461914062,
+      "std_target": 15.830607414245605,
+      "predictions_above_limit": 3,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "GO_007",
+      "rmse": 2.8699527056050362,
+      "mae": 2.288797378540039,
+      "r2": 0.8382165431976318,
+      "mape": 7.5597696006298065,
+      "mean_target": 31.191356658935547,
+      "std_target": 7.135225296020508,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "MS_008",
+      "rmse": 3.1018516732421957,
+      "mae": 2.4886367321014404,
+      "r2": 0.8803213238716125,
+      "mape": 8.381251245737076,
+      "mean_target": 34.73662567138672,
+      "std_target": 8.966286659240723,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "PO_009",
+      "rmse": 3.6191568307364506,
+      "mae": 2.876093626022339,
+      "r2": 0.9614465832710266,
+      "mape": 4.244653508067131,
+      "mean_target": 76.5416488647461,
+      "std_target": 18.432147979736328,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    },
+    {
+      "sensor_id": "BL_010",
+      "rmse": 3.188933106432276,
+      "mae": 2.5185978412628174,
+      "r2": 0.9214935302734375,
+      "mape": 5.507482588291168,
+      "mean_target": 50.537479400634766,
+      "std_target": 11.38132381439209,
+      "predictions_above_limit": 0,
+      "predictions_below_10": 0
+    }
+  ],
+  "success_rate": 100.0,
+  "avg_mae": 2.6988702535629274,
+  "acceptance_criteria": "MAE < 5 km/h"
+}

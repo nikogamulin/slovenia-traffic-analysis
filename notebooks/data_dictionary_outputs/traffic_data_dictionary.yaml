@@ -1,0 +1,576 @@
+categories:
+  station:
+  - station_id
+  temporal:
+  - timestamp
+  - hour
+  - day_of_week
+  - month
+  temporal_boolean:
+  - is_weekend
+  - is_rush_hour
+  temporal_cyclical:
+  - hour_sin
+  - hour_cos
+  temporal_lag:
+  - vehicle_count_lag1
+  temporal_smoothed:
+  - vehicle_count_ma3
+  traffic_boolean:
+  - is_congested
+  traffic_derived:
+  - traffic_density
+  - flow_efficiency
+  - congestion_score
+  traffic_raw:
+  - vehicle_count
+  - avg_speed
+  - occupancy
+  weather:
+  - temperature
+  - precipitation
+  - visibility
+  weather_boolean:
+  - is_rainy
+created_date: '2025-09-06T15:40:47.903649'
+features:
+  avg_speed:
+    business_meaning: Indicates traffic flow efficiency and congestion level
+    category: traffic_raw
+    created_date: '2025-09-06T15:40:47.903921'
+    data_type: float64
+    description: Average speed of vehicles in km/h
+    display_name: Average Speed
+    example_values:
+    - 30
+    - 50
+    - 80
+    - 100
+    - 120
+    importance_score: 1.0
+    last_updated: '2025-09-06T15:40:47.903922'
+    missing_value_handling: null
+    name: avg_speed
+    quality_checks:
+    - non_negative
+    - speed_limit_check
+    related_features:
+    - traffic_density
+    - congestion_score
+    - is_congested
+    source: traffic_sensors
+    transformation: null
+    unit: km/h
+    valid_range:
+    - 0
+    - 150
+  congestion_score:
+    business_meaning: '0-30: free flow, 30-60: moderate, 60+: congested'
+    category: traffic_derived
+    created_date: '2025-09-06T15:40:47.903927'
+    data_type: float64
+    description: Composite score indicating congestion level
+    display_name: Congestion Score
+    example_values: null
+    importance_score: 0.8
+    last_updated: '2025-09-06T15:40:47.903927'
+    missing_value_handling: null
+    name: congestion_score
+    quality_checks: null
+    related_features:
+    - occupancy
+    - avg_speed
+    - is_congested
+    source: derived_from_occupancy_and_avg_speed
+    transformation: clip(occupancy / avg_speed * 100, 0, 100)
+    unit: score (0-100)
+    valid_range:
+    - 0
+    - 100
+  day_of_week:
+    business_meaning: Distinguishes weekday vs weekend traffic patterns
+    category: temporal
+    created_date: '2025-09-06T15:40:47.903905'
+    data_type: int64
+    description: Day of the week (0=Monday, 6=Sunday)
+    display_name: Day of Week
+    example_values:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    importance_score: 0.8
+    last_updated: '2025-09-06T15:40:47.903906'
+    missing_value_handling: null
+    name: day_of_week
+    quality_checks: null
+    related_features:
+    - is_weekend
+    source: derived_from_timestamp
+    transformation: extract_dayofweek_from_timestamp
+    unit: day
+    valid_range:
+    - 0
+    - 6
+  flow_efficiency:
+    business_meaning: Higher values indicate better traffic throughput
+    category: traffic_derived
+    created_date: '2025-09-06T15:40:47.903925'
+    data_type: float64
+    description: Product of speed and volume (throughput measure)
+    display_name: Flow Efficiency
+    example_values: null
+    importance_score: 0.7
+    last_updated: '2025-09-06T15:40:47.903926'
+    missing_value_handling: null
+    name: flow_efficiency
+    quality_checks: null
+    related_features:
+    - vehicle_count
+    - avg_speed
+    source: derived_from_vehicle_count_and_avg_speed
+    transformation: avg_speed * vehicle_count / 1000
+    unit: "(vehicles\xD7km/h)/1000"
+    valid_range: null
+  hour:
+    business_meaning: Used to identify daily traffic patterns and peak hours
+    category: temporal
+    created_date: '2025-09-06T15:40:47.903903'
+    data_type: int64
+    description: Hour component of the timestamp (0-23)
+    display_name: Hour of Day
+    example_values:
+    - 0
+    - 6
+    - 12
+    - 18
+    - 23
+    importance_score: 0.9
+    last_updated: '2025-09-06T15:40:47.903904'
+    missing_value_handling: null
+    name: hour
+    quality_checks: null
+    related_features: null
+    source: derived_from_timestamp
+    transformation: extract_hour_from_timestamp
+    unit: hour
+    valid_range:
+    - 0
+    - 23
+  hour_cos:
+    business_meaning: Captures cyclical nature of daily patterns
+    category: temporal_cyclical
+    created_date: '2025-09-06T15:40:47.903909'
+    data_type: float64
+    description: Cosine transformation of hour for cyclical encoding
+    display_name: Hour Cosine
+    example_values: null
+    importance_score: 0.7
+    last_updated: '2025-09-06T15:40:47.903910'
+    missing_value_handling: null
+    name: hour_cos
+    quality_checks: null
+    related_features:
+    - hour_sin
+    - hour
+    source: derived_from_hour
+    transformation: cos(2*pi*hour/24)
+    unit: dimensionless
+    valid_range:
+    - -1
+    - 1
+  hour_sin:
+    business_meaning: Captures cyclical nature of daily patterns
+    category: temporal_cyclical
+    created_date: '2025-09-06T15:40:47.903908'
+    data_type: float64
+    description: Sine transformation of hour for cyclical encoding
+    display_name: Hour Sine
+    example_values: null
+    importance_score: 0.7
+    last_updated: '2025-09-06T15:40:47.903909'
+    missing_value_handling: null
+    name: hour_sin
+    quality_checks: null
+    related_features:
+    - hour_cos
+    - hour
+    source: derived_from_hour
+    transformation: sin(2*pi*hour/24)
+    unit: dimensionless
+    valid_range:
+    - -1
+    - 1
+  is_congested:
+    business_meaning: Indicates when traffic conditions are significantly impaired
+    category: traffic_boolean
+    created_date: '2025-09-06T15:40:47.903931'
+    data_type: int64
+    description: Binary flag indicating congested conditions (occupancy > 60%)
+    display_name: Is Congested
+    example_values:
+    - 0
+    - 1
+    importance_score: 0.8
+    last_updated: '2025-09-06T15:40:47.903931'
+    missing_value_handling: null
+    name: is_congested
+    quality_checks: null
+    related_features:
+    - occupancy
+    - congestion_score
+    source: derived_from_occupancy
+    transformation: 1 if occupancy / 100 > 0.6 else 0
+    unit: null
+    valid_range:
+    - 0
+    - 1
+  is_rainy:
+    business_meaning: Rain conditions significantly impact traffic behavior
+    category: weather_boolean
+    created_date: '2025-09-06T15:40:47.903932'
+    data_type: int64
+    description: Binary flag indicating rainy conditions (precipitation > 1mm)
+    display_name: Is Rainy
+    example_values:
+    - 0
+    - 1
+    importance_score: 0.7
+    last_updated: '2025-09-06T15:40:47.903933'
+    missing_value_handling: null
+    name: is_rainy
+    quality_checks: null
+    related_features:
+    - precipitation
+    - weather_severity
+    source: derived_from_precipitation
+    transformation: 1 if precipitation > 1.0 else 0
+    unit: null
+    valid_range:
+    - 0
+    - 1
+  is_rush_hour:
+    business_meaning: Rush hours typically show highest traffic volumes
+    category: temporal_boolean
+    created_date: '2025-09-06T15:40:47.903929'
+    data_type: int64
+    description: Binary flag indicating rush hour periods (7-9 AM, 4-6 PM)
+    display_name: Is Rush Hour
+    example_values:
+    - 0
+    - 1
+    importance_score: 0.9
+    last_updated: '2025-09-06T15:40:47.903930'
+    missing_value_handling: null
+    name: is_rush_hour
+    quality_checks: null
+    related_features:
+    - hour
+    - is_morning_rush
+    - is_evening_rush
+    source: derived_from_hour
+    transformation: 1 if (7 <= hour < 9) or (16 <= hour < 18) else 0
+    unit: null
+    valid_range:
+    - 0
+    - 1
+  is_weekend:
+    business_meaning: Weekend traffic patterns differ significantly from weekdays
+    category: temporal_boolean
+    created_date: '2025-09-06T15:40:47.903928'
+    data_type: int64
+    description: Binary flag indicating weekend (Saturday/Sunday)
+    display_name: Is Weekend
+    example_values:
+    - 0
+    - 1
+    importance_score: 0.8
+    last_updated: '2025-09-06T15:40:47.903929'
+    missing_value_handling: null
+    name: is_weekend
+    quality_checks: null
+    related_features:
+    - day_of_week
+    source: derived_from_day_of_week
+    transformation: 1 if day_of_week >= 5 else 0
+    unit: null
+    valid_range:
+    - 0
+    - 1
+  month:
+    business_meaning: Captures seasonal traffic variations
+    category: temporal
+    created_date: '2025-09-06T15:40:47.903907'
+    data_type: int64
+    description: Month component of the timestamp (1-12)
+    display_name: Month
+    example_values:
+    - 1
+    - 3
+    - 6
+    - 9
+    - 12
+    importance_score: 0.6
+    last_updated: '2025-09-06T15:40:47.903907'
+    missing_value_handling: null
+    name: month
+    quality_checks: null
+    related_features: null
+    source: derived_from_timestamp
+    transformation: extract_month_from_timestamp
+    unit: month
+    valid_range:
+    - 1
+    - 12
+  occupancy:
+    business_meaning: Direct measure of roadway utilization
+    category: traffic_raw
+    created_date: '2025-09-06T15:40:47.903922'
+    data_type: float64
+    description: Percentage of time the sensor detects vehicles
+    display_name: Occupancy Rate
+    example_values:
+    - 5
+    - 15
+    - 30
+    - 60
+    - 85
+    importance_score: 0.9
+    last_updated: '2025-09-06T15:40:47.903923'
+    missing_value_handling: null
+    name: occupancy
+    quality_checks:
+    - percentage_range
+    - logical_consistency
+    related_features:
+    - is_congested
+    - congestion_score
+    source: traffic_sensors
+    transformation: null
+    unit: '%'
+    valid_range:
+    - 0
+    - 100
+  precipitation:
+    business_meaning: Rain significantly impacts traffic speed and congestion
+    category: weather
+    created_date: '2025-09-06T15:40:47.903915'
+    data_type: float64
+    description: Amount of rainfall in millimeters
+    display_name: Precipitation
+    example_values:
+    - 0
+    - 1
+    - 5
+    - 10
+    - 20
+    importance_score: 0.7
+    last_updated: '2025-09-06T15:40:47.903916'
+    missing_value_handling: null
+    name: precipitation
+    quality_checks:
+    - non_negative
+    - outlier_detection
+    related_features:
+    - is_rainy
+    - weather_severity
+    source: weather_api
+    transformation: null
+    unit: mm
+    valid_range:
+    - 0
+    - 100
+  station_id:
+    business_meaning: Different stations may have distinct traffic patterns
+    category: station
+    created_date: '2025-09-06T15:40:47.903933'
+    data_type: object
+    description: Identifier for the traffic measurement station
+    display_name: Station ID
+    example_values:
+    - A1_KM_125
+    - A2_KM_89
+    - A3_KM_203
+    importance_score: 0.6
+    last_updated: '2025-09-06T15:40:47.903934'
+    missing_value_handling: null
+    name: station_id
+    quality_checks: null
+    related_features:
+    - station_A1KM125
+    - station_A2KM89
+    - station_A3KM203
+    source: traffic_sensors
+    transformation: null
+    unit: null
+    valid_range: null
+  temperature:
+    business_meaning: Temperature affects driving behavior and traffic patterns
+    category: weather
+    created_date: '2025-09-06T15:40:47.903911'
+    data_type: float64
+    description: Air temperature in Celsius
+    display_name: Temperature
+    example_values:
+    - -5
+    - 0
+    - 10
+    - 20
+    - 30
+    importance_score: 0.5
+    last_updated: '2025-09-06T15:40:47.903911'
+    missing_value_handling: null
+    name: temperature
+    quality_checks:
+    - range_check
+    - outlier_detection
+    related_features:
+    - is_cold
+    - is_hot
+    source: weather_api
+    transformation: null
+    unit: "\xB0C"
+    valid_range:
+    - -30
+    - 50
+  timestamp:
+    business_meaning: When the traffic measurement was taken
+    category: temporal
+    created_date: '2025-09-06T15:40:47.903900'
+    data_type: datetime64[ns]
+    description: Date and time of the measurement
+    display_name: Timestamp
+    example_values: null
+    importance_score: 1.0
+    last_updated: '2025-09-06T15:40:47.903902'
+    missing_value_handling: null
+    name: timestamp
+    quality_checks:
+    - not_null
+    - chronological_order
+    related_features: null
+    source: traffic_sensors
+    transformation: null
+    unit: datetime
+    valid_range: null
+  traffic_density:
+    business_meaning: Higher values indicate more congested conditions
+    category: traffic_derived
+    created_date: '2025-09-06T15:40:47.903924'
+    data_type: float64
+    description: Vehicle count divided by average speed (density measure)
+    display_name: Traffic Density
+    example_values: null
+    importance_score: 0.8
+    last_updated: '2025-09-06T15:40:47.903925'
+    missing_value_handling: null
+    name: traffic_density
+    quality_checks: null
+    related_features:
+    - vehicle_count
+    - avg_speed
+    - is_congested
+    source: derived_from_vehicle_count_and_avg_speed
+    transformation: vehicle_count / (avg_speed + 1)
+    unit: vehicles/(km/h)
+    valid_range: null
+  vehicle_count:
+    business_meaning: Primary measure of traffic volume
+    category: traffic_raw
+    created_date: '2025-09-06T15:40:47.903919'
+    data_type: float64
+    description: Number of vehicles detected in the time period
+    display_name: Vehicle Count
+    example_values:
+    - 20
+    - 50
+    - 100
+    - 150
+    - 200
+    importance_score: 1.0
+    last_updated: '2025-09-06T15:40:47.903920'
+    missing_value_handling: null
+    name: vehicle_count
+    quality_checks:
+    - non_negative
+    - reasonable_range
+    related_features:
+    - traffic_density
+    - flow_efficiency
+    source: traffic_sensors
+    transformation: null
+    unit: vehicles
+    valid_range:
+    - 0
+    - 500
+  vehicle_count_lag1:
+    business_meaning: Previous traffic conditions influence current state
+    category: temporal_lag
+    created_date: '2025-09-06T15:40:47.903935'
+    data_type: float64
+    description: Vehicle count from the previous hour (lag-1)
+    display_name: Vehicle Count (Previous Hour)
+    example_values: null
+    importance_score: 0.6
+    last_updated: '2025-09-06T15:40:47.903935'
+    missing_value_handling: forward_fill_or_drop
+    name: vehicle_count_lag1
+    quality_checks: null
+    related_features:
+    - vehicle_count
+    source: derived_from_vehicle_count
+    transformation: lag(vehicle_count, 1)
+    unit: vehicles
+    valid_range: null
+  vehicle_count_ma3:
+    business_meaning: Smoothed traffic trend reduces noise in predictions
+    category: temporal_smoothed
+    created_date: '2025-09-06T15:40:47.903936'
+    data_type: float64
+    description: 3-hour moving average of vehicle count
+    display_name: Vehicle Count (3-Hour Moving Average)
+    example_values: null
+    importance_score: 0.5
+    last_updated: '2025-09-06T15:40:47.903937'
+    missing_value_handling: requires_minimum_window
+    name: vehicle_count_ma3
+    quality_checks: null
+    related_features:
+    - vehicle_count
+    source: derived_from_vehicle_count
+    transformation: rolling_mean(vehicle_count, window=3)
+    unit: vehicles
+    valid_range: null
+  visibility:
+    business_meaning: Low visibility conditions reduce traffic speed for safety
+    category: weather
+    created_date: '2025-09-06T15:40:47.903917'
+    data_type: float64
+    description: Visibility distance in meters
+    display_name: Visibility
+    example_values:
+    - 100
+    - 500
+    - 1000
+    - 5000
+    - 10000
+    importance_score: 0.6
+    last_updated: '2025-09-06T15:40:47.903918'
+    missing_value_handling: null
+    name: visibility
+    quality_checks:
+    - non_negative
+    - range_check
+    related_features:
+    - is_foggy
+    - weather_severity
+    source: weather_api
+    transformation: null
+    unit: m
+    valid_range:
+    - 0
+    - 15000
+total_features: 22

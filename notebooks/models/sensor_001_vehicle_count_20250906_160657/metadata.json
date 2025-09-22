@@ -1,0 +1,92 @@
+{
+  "model_name": "sensor_001_vehicle_count",
+  "task_type": "regression",
+  "feature_names": [
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "traffic_lag_1h",
+    "traffic_lag_24h",
+    "traffic_lag_168h",
+    "speed_lag_1h",
+    "speed_lag_24h",
+    "temperature",
+    "precipitation",
+    "visibility",
+    "wind_speed",
+    "is_holiday",
+    "is_school_break",
+    "has_accident",
+    "has_roadwork",
+    "avg_speed"
+  ],
+  "best_params": null,
+  "training_history": [
+    {
+      "timestamp": "2025-09-06T16:06:44.975384",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 1,
+        "gamma": 0,
+        "reg_alpha": 0,
+        "reg_lambda": 1,
+        "random_state": 42,
+        "n_jobs": -1,
+        "verbosity": 0,
+        "objective": "reg:squarederror",
+        "eval_metric": "rmse",
+        "early_stopping_rounds": 10
+      },
+      "n_features": 18,
+      "n_train_samples": 800,
+      "n_val_samples": 200
+    }
+  ],
+  "feature_importance": {
+    "feature": {
+      "3": "is_weekend",
+      "15": "has_accident",
+      "0": "hour",
+      "17": "avg_speed",
+      "1": "day_of_week",
+      "10": "precipitation",
+      "14": "is_school_break",
+      "13": "is_holiday",
+      "11": "visibility",
+      "7": "speed_lag_1h",
+      "16": "has_roadwork",
+      "8": "speed_lag_24h",
+      "9": "temperature",
+      "12": "wind_speed",
+      "2": "month",
+      "6": "traffic_lag_168h",
+      "4": "traffic_lag_1h",
+      "5": "traffic_lag_24h"
+    },
+    "importance": {
+      "3": 0.2780778408050537,
+      "15": 0.23498688638210297,
+      "0": 0.20468983054161072,
+      "17": 0.0653032436966896,
+      "1": 0.05391307175159454,
+      "10": 0.022134708240628242,
+      "14": 0.01576656475663185,
+      "13": 0.014190703630447388,
+      "11": 0.013688275590538979,
+      "7": 0.012873746454715729,
+      "16": 0.012603900395333767,
+      "8": 0.012242105789482594,
+      "9": 0.010788888670504093,
+      "12": 0.010709233582019806,
+      "2": 0.010510328225791454,
+      "6": 0.009407540783286095,
+      "4": 0.00908120721578598,
+      "5": 0.009032013826072216
+    }
+  }
+}

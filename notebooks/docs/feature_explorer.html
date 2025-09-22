@@ -1,0 +1,1314 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Data Dictionary - Feature Explorer</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 8px 8px 0 0; }
+        .header h1 { margin: 0; font-size: 2em; }
+        .header p { margin: 10px 0 0 0; opacity: 0.8; }
+        .controls { padding: 20px; border-bottom: 1px solid #eee; background: #f8f9fa; }
+        .search-box { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px; margin-bottom: 10px; }
+        .filters { display: flex; gap: 10px; flex-wrap: wrap; }
+        .filter { padding: 8px 12px; background: #007bff; color: white; border: none; border-radius: 20px; cursor: pointer; font-size: 12px; }
+        .filter.active { background: #28a745; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+        .stat-card { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-number { font-size: 2em; font-weight: bold; color: #2c3e50; }
+        .stat-label { color: #666; margin-top: 5px; }
+        .features { padding: 20px; }
+        .feature-card { border: 1px solid #e1e8ed; border-radius: 8px; margin-bottom: 15px; background: white; overflow: hidden; }
+        .feature-header { background: #f8f9fa; padding: 15px; border-bottom: 1px solid #e1e8ed; cursor: pointer; }
+        .feature-name { font-weight: bold; color: #2c3e50; font-size: 16px; }
+        .feature-type { color: #666; font-size: 12px; background: #e9ecef; padding: 2px 6px; border-radius: 3px; margin-left: 10px; }
+        .category-badge { color: white; font-size: 11px; padding: 2px 8px; border-radius: 12px; margin-left: 10px; }
+        .feature-details { padding: 15px; display: none; }
+        .feature-details.show { display: block; }
+        .detail-row { display: grid; grid-template-columns: 120px 1fr; gap: 10px; margin-bottom: 8px; }
+        .detail-label { font-weight: bold; color: #666; }
+        .detail-value { color: #333; }
+        .importance-bar { height: 6px; background: #e9ecef; border-radius: 3px; overflow: hidden; }
+        .importance-fill { height: 100%; background: linear-gradient(90deg, #28a745, #ffc107, #dc3545); }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Traffic Data Dictionary</h1>
+            <p>Interactive Feature Explorer - Generated 2025-09-06 15:40:47</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">22</div>
+                <div class="stat-label">Total Features</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">11</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2,000</div>
+                <div class="stat-label">Data Records</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">0.7 MB</div>
+                <div class="stat-label">Memory Usage</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="Search features..." id="searchBox">
+            <div class="filters" id="categoryFilters">
+                <button class="filter active" data-category="all">All Features</button>
+<button class="filter" data-category="station" style="background-color: #6f42c1;">Station (1)</button>
+<button class="filter" data-category="temporal" style="background-color: #007bff;">Temporal (4)</button>
+<button class="filter" data-category="temporal_boolean" style="background-color: #007bff;">Temporal Boolean (2)</button>
+<button class="filter" data-category="temporal_cyclical" style="background-color: #007bff;">Temporal Cyclical (2)</button>
+<button class="filter" data-category="temporal_lag" style="background-color: #007bff;">Temporal Lag (1)</button>
+<button class="filter" data-category="temporal_smoothed" style="background-color: #007bff;">Temporal Smoothed (1)</button>
+<button class="filter" data-category="traffic_boolean" style="background-color: #dc3545;">Traffic Boolean (1)</button>
+<button class="filter" data-category="traffic_derived" style="background-color: #dc3545;">Traffic Derived (3)</button>
+<button class="filter" data-category="traffic_raw" style="background-color: #dc3545;">Traffic Raw (3)</button>
+<button class="filter" data-category="weather" style="background-color: #28a745;">Weather (3)</button>
+<button class="filter" data-category="weather_boolean" style="background-color: #28a745;">Weather Boolean (1)</button>
+
+            </div>
+        </div>
+        
+        <div class="features" id="featuresContainer">
+
+            <div class="feature-card" data-category="traffic_raw" data-name="avg_speed">
+                <div class="feature-header" onclick="toggleFeature('avg_speed')">
+                    <span class="feature-name">avg_speed</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic raw</span>
+                </div>
+                <div class="feature-details" id="details_avg_speed">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Average Speed</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Average speed of vehicles in km/h</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">km/h</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 150</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">traffic_sensors</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Indicates traffic flow efficiency and congestion level</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            1.0/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 100.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">traffic_density, congestion_score, is_congested</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_derived" data-name="congestion_score">
+                <div class="feature-header" onclick="toggleFeature('congestion_score')">
+                    <span class="feature-name">congestion_score</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic derived</span>
+                </div>
+                <div class="feature-details" id="details_congestion_score">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Congestion Score</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Composite score indicating congestion level</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">score (0-100)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 100</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>clip(occupancy / avg_speed * 100, 0, 100)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_occupancy_and_avg_speed</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">0-30: free flow, 30-60: moderate, 60+: congested</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.8/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 80.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">occupancy, avg_speed, is_congested</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal" data-name="day_of_week">
+                <div class="feature-header" onclick="toggleFeature('day_of_week')">
+                    <span class="feature-name">day_of_week</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal</span>
+                </div>
+                <div class="feature-details" id="details_day_of_week">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Day of Week</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Day of the week (0=Monday, 6=Sunday)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">day</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 6</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>extract_dayofweek_from_timestamp</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_timestamp</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Distinguishes weekday vs weekend traffic patterns</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.8/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 80.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">is_weekend</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_derived" data-name="flow_efficiency">
+                <div class="feature-header" onclick="toggleFeature('flow_efficiency')">
+                    <span class="feature-name">flow_efficiency</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic derived</span>
+                </div>
+                <div class="feature-details" id="details_flow_efficiency">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Flow Efficiency</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Product of speed and volume (throughput measure)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">(vehicles×km/h)/1000</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>avg_speed * vehicle_count / 1000</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_vehicle_count_and_avg_speed</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Higher values indicate better traffic throughput</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.7/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 70.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">vehicle_count, avg_speed</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal" data-name="hour">
+                <div class="feature-header" onclick="toggleFeature('hour')">
+                    <span class="feature-name">hour</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal</span>
+                </div>
+                <div class="feature-details" id="details_hour">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Hour of Day</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Hour component of the timestamp (0-23)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">hour</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 23</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>extract_hour_from_timestamp</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_timestamp</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Used to identify daily traffic patterns and peak hours</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.9/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 90.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_cyclical" data-name="hour_cos">
+                <div class="feature-header" onclick="toggleFeature('hour_cos')">
+                    <span class="feature-name">hour_cos</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal cyclical</span>
+                </div>
+                <div class="feature-details" id="details_hour_cos">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Hour Cosine</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Cosine transformation of hour for cyclical encoding</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">dimensionless</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">-1 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>cos(2*pi*hour/24)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_hour</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Captures cyclical nature of daily patterns</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.7/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 70.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">hour_sin, hour</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_cyclical" data-name="hour_sin">
+                <div class="feature-header" onclick="toggleFeature('hour_sin')">
+                    <span class="feature-name">hour_sin</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal cyclical</span>
+                </div>
+                <div class="feature-details" id="details_hour_sin">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Hour Sine</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Sine transformation of hour for cyclical encoding</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">dimensionless</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">-1 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>sin(2*pi*hour/24)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_hour</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Captures cyclical nature of daily patterns</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.7/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 70.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">hour_cos, hour</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_boolean" data-name="is_congested">
+                <div class="feature-header" onclick="toggleFeature('is_congested')">
+                    <span class="feature-name">is_congested</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic boolean</span>
+                </div>
+                <div class="feature-details" id="details_is_congested">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Is Congested</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Binary flag indicating congested conditions (occupancy > 60%)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>1 if occupancy / 100 > 0.6 else 0</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_occupancy</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Indicates when traffic conditions are significantly impaired</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.8/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 80.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">occupancy, congestion_score</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="weather_boolean" data-name="is_rainy">
+                <div class="feature-header" onclick="toggleFeature('is_rainy')">
+                    <span class="feature-name">is_rainy</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #28a745;">weather boolean</span>
+                </div>
+                <div class="feature-details" id="details_is_rainy">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Is Rainy</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Binary flag indicating rainy conditions (precipitation > 1mm)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>1 if precipitation > 1.0 else 0</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_precipitation</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Rain conditions significantly impact traffic behavior</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.7/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 70.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">precipitation, weather_severity</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_boolean" data-name="is_rush_hour">
+                <div class="feature-header" onclick="toggleFeature('is_rush_hour')">
+                    <span class="feature-name">is_rush_hour</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal boolean</span>
+                </div>
+                <div class="feature-details" id="details_is_rush_hour">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Is Rush Hour</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Binary flag indicating rush hour periods (7-9 AM, 4-6 PM)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>1 if (7 <= hour < 9) or (16 <= hour < 18) else 0</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_hour</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Rush hours typically show highest traffic volumes</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.9/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 90.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">hour, is_morning_rush, is_evening_rush</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_boolean" data-name="is_weekend">
+                <div class="feature-header" onclick="toggleFeature('is_weekend')">
+                    <span class="feature-name">is_weekend</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal boolean</span>
+                </div>
+                <div class="feature-details" id="details_is_weekend">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Is Weekend</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Binary flag indicating weekend (Saturday/Sunday)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 1</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>1 if day_of_week >= 5 else 0</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_day_of_week</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Weekend traffic patterns differ significantly from weekdays</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.8/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 80.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">day_of_week</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal" data-name="month">
+                <div class="feature-header" onclick="toggleFeature('month')">
+                    <span class="feature-name">month</span>
+                    <span class="feature-type">int64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal</span>
+                </div>
+                <div class="feature-details" id="details_month">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Month</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Month component of the timestamp (1-12)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">month</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">1 to 12</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>extract_month_from_timestamp</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_timestamp</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Captures seasonal traffic variations</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.6/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 60.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_raw" data-name="occupancy">
+                <div class="feature-header" onclick="toggleFeature('occupancy')">
+                    <span class="feature-name">occupancy</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic raw</span>
+                </div>
+                <div class="feature-details" id="details_occupancy">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Occupancy Rate</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Percentage of time the sensor detects vehicles</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">%</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 100</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">traffic_sensors</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Direct measure of roadway utilization</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.9/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 90.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">is_congested, congestion_score</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="weather" data-name="precipitation">
+                <div class="feature-header" onclick="toggleFeature('precipitation')">
+                    <span class="feature-name">precipitation</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #28a745;">weather</span>
+                </div>
+                <div class="feature-details" id="details_precipitation">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Precipitation</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Amount of rainfall in millimeters</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">mm</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 100</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">weather_api</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Rain significantly impacts traffic speed and congestion</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.7/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 70.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">is_rainy, weather_severity</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="station" data-name="station_id">
+                <div class="feature-header" onclick="toggleFeature('station_id')">
+                    <span class="feature-name">station_id</span>
+                    <span class="feature-type">object</span>
+                    <span class="category-badge" style="background-color: #6f42c1;">station</span>
+                </div>
+                <div class="feature-details" id="details_station_id">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Station ID</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Identifier for the traffic measurement station</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">traffic_sensors</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Different stations may have distinct traffic patterns</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.6/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 60.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">station_A1KM125, station_A2KM89, station_A3KM203</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="weather" data-name="temperature">
+                <div class="feature-header" onclick="toggleFeature('temperature')">
+                    <span class="feature-name">temperature</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #28a745;">weather</span>
+                </div>
+                <div class="feature-details" id="details_temperature">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Temperature</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Air temperature in Celsius</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">°C</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">-30 to 50</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">weather_api</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Temperature affects driving behavior and traffic patterns</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.5/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 50.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">is_cold, is_hot</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal" data-name="timestamp">
+                <div class="feature-header" onclick="toggleFeature('timestamp')">
+                    <span class="feature-name">timestamp</span>
+                    <span class="feature-type">datetime64[ns]</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal</span>
+                </div>
+                <div class="feature-details" id="details_timestamp">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Timestamp</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Date and time of the measurement</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">datetime</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">traffic_sensors</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">When the traffic measurement was taken</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            1.0/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 100.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_derived" data-name="traffic_density">
+                <div class="feature-header" onclick="toggleFeature('traffic_density')">
+                    <span class="feature-name">traffic_density</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic derived</span>
+                </div>
+                <div class="feature-details" id="details_traffic_density">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Traffic Density</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Vehicle count divided by average speed (density measure)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">vehicles/(km/h)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>vehicle_count / (avg_speed + 1)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_vehicle_count_and_avg_speed</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Higher values indicate more congested conditions</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.8/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 80.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">vehicle_count, avg_speed, is_congested</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="traffic_raw" data-name="vehicle_count">
+                <div class="feature-header" onclick="toggleFeature('vehicle_count')">
+                    <span class="feature-name">vehicle_count</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #dc3545;">traffic raw</span>
+                </div>
+                <div class="feature-details" id="details_vehicle_count">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Vehicle Count</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Number of vehicles detected in the time period</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">vehicles</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 500</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">traffic_sensors</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Primary measure of traffic volume</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            1.0/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 100.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">traffic_density, flow_efficiency</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_lag" data-name="vehicle_count_lag1">
+                <div class="feature-header" onclick="toggleFeature('vehicle_count_lag1')">
+                    <span class="feature-name">vehicle_count_lag1</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal lag</span>
+                </div>
+                <div class="feature-details" id="details_vehicle_count_lag1">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Vehicle Count (Previous Hour)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Vehicle count from the previous hour (lag-1)</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">vehicles</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>lag(vehicle_count, 1)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_vehicle_count</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Previous traffic conditions influence current state</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.6/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 60.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">vehicle_count</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="temporal_smoothed" data-name="vehicle_count_ma3">
+                <div class="feature-header" onclick="toggleFeature('vehicle_count_ma3')">
+                    <span class="feature-name">vehicle_count_ma3</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #007bff;">temporal smoothed</span>
+                </div>
+                <div class="feature-details" id="details_vehicle_count_ma3">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Vehicle Count (3-Hour Moving Average)</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">3-hour moving average of vehicle count</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">vehicles</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Transformation:</span>
+                        <span class="detail-value"><code>rolling_mean(vehicle_count, window=3)</code></span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">derived_from_vehicle_count</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Smoothed traffic trend reduces noise in predictions</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.5/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 50.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">vehicle_count</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="feature-card" data-category="weather" data-name="visibility">
+                <div class="feature-header" onclick="toggleFeature('visibility')">
+                    <span class="feature-name">visibility</span>
+                    <span class="feature-type">float64</span>
+                    <span class="category-badge" style="background-color: #28a745;">weather</span>
+                </div>
+                <div class="feature-details" id="details_visibility">
+                    <div class="detail-row">
+                        <span class="detail-label">Display Name:</span>
+                        <span class="detail-value">Visibility</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Description:</span>
+                        <span class="detail-value">Visibility distance in meters</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Unit:</span>
+                        <span class="detail-value">m</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Valid Range:</span>
+                        <span class="detail-value">0 to 15000</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Source:</span>
+                        <span class="detail-value">weather_api</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Business Meaning:</span>
+                        <span class="detail-value">Low visibility conditions reduce traffic speed for safety</span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Importance:</span>
+                        <span class="detail-value">
+                            0.6/1.0
+                            <div class="importance-bar">
+                                <div class="importance-fill" style="width: 60.0%;"></div>
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="detail-row">
+                        <span class="detail-label">Related:</span>
+                        <span class="detail-value">is_foggy, weather_severity</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        function toggleFeature(featureName) {
+            const details = document.getElementById('details_' + featureName);
+            details.classList.toggle('show');
+        }
+        
+        function filterFeatures() {
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+            const activeCategory = document.querySelector('.filter.active').getAttribute('data-category');
+            const featureCards = document.querySelectorAll('.feature-card');
+            
+            featureCards.forEach(card => {
+                const featureName = card.getAttribute('data-name');
+                const featureCategory = card.getAttribute('data-category');
+                
+                const matchesSearch = featureName.includes(searchTerm);
+                const matchesCategory = activeCategory === 'all' || featureCategory === activeCategory;
+                
+                if (matchesSearch && matchesCategory) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+        
+        document.getElementById('searchBox').addEventListener('input', filterFeatures);
+        
+        document.querySelectorAll('.filter').forEach(filter => {
+            filter.addEventListener('click', function() {
+                document.querySelectorAll('.filter').forEach(f => f.classList.remove('active'));
+                this.classList.add('active');
+                filterFeatures();
+            });
+        });
+    </script>
+</body>
+</html>

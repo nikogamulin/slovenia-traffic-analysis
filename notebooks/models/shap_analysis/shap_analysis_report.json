@@ -1,0 +1,367 @@
+{
+  "timestamp": "2025-09-06T19:56:38.269697",
+  "models_analyzed": [
+    "KP_003",
+    "MB_002",
+    "LJ_001"
+  ],
+  "feature_importance": {
+    "KP_003": [
+      {
+        "feature": "is_rush_hour",
+        "importance": 7.6468915939331055
+      },
+      {
+        "feature": "precipitation",
+        "importance": 7.195847034454346
+      },
+      {
+        "feature": "traffic_lag_1h",
+        "importance": 4.465713977813721
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 3.7999777793884277
+      },
+      {
+        "feature": "traffic_std_24h",
+        "importance": 0.9572119116783142
+      },
+      {
+        "feature": "traffic_lag_24h",
+        "importance": 0.9142916798591614
+      },
+      {
+        "feature": "traffic_mean_6h",
+        "importance": 0.8659534454345703
+      },
+      {
+        "feature": "traffic_mean_24h",
+        "importance": 0.8102598786354065
+      },
+      {
+        "feature": "humidity",
+        "importance": 0.7159139513969421
+      },
+      {
+        "feature": "sensor_reliability",
+        "importance": 0.6196832060813904
+      },
+      {
+        "feature": "visibility",
+        "importance": 0.6080347299575806
+      },
+      {
+        "feature": "traffic_lag_6h",
+        "importance": 0.5894976854324341
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.5691043734550476
+      },
+      {
+        "feature": "temperature",
+        "importance": 0.5464712977409363
+      },
+      {
+        "feature": "wind_speed",
+        "importance": 0.5350678563117981
+      }
+    ],
+    "MB_002": [
+      {
+        "feature": "is_rush_hour",
+        "importance": 7.6468915939331055
+      },
+      {
+        "feature": "precipitation",
+        "importance": 7.195847034454346
+      },
+      {
+        "feature": "traffic_lag_1h",
+        "importance": 4.465713977813721
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 3.7999777793884277
+      },
+      {
+        "feature": "traffic_std_24h",
+        "importance": 0.9572119116783142
+      },
+      {
+        "feature": "traffic_lag_24h",
+        "importance": 0.9142916798591614
+      },
+      {
+        "feature": "traffic_mean_6h",
+        "importance": 0.8659534454345703
+      },
+      {
+        "feature": "traffic_mean_24h",
+        "importance": 0.8102598786354065
+      },
+      {
+        "feature": "humidity",
+        "importance": 0.7159139513969421
+      },
+      {
+        "feature": "sensor_reliability",
+        "importance": 0.6196832060813904
+      },
+      {
+        "feature": "visibility",
+        "importance": 0.6080347299575806
+      },
+      {
+        "feature": "traffic_lag_6h",
+        "importance": 0.5894976854324341
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.5691043734550476
+      },
+      {
+        "feature": "temperature",
+        "importance": 0.5464712977409363
+      },
+      {
+        "feature": "wind_speed",
+        "importance": 0.5350678563117981
+      }
+    ],
+    "LJ_001": [
+      {
+        "feature": "is_rush_hour",
+        "importance": 7.6468915939331055
+      },
+      {
+        "feature": "precipitation",
+        "importance": 7.195847034454346
+      },
+      {
+        "feature": "traffic_lag_1h",
+        "importance": 4.465713977813721
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 3.7999777793884277
+      },
+      {
+        "feature": "traffic_std_24h",
+        "importance": 0.9572119116783142
+      },
+      {
+        "feature": "traffic_lag_24h",
+        "importance": 0.9142916798591614
+      },
+      {
+        "feature": "traffic_mean_6h",
+        "importance": 0.8659534454345703
+      },
+      {
+        "feature": "traffic_mean_24h",
+        "importance": 0.8102598786354065
+      },
+      {
+        "feature": "humidity",
+        "importance": 0.7159139513969421
+      },
+      {
+        "feature": "sensor_reliability",
+        "importance": 0.6196832060813904
+      },
+      {
+        "feature": "visibility",
+        "importance": 0.6080347299575806
+      },
+      {
+        "feature": "traffic_lag_6h",
+        "importance": 0.5894976854324341
+      },
+      {
+        "feature": "week_of_year",
+        "importance": 0.5691043734550476
+      },
+      {
+        "feature": "temperature",
+        "importance": 0.5464712977409363
+      },
+      {
+        "feature": "wind_speed",
+        "importance": 0.5350678563117981
+      }
+    ]
+  },
+  "top_features_global": [
+    {
+      "feature": "is_rush_hour",
+      "avg_importance": 7.6468915939331055,
+      "std_importance": 0.0,
+      "min_importance": 7.6468915939331055,
+      "max_importance": 7.6468915939331055
+    },
+    {
+      "feature": "precipitation",
+      "avg_importance": 7.195847034454346,
+      "std_importance": 0.0,
+      "min_importance": 7.195847034454346,
+      "max_importance": 7.195847034454346
+    },
+    {
+      "feature": "traffic_lag_1h",
+      "avg_importance": 4.465713977813721,
+      "std_importance": 0.0,
+      "min_importance": 4.465713977813721,
+      "max_importance": 4.465713977813721
+    },
+    {
+      "feature": "day_of_week",
+      "avg_importance": 3.7999777793884277,
+      "std_importance": 0.0,
+      "min_importance": 3.7999777793884277,
+      "max_importance": 3.7999777793884277
+    },
+    {
+      "feature": "traffic_std_24h",
+      "avg_importance": 0.9572119116783142,
+      "std_importance": 0.0,
+      "min_importance": 0.9572119116783142,
+      "max_importance": 0.9572119116783142
+    },
+    {
+      "feature": "traffic_lag_24h",
+      "avg_importance": 0.9142916798591614,
+      "std_importance": 0.0,
+      "min_importance": 0.9142916798591614,
+      "max_importance": 0.9142916798591614
+    },
+    {
+      "feature": "traffic_mean_6h",
+      "avg_importance": 0.8659534454345703,
+      "std_importance": 0.0,
+      "min_importance": 0.8659534454345703,
+      "max_importance": 0.8659534454345703
+    },
+    {
+      "feature": "traffic_mean_24h",
+      "avg_importance": 0.8102598786354065,
+      "std_importance": 0.0,
+      "min_importance": 0.8102598786354065,
+      "max_importance": 0.8102598786354065
+    },
+    {
+      "feature": "humidity",
+      "avg_importance": 0.7159139513969421,
+      "std_importance": 0.0,
+      "min_importance": 0.7159139513969421,
+      "max_importance": 0.7159139513969421
+    },
+    {
+      "feature": "sensor_reliability",
+      "avg_importance": 0.6196832060813904,
+      "std_importance": 0.0,
+      "min_importance": 0.6196832060813904,
+      "max_importance": 0.6196832060813904
+    },
+    {
+      "feature": "visibility",
+      "avg_importance": 0.6080347299575806,
+      "std_importance": 0.0,
+      "min_importance": 0.6080347299575806,
+      "max_importance": 0.6080347299575806
+    },
+    {
+      "feature": "traffic_lag_6h",
+      "avg_importance": 0.5894976854324341,
+      "std_importance": 0.0,
+      "min_importance": 0.5894976854324341,
+      "max_importance": 0.5894976854324341
+    },
+    {
+      "feature": "week_of_year",
+      "avg_importance": 0.5691043734550476,
+      "std_importance": 0.0,
+      "min_importance": 0.5691043734550476,
+      "max_importance": 0.5691043734550476
+    },
+    {
+      "feature": "temperature",
+      "avg_importance": 0.5464712977409363,
+      "std_importance": 0.0,
+      "min_importance": 0.5464712977409363,
+      "max_importance": 0.5464712977409363
+    },
+    {
+      "feature": "wind_speed",
+      "avg_importance": 0.5350678563117981,
+      "std_importance": 0.0,
+      "min_importance": 0.5350678563117981,
+      "max_importance": 0.5350678563117981
+    },
+    {
+      "feature": "hour",
+      "avg_importance": 0.4892594516277313,
+      "std_importance": 0.0,
+      "min_importance": 0.4892594516277313,
+      "max_importance": 0.4892594516277313
+    },
+    {
+      "feature": "traffic_std_6h",
+      "avg_importance": 0.43603014945983887,
+      "std_importance": 0.0,
+      "min_importance": 0.43603014945983887,
+      "max_importance": 0.43603014945983887
+    },
+    {
+      "feature": "has_roadwork",
+      "avg_importance": 0.28991594910621643,
+      "std_importance": 0.0,
+      "min_importance": 0.28991594910621643,
+      "max_importance": 0.28991594910621643
+    },
+    {
+      "feature": "month",
+      "avg_importance": 0.2516910433769226,
+      "std_importance": 0.0,
+      "min_importance": 0.2516910433769226,
+      "max_importance": 0.2516910433769226
+    },
+    {
+      "feature": "is_weekend",
+      "avg_importance": 0.12768709659576416,
+      "std_importance": 0.0,
+      "min_importance": 0.12768709659576416,
+      "max_importance": 0.12768709659576416
+    }
+  ],
+  "recommendations": {
+    "features_to_prioritize": [
+      "is_rush_hour",
+      "precipitation",
+      "traffic_lag_1h",
+      "day_of_week",
+      "traffic_std_24h",
+      "traffic_lag_24h",
+      "traffic_mean_6h",
+      "traffic_mean_24h",
+      "humidity",
+      "sensor_reliability"
+    ],
+    "features_to_remove": [
+      "is_tourist_season"
+    ],
+    "feature_engineering_suggestions": [
+      "Consider creating interaction features for top predictors",
+      "Add more granular temporal features (e.g., 15-minute intervals)",
+      "Explore polynomial features for weather variables",
+      "Create rolling statistics with different window sizes"
+    ],
+    "model_improvements": [
+      "Focus hyperparameter tuning on max_depth and learning_rate",
+      "Consider ensemble methods combining models with different feature sets",
+      "Implement feature selection based on SHAP values",
+      "Use SHAP values for model debugging and bias detection"
+    ]
+  }
+}

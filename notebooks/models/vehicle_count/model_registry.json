@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-09-06T17:11:36.621991",
+  "task": "vehicle_count_prediction",
+  "n_models": 10,
+  "models": {
+    "LJ_001": "models/vehicle_count/LJ_001_vehicle_count_20250906_171045",
+    "MB_002": "models/vehicle_count/MB_002_vehicle_count_20250906_171045",
+    "KP_003": "models/vehicle_count/KP_003_vehicle_count_20250906_171045",
+    "CE_004": "models/vehicle_count/CE_004_vehicle_count_20250906_171046",
+    "KR_005": "models/vehicle_count/KR_005_vehicle_count_20250906_171046",
+    "NM_006": "models/vehicle_count/NM_006_vehicle_count_20250906_171046",
+    "GO_007": "models/vehicle_count/GO_007_vehicle_count_20250906_171046",
+    "MS_008": "models/vehicle_count/MS_008_vehicle_count_20250906_171046",
+    "PO_009": "models/vehicle_count/PO_009_vehicle_count_20250906_171046",
+    "BL_010": "models/vehicle_count/BL_010_vehicle_count_20250906_171046"
+  },
+  "metrics": [
+    {
+      "sensor_id": "LJ_001",
+      "rmse": 16.787473749863132,
+      "mae": 13.149470329284668,
+      "r2": 0.9193555116653442,
+      "mape": 11.258921772241592,
+      "mean_target": 152.73643493652344,
+      "rmse_percentage": 10.991138922968792
+    },
+    {
+      "sensor_id": "MB_002",
+      "rmse": 8.268465588811468,
+      "mae": 6.403076171875,
+      "r2": 0.9219774603843689,
+      "mape": 9.261341392993927,
+      "mean_target": 82.7364730834961,
+      "rmse_percentage": 9.993737079494661
+    },
+    {
+      "sensor_id": "KP_003",
+      "rmse": 9.925649810965622,
+      "mae": 7.862941265106201,
+      "r2": 0.9322143197059631,
+      "mape": 10.033272206783295,
+      "mean_target": 101.56578063964844,
+      "rmse_percentage": 9.772631833728973
+    },
+    {
+      "sensor_id": "CE_004",
+      "rmse": 12.58330214203933,
+      "mae": 10.197562217712402,
+      "r2": 0.9237824082374573,
+      "mape": 9.914078563451767,
+      "mean_target": 123.955810546875,
+      "rmse_percentage": 10.151441942514538
+    },
+    {
+      "sensor_id": "KR_005",
+      "rmse": 7.023030406114235,
+      "mae": 5.431994915008545,
+      "r2": 0.9055356979370117,
+      "mape": 11.096005141735077,
+      "mean_target": 61.2515869140625,
+      "rmse_percentage": 11.465875024540543
+    },
+    {
+      "sensor_id": "NM_006",
+      "rmse": 4.0166384831834,
+      "mae": 3.1692140102386475,
+      "r2": 0.9277051687240601,
+      "mape": 9.496093541383743,
+      "mean_target": 40.97499084472656,
+      "rmse_percentage": 9.80265864708628
+    },
+    {
+      "sensor_id": "GO_007",
+      "rmse": 9.016371777049384,
+      "mae": 7.35886812210083,
+      "r2": 0.9373735189437866,
+      "mape": 9.742897003889084,
+      "mean_target": 92.79610443115234,
+      "rmse_percentage": 9.71632573621541
+    },
+    {
+      "sensor_id": "MS_008",
+      "rmse": 7.640509668895674,
+      "mae": 5.89943265914917,
+      "r2": 0.9143794775009155,
+      "mape": 10.275309532880783,
+      "mean_target": 71.41671752929688,
+      "rmse_percentage": 10.698488999807854
+    },
+    {
+      "sensor_id": "PO_009",
+      "rmse": 13.604605153111585,
+      "mae": 10.732121467590332,
+      "r2": 0.9261844158172607,
+      "mape": 9.603375941514969,
+      "mean_target": 133.45516967773438,
+      "rmse_percentage": 10.194138740345384
+    },
+    {
+      "sensor_id": "BL_010",
+      "rmse": 9.17390941821816,
+      "mae": 7.189162731170654,
+      "r2": 0.9213067889213562,
+      "mape": 11.830040067434311,
+      "mean_target": 87.03743743896484,
+      "rmse_percentage": 10.540187864160616
+    }
+  ],
+  "success_rate": 100.0,
+  "avg_rmse_percentage": 10.332662479086306
+}
